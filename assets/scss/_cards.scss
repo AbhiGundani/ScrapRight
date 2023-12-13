@@ -1,0 +1,465 @@
+.card {
+    background-color: $white;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-sm;
+    &.dispatch-card{
+        padding: 10px;
+        .row-1{
+            .icon-part{
+                a{
+                    span{
+                        font-size: $font-size-16;
+                        &.lock{
+                            color: $primary;
+                        }
+                        &.arrow{
+                            color: $grey-6;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+    .transaction-card{
+        padding: 10px;
+        .img-part{
+            img{
+                height: 80px;
+                border-radius: $radius-lg;
+                margin-right: 10px;
+                box-shadow: $shadow-sm;
+            }
+        }
+    }
+}
+
+.card-group{
+    height: 110px;
+    background-color: $grey-4;
+    border: 1px solid $grey-5;
+    box-shadow: inset 0px 0px 10px $grey-5, 0px 1px 6px #FFFFFF80;
+    border-radius: $radius-lg;
+    max-width: 26.4%;
+    width: 100%;
+    .content{
+        color: $grey-5;
+        font-size: $font-size-md;
+        font-weight: $font-700;
+        margin: auto;
+    }
+    &.card-group-lg{
+        height: 200px;
+        max-width: 23.7%;
+        box-shadow: none;
+        .content{
+            font-weight: 400;
+            text-transform: $text-uppercase;
+        }
+    }
+}
+
+.card-material-group{
+    height: 165px;
+    width: 15.1%;
+    background-color: $white;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-md;
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.footer-strip{
+    background-color: $grey-4;
+    padding: 10px 15px;
+}
+
+.signature-card{
+    width: 100%;
+    height: 160px;
+    background-color: $white;
+    border: 1px solid #D3D3D3;
+    .top-part{
+        height: 80%;
+        .left-part{
+            border-right: 1px solid #D3D3D3;
+            width: 60%;
+        }
+        .right-part{
+            width: 40%;
+        }
+    }
+    .bottom-part{
+        height: 20%;
+        background-color: $grey-4;
+        padding: 10px;
+        font-size: $font-size-sm;
+        font-weight: $font-700;
+    }
+}
+
+.calc-display{
+    height: 110px;
+    background-color: $primary;
+    box-shadow: inset 0px 0px 30px #0000008C, 0px 1px 6px #FFFFFF80;
+    border: 1px solid $grey-5;
+    border-radius: $radius-lg;
+    position: relative;
+    &::before { 
+        width:165px; 
+        height:1px; 
+        background: $white; 
+        position: absolute; 
+        content:""; 
+        bottom: 20px; 
+        right: 20px;
+    }
+}
+
+.blank-box{
+    height: 365px;
+    background-color: $grey-4;
+    border-radius: $radius-lg;
+    border: 1px solid $grey-5;
+}
+
+.white-blank-box{
+    height: 230px;
+    max-width: 32%;
+    width: 100%;
+    background-color: $white;
+    border-radius: $radius-lg;
+    border: 1px solid $light-blue-4;
+    box-shadow: $shadow-md;
+}
+
+.map-box{
+    border-radius: $radius-lg;
+    border: 1px solid $light-blue-4;
+    box-shadow: $shadow-md;
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.material-card{
+    background-color: $white;
+    box-shadow: $shadow-md;
+    border-radius: 10px;
+    .head-part{
+        border-bottom:1px solid $light-blue-4;
+        padding: 20px;
+        .button-part{
+            .btn-light{
+                text-transform: uppercase;
+                &.btn-md{
+                    padding: 10px;
+                }
+                span{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .input-part{
+        padding: 20px;
+        box-shadow: $shadow-md;
+        .form-group{
+            max-width: 18%;
+            width: 100%;
+        }
+    }
+    .bottom-part{
+        padding: 20px;
+        .left-part{
+            width: 100%;
+            margin-right: 20px;
+        }
+        .right-part{
+            .calculator-section{
+                table{
+                    tr{
+                        td{
+                            width: 25%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ticket-card{
+    background-color: $white;
+    box-shadow: 0px 5px 10px #0000001A;
+    border-radius: 10px;
+    .head-part{
+        padding: 15px;
+        box-shadow: $shadow-md;
+        .row-1{
+            margin-bottom: 15px;
+            .left-part{
+                .btn-part{
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+            .right-part{
+                align-items: flex-end;
+            }
+        }
+    }
+    .bottom-part{
+        padding: 20px 0;
+        table{
+            margin-bottom: 20px;
+        }
+        .footer{
+            width: 55%;
+            padding-left: 20px;
+        }
+    }
+}
+
+.dispatch-board{
+    background-color: $light-blue-4;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-md;
+    width: 22.4%;
+    .head-part{
+        padding: 15px 10px;
+    }
+    .card-part{
+        padding: 10px;
+        .card{
+            margin-bottom: 10px;
+        }
+    }
+    &.card-grey{
+        background-color: $grey-4;
+        overflow: hidden;
+        .head-part{
+            padding: 0;
+            border-bottom: 1px solid rgb(51, 132, 216, 0.4);
+            .profile-section{
+                .profile-pic{
+                    background-color: rgb(0, 0, 0, 0.1);
+                    margin-right: 10px;
+                    height: 60px;
+                    width: 60px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        height: 60px;
+                        width: 60px;
+                    }
+                }
+            }
+            .icon-part{
+                padding: 12px;
+                border-left: 1px solid rgb(51, 132, 216, 0.4);
+                a{
+                    span{
+                        font-size: $font-size-30;
+                        color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.inventory-card{
+    box-shadow: $shadow-md;
+    border-radius: $radius-lg;
+    overflow: hidden;
+    .blue-strip{
+        background-color: $light-blue-3;
+    }
+    .title-strip{
+        background-color: $grey-4;
+        box-shadow: $shadow-md;
+        height: 50px;
+    }
+    &.inventory-card-4{
+        .card-section{
+            .inventory-left-menu{
+                width: 100%;
+                max-width: 23%;
+                border-right: 1px solid $grey-5;
+                .address-part{
+                    border-bottom: $border-grey;
+                    .inner-left{
+                        padding: 15px;
+                        padding-left: 20px;
+                    }
+                }
+                .total-section{
+                    .inner-total-left{
+                        .total-detail{
+                            border-bottom: $border-grey;
+                            padding-left: 20px;
+                            padding: 5px; 
+                        }
+                        .total{
+                            border-bottom: $border-grey;
+                        }
+                    }
+                    .inner-total-right{
+                        padding: 10px;
+                    }
+                }
+            }
+            .inventory-content{
+                .test-details{
+                    border-top: $border-grey;
+                    border-bottom: $border-grey;
+                    padding: 10px 20px;
+                }
+                .calc-section{
+                    table{
+                        tr{
+                          td{
+                            width: 25%;
+                          }
+                        }
+                      }
+                }
+            }
+        }
+    }
+}
+
+.barcode-card{
+    box-shadow: 0px 0px 10px #0000001A;
+    border-radius: $radius-lg;
+    overflow: hidden;
+    .bg-form-box-blue3{
+        padding: 10px;
+    }
+    img{
+        height: 130px;
+        width: 145px;
+        padding: 5px;
+    }
+}
+
+// TABBING GREY-BLUE BOX
+.combo-box{
+    border-radius: $radius-lg;
+    .blue-box{
+        border: 3px solid $white;
+        padding: 15px;
+        border-radius: $radius-lg;
+        &.border-sm{
+            border: 1px solid $white;
+        }
+    }
+    .form-content-part{
+        padding: 15px;
+    }
+}
+
+// TIME CLOCK CARD
+.time-clock-card{
+    .total-section{
+        border-top: 6px solid $grey-5;
+        border-bottom: 1px solid $light-blue-6;
+    }    
+}
+
+// TRANSLATION CARD
+.translation-card{
+   .head-part{
+        border-bottom:1px solid $grey-4;
+   }
+}
+
+//  PAY PREFERENCES - 5 COIN DISPENSER CARD
+.coin-dispenser-card{
+    border: 0.5px solid $grey-7;
+    border-radius: $radius-lg;
+    .title{
+        position: absolute;
+        top: -10px;
+        left: 20px;
+    }
+}
+
+
+// AP TABLE TOP
+.table-top{
+    .form-group{
+        .form-label{
+            color: $white;
+        }
+    }
+}
+
+@media (max-width : 1024px){
+    .card-material-group{
+        height: 100px;
+        width: 98px;
+        margin-right: 5px!important;
+        padding: 10px;
+        text-align: center;
+        .fs-23{
+          font-size: $font-size-sm;
+        }
+    }
+    .material-card{
+            .head-part{
+                    .title{
+                            h6{
+                                &.fs-26{
+                                    font-size: $font-size-xl;
+                                }
+                            }
+                    }
+            }
+        .input-part{
+            padding: 20px 10px;
+            .form-group{
+                .form-control{
+                    width: 135px;
+                }
+                label{
+                    &.fs-md{
+                        font-size: $font-size-13;
+                    }
+                    &.margin-b-10{
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+        .bottom-part{
+            .left-part{
+                margin-right: 10px;
+                .blank-box{
+                    &.mb-4{
+                        margin-bottom: 10px!important;
+                    }
+                }
+            }
+        }
+    }
+    .blank-box{
+        height: 270px;
+    }
+    .calc-display{
+        height: 115px;
+    }
+}
+
+
+
+
