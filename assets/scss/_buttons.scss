@@ -20,6 +20,11 @@
             font-size: $font-size-xl;
         }
     }
+
+    svg{
+        height: 20px;
+        width: 20px;
+    }
     //SIZES
     &.btn-xs{
         height: 36px;
@@ -190,6 +195,13 @@
         &:hover{
             background-color: $grey-5;
             color: $black;
+            svg{
+                fill:$black;
+            }
+        }
+        svg{
+            fill:$white;
+            margin-right: 5px;
         }
     }
     &.btn-dark{
@@ -333,6 +345,16 @@
             height: 20px;
             width: 12px;
             font-weight: $font-200;
+        }
+    }
+}
+
+.bottom-button-right{
+    .menu-btn{
+        background-color: $primary; 
+        color: $white;
+        svg{
+            fill: $white;
         }
     }
 }
