@@ -155,6 +155,69 @@
                 padding: 25px;
             }
         }
+
+        .material-tab-inside{
+            .compliance-part{
+                padding: 10px 25px;
+                background-color: $grey-4;
+            }
+            .form-input{
+                padding: 20px 25px;
+                .form-input-row{
+                    margin-bottom: 20px;
+                    .form-group{
+                        a{
+                            &.icon-tag{
+                                &:visited{
+                                    color: $black;
+                                }
+                            } 
+                            .file-icon{
+                                color: $black;
+                                &:hover{
+                                    color: $secondary;
+                                }
+                            }
+                        }
+                    }
+                    .form-check{
+                        height: 24px;
+                        margin-bottom: 0px;
+                        margin-top: 6px;
+                        .form-check-label{
+                            margin-bottom: 0px;
+                        }
+                        &.modal-checkbox{
+                            align-items: end;
+                            .form-check-input[type=checkbox]{
+                                &.add-after{
+                                    top: 0px;
+                                    &:checked {
+                                        & + svg {
+                                            top: 0px;
+                                        }
+                                    }
+                                }
+                            }
+                            .form-check-label{
+                                margin-bottom: 0px;
+                            }
+                        }
+                    } 
+                }
+            }
+            .pricing-part{
+                background-color: $grey-4;
+                padding: 20px 25px;
+                .bg-icon{
+                    margin-left: 35px;
+                }
+            }
+            .btn-part{
+                padding: 25px;
+            }
+        }
+
         #v-pills-userp-1{
             .info-tab-content{
                 .left-info-tab{
