@@ -370,10 +370,24 @@
 
 // TIME CLOCK CARD
 .time-clock-card{
+    position: relative;
     .total-section{
         border-top: 6px solid $grey-5;
         border-bottom: 1px solid $light-blue-6;
     }    
+
+    .bullet-tag{
+        position:absolute;
+        right: 25px;
+        top: 10px;
+    }
+
+    .time-clock-list{
+        .timelist-row{
+            padding: 10px 0;
+            border-bottom: 1px solid $grey-5;
+        }
+    }
 }
 
 // TRANSLATION CARD

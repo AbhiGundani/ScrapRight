@@ -63,7 +63,7 @@ $(document).ready(function () {
 });
 
 
-/*
+
 // CALENDER
 const holidays = [
  
@@ -213,5 +213,3 @@ buttons();
 loadCalendar();
 
 
-
-*/
