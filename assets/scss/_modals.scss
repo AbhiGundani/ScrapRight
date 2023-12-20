@@ -1,4 +1,7 @@
 .modal {
+ .modal-body {
+    min-height: 600px;
+ }
  .modal-dialog {
   .modal-content {
    .modal-header {
@@ -11,6 +14,7 @@
      top: 0;
     }
    }
+
 
    .modal-footer {
     border-top: 1px solid $light-blue-4;

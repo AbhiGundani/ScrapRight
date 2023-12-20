@@ -108,6 +108,8 @@
       <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Add-Assay-Material">Add Assay Material</button>
       <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Edit-Assay-Material">Edit Assay Material</button>
       <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Add-Index">Add Index</button>
+
+      <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Add-Material-Type">Add / Edit Material Type</button>
       
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
@@ -620,6 +622,7 @@
     </div>
    </div>
   </div>
+  <!-- ADD MATERIAL POPUP STARTS -->
   <div class="modal fade" id="materialModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
    <div class="modal-dialog modal-dialog-centered modal-md">
     <div class="modal-content">
@@ -637,6 +640,9 @@
         <button class="nav-link btn btn-topborder me-2" id="v-pills-configuration-tab" data-bs-toggle="pill"
          data-bs-target="#v-pills-configuration" type="button" role="tab" aria-controls="v-pills-configuration"
          aria-selected="false">configuration</button>
+         <button class="nav-link btn btn-topborder me-2" id="v-pills-configuration-tab" data-bs-toggle="pill"
+         data-bs-target="#v-pills-autoparts" type="button" role="tab" aria-controls="v-pills-configuration"
+         aria-selected="false">Auto Parts</button>
         <button class="nav-link btn btn-topborder me-2" id="v-pills-material-tab" data-bs-toggle="pill"
          data-bs-target="#v-pills-material" type="button" role="tab" aria-controls="v-pills-material"
          aria-selected="false">linked material</button>
@@ -1138,6 +1144,100 @@
 
          </div>
         </div>
+        <div class="tab-pane fade material-tab-inside" id="v-pills-autoparts" role="tabpanel"
+         aria-labelledby="v-pills-configuration-tab" tabindex="0">
+        
+
+
+         <div class="form-input">
+
+            <div class="form-input-row d-flex justify-content-between">
+                <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">LKQXX:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+                </div>
+
+               <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">Hollander:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+               </div>
+          
+            </div>   
+
+            <div class="form-input-row d-flex justify-content-between">
+                <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">Short Description:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+                </div>
+
+               <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">Long Description:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+               </div>
+          
+            </div>  
+
+            <div class="form-input-row d-flex justify-content-between">
+                <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">Lester:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+                </div>
+
+               <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">ASR#:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+               </div>
+          
+            </div>  
+
+            <div class="form-input-row d-flex justify-content-between">
+                <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">Part Number:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+                </div>
+
+               <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">A1#:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+               </div>
+          
+            </div>  
+
+            <div class="form-input-row d-flex justify-content-between">
+                <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">Type:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+                </div>
+
+               <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">CASTN#:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+               </div>
+          
+            </div>  
+
+            <div class="form-input-row d-flex justify-content-between">
+                <div class="form-group w-40p d-flex align-items-center">
+                <label class="form-label me-3 w-40p">MM#:</label>
+                <input type="email" class="form-control h-36" placeholder="">
+                </div>
+
+               
+          
+            </div>  
+
+             
+          
+
+         
+
+
+         </div>
+        
+
+
+        
+        </div>
         <div class="tab-pane fade material-tab-inside" id="v-pills-material" role="tabpanel"
          aria-labelledby="v-pills-material-tab" tabindex="0">
 
@@ -1148,6 +1248,31 @@
            <span class="material-symbols-rounded me-2">add_circle</span>
            Assign Linked Material
           </button>
+         </div>
+
+         <div class="table-box p-20">
+            <table class="table material-table table-bottom-no-border mb-0" cellspacing="0">
+                <thead>
+                 <tr>
+                  <th>Code</th>
+                  <th>Description</th>
+                  <th>Group</th>
+                 </tr>
+                </thead>
+                <tbody>
+        
+                 <tr id="searchr_176" class="alt">
+                  <td>1001</td>
+                  <td>TEST Drive</td>
+                  <td>ND TEST</td>
+                 </tr>
+        
+                 
+        
+                </tbody>
+        
+        
+               </table>
          </div>
 
 
@@ -1172,6 +1297,8 @@
     </div>
    </div>
   </div>
+  <!-- ADD MATERIAL POPUP ENDS -->
+
   <div class="modal fade" id="purchaseSummary" tabindex="-1" aria-labelledby="" aria-hidden="true">
    <div class="modal-dialog modal-dialog-centered modal-905 purchase-summary">
     <div class="modal-content">
@@ -3403,7 +3530,7 @@
         <input type="email" class="form-control h-36" placeholder="">
         <button type="button" class="btn btn-grey btn-md search-btn">Search</button>
        </div>
-      </div>
+      </div> 
 
       <div class=" table-scroll-h mt-3">
        <table class="table material-table table-bottom-no-border mb-0" cellspacing="0">
@@ -5606,6 +5733,31 @@ Add Material(s)
       </div>
       <div class="modal-footer d-flex justify-content-between">
        <button class="btn btn-blue btn-md me-2">Save Index</button>
+       <button class="btn btn-blue btn-md">Cancel</button>
+      </div>
+     </div>
+    </div>
+   </div>
+
+   <div class="modal fade" id="Add-Material-Type" tabindex="-1" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-465">
+     <div class="modal-content">
+      <div class="modal-header">
+       <h1 class="modal-title fs-5 fw-bold"> Add Material Type</h1>
+       <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+      </div>
+      <div class="modal-body p-20">
+      
+        <div class="form-group mb-2">
+         <label class="form-label">Title:</label>
+        
+         <input type="text" class="form-control h-36" placeholder="Title" />
+        </div>
+        
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+       <button class="btn btn-blue btn-md me-2">Save</button>
        <button class="btn btn-blue btn-md">Cancel</button>
       </div>
      </div>
