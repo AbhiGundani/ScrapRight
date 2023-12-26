@@ -121,8 +121,30 @@
    Business</button>
 
 
-   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Add-Vehicle">Add
-    Vehicle</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Add-Vehicle">Add
+   Vehicle</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#MergeCus">Merge
+   Cus / Biz to Business</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#Add-scale-type">Add Scale type</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Add-scale">Add
+   Scale</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#Add-Cinema-Material">Add Cinema Material</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#Edit-material-cady">Edit material cady cane</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#Cashdrawer">Cashdrawer</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#Cashdrawer">Add
+   Cat item detail</button>
+   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#AddSignatureScanner">Add Signature Scanner</button>
+   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#AddCameraType"> Camera Type</button>
+   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#AddScanner"> Add Scanner</button>
+   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#AddFingerprintScanner"> Add Fingerprint Scanner</button>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
    <div class="modal-dialog modal-dialog-centered modal-sm">
@@ -6066,7 +6088,7 @@
          aria-selected="false">Vehicles</button>
         <button class="nav-link btn btn-sm btn-topborder me-1" id="v-pills-add6-tab" data-bs-toggle="pill"
          data-bs-target="#v-pills-add6" type="button" role="tab" aria-controls="v-pills-add6"
-         aria-selected="true">HISTORY</button>
+         aria-selected="true">Advance</button>
         <button class="nav-link btn btn-sm btn-topborder me-1" id="v-pills-add7-tab" data-bs-toggle="pill"
          data-bs-target="#v-pills-add7" type="button" role="tab" aria-controls="v-pills-add7"
          aria-selected="false">Documents</button>
@@ -6158,267 +6180,642 @@
             </div>
             <div class="form-group mb-2 ">
              <div class="d-flex align-items-center">
-              <label class="form-label w-40p">Notes:	</label>
+              <label class="form-label w-40p">Notes: </label>
               <textarea class="form-control  w-60p"></textarea>
              </div>
             </div>
-           
+
             <div class="form-group mb-2 ">
              <div class="d-flex align-items-center">
-              <label class="form-label w-40p">Parent Biz :	</label>
+              <label class="form-label w-40p">Parent Biz : </label>
               <div class="d-flex align-items-center justify-content-between w-60p">
-              <input type="text" class="form-control h-36 " placeholder="">
-              <button type="button" class="icon-tag text-caps color-black mx-2 p-0 fs-md fw-extrabold d-flex align-content-center ">
-               <span class="material-symbols-rounded me-2">search</span>             
-              </button>
-              <button type="button" class="icon-tag text-caps color-black p-0 fs-md fw-extrabold d-flex align-content-center">
-               <span class="material-symbols-rounded me-2">clear</span>
-              
-              </button>
+               <input type="text" class="form-control h-36 " placeholder="">
+               <button type="button"
+                class="icon-tag text-caps color-black mx-2 p-0 fs-md fw-extrabold d-flex align-content-center ">
+                <span class="material-symbols-rounded me-2">search</span>
+               </button>
+               <button type="button"
+                class="icon-tag text-caps color-black p-0 fs-md fw-extrabold d-flex align-content-center">
+                <span class="material-symbols-rounded me-2">clear</span>
+
+               </button>
+              </div>
              </div>
             </div>
-            </div>
             <div class="form-group mb-2 ">
              <div class="d-flex align-items-center">
-              <label class="form-label w-40p">Categories:	</label>
+              <label class="form-label w-40p">Categories: </label>
               <div class=" w-60p">
                <select class="selectpicker h-36" data-live-search="true" multiple>
-                
-                                                
-                 <option value="1">Lake</option>
-                 
-                 <option value="2">Sea</option>
-                 
-                 <option value="3">Ocean</option>
-                 
-                 <option value="4">Bank</option>
-                 
-                 <option value="5">Other</option>
-                 
-                 <option value="6">Peddler</option>
-                 
-                 <option value="7">Sales Customer</option>
-                 
-            
+
+
+                <option value="1">Lake</option>
+
+                <option value="2">Sea</option>
+
+                <option value="3">Ocean</option>
+
+                <option value="4">Bank</option>
+
+                <option value="5">Other</option>
+
+                <option value="6">Peddler</option>
+
+                <option value="7">Sales Customer</option>
+
+
 
                </select>
               </div>
              </div>
             </div>
-          
+
            </div>
            <div class="col-md-4">
             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Sage Customer Id :</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Sage Customer Id :</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
              </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Sage Vendor Id :</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Sage Vendor Id :</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
              </div>
-           
-                <div class="form-group mb-2 ">
+            </div>
+
+            <div class="form-group mb-2 ">
              <div class="d-flex align-items-center">
               <label class="form-label w-40p">Name:<span class="text-bg-danger"></span>*</label>
               <input type="text" class="form-control h-36 w-60p" placeholder="">
              </div>
             </div>
             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Contact:</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Contact:</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
              </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">License#:</label>
-               <input type="text" class="form-control h-36 w-30p" placeholder="">
-               <label class="form-label w-10p">
-                Exp:</label>
-               <input type="text" class="form-control h-36 w-20p" placeholder="">
-              </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">License#:</label>
+              <input type="text" class="form-control h-36 w-30p" placeholder="">
+              <label class="form-label w-10p">
+               Exp:</label>
+              <input type="text" class="form-control h-36 w-20p" placeholder="">
              </div>
+            </div>
             <div class="form-group mb-2 ">
              <div class="d-flex align-items-center">
               <label class="form-label w-40p">Country:</label>
               <div class=" w-60p">
                <select class="selectpicker   h-36" data-live-search="true" data-country-selected="US">
-               <option value="US">United States</option><option value="CA">Canada</option><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="AG">Antigua and Barbuda</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo (Brazzaville)</option><option value="CD">Congo (Kinshasa)</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="CU">Cuba</option><option value="HR">Croatia</option><option value="CW">CuraÁao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard Island and McDonald Islands</option><option value="HN">Honduras</option><option value="HK">Hong Kong S.A.R., China</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao S.A.R., China</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="MP">Northern Mariana Islands</option><option value="KP">North Korea</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint BarthÈlemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin (French part)</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="KR">South Korea</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="VI">U.S. Virgin Islands</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option>
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Aland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="AG">Antigua and Barbuda</option>
+                <option value="AS">American Samoa</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AI">Anguilla</option>
+                <option value="AQ">Antarctica</option>
+                <option value="AR">Argentina</option>
+                <option value="AM">Armenia</option>
+                <option value="AW">Aruba</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BV">Bouvet Island</option>
+                <option value="BR">Brazil</option>
+                <option value="IO">British Indian Ocean Territory</option>
+                <option value="VG">British Virgin Islands</option>
+                <option value="BN">Brunei</option>
+                <option value="BG">Bulgaria</option>
+                <option value="BF">Burkina Faso</option>
+                <option value="BI">Burundi</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CV">Cape Verde</option>
+                <option value="KY">Cayman Islands</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CX">Christmas Island</option>
+                <option value="CC">Cocos (Keeling) Islands</option>
+                <option value="CO">Colombia</option>
+                <option value="KM">Comoros</option>
+                <option value="CG">Congo (Brazzaville)</option>
+                <option value="CD">Congo (Kinshasa)</option>
+                <option value="CK">Cook Islands</option>
+                <option value="CR">Costa Rica</option>
+                <option value="CU">Cuba</option>
+                <option value="HR">Croatia</option>
+                <option value="CW">CuraÁao</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">Dominica</option>
+                <option value="DO">Dominican Republic</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FK">Falkland Islands</option>
+                <option value="FO">Faroe Islands</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GF">French Guiana</option>
+                <option value="PF">French Polynesia</option>
+                <option value="TF">French Southern Territories</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GI">Gibraltar</option>
+                <option value="GR">Greece</option>
+                <option value="GL">Greenland</option>
+                <option value="GD">Grenada</option>
+                <option value="GP">Guadeloupe</option>
+                <option value="GU">Guam</option>
+                <option value="GT">Guatemala</option>
+                <option value="GG">Guernsey</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HM">Heard Island and McDonald Islands</option>
+                <option value="HN">Honduras</option>
+                <option value="HK">Hong Kong S.A.R., China</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IM">Isle of Man</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="CI">Ivory Coast</option>
+                <option value="JM">Jamaica</option>
+                <option value="JP">Japan</option>
+                <option value="JE">Jersey</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KE">Kenya</option>
+                <option value="KI">Kiribati</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Laos</option>
+                <option value="LV">Latvia</option>
+                <option value="LB">Lebanon</option>
+                <option value="LS">Lesotho</option>
+                <option value="LR">Liberia</option>
+                <option value="LY">Libya</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MO">Macao S.A.R., China</option>
+                <option value="MK">Macedonia</option>
+                <option value="MG">Madagascar</option>
+                <option value="MW">Malawi</option>
+                <option value="MY">Malaysia</option>
+                <option value="MV">Maldives</option>
+                <option value="ML">Mali</option>
+                <option value="MT">Malta</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MQ">Martinique</option>
+                <option value="MR">Mauritania</option>
+                <option value="MU">Mauritius</option>
+                <option value="YT">Mayotte</option>
+                <option value="MX">Mexico</option>
+                <option value="FM">Micronesia</option>
+                <option value="MD">Moldova</option>
+                <option value="MC">Monaco</option>
+                <option value="MN">Mongolia</option>
+                <option value="ME">Montenegro</option>
+                <option value="MS">Montserrat</option>
+                <option value="MA">Morocco</option>
+                <option value="MZ">Mozambique</option>
+                <option value="MM">Myanmar</option>
+                <option value="NA">Namibia</option>
+                <option value="NR">Nauru</option>
+                <option value="NP">Nepal</option>
+                <option value="NL">Netherlands</option>
+                <option value="AN">Netherlands Antilles</option>
+                <option value="NC">New Caledonia</option>
+                <option value="NZ">New Zealand</option>
+                <option value="NI">Nicaragua</option>
+                <option value="NE">Niger</option>
+                <option value="NG">Nigeria</option>
+                <option value="NU">Niue</option>
+                <option value="NF">Norfolk Island</option>
+                <option value="MP">Northern Mariana Islands</option>
+                <option value="KP">North Korea</option>
+                <option value="NO">Norway</option>
+                <option value="OM">Oman</option>
+                <option value="PK">Pakistan</option>
+                <option value="PW">Palau</option>
+                <option value="PS">Palestinian Territory</option>
+                <option value="PA">Panama</option>
+                <option value="PG">Papua New Guinea</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Peru</option>
+                <option value="PH">Philippines</option>
+                <option value="PN">Pitcairn</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="QA">Qatar</option>
+                <option value="RE">Reunion</option>
+                <option value="RO">Romania</option>
+                <option value="RU">Russia</option>
+                <option value="RW">Rwanda</option>
+                <option value="BL">Saint BarthÈlemy</option>
+                <option value="SH">Saint Helena</option>
+                <option value="KN">Saint Kitts and Nevis</option>
+                <option value="LC">Saint Lucia</option>
+                <option value="MF">Saint Martin (French part)</option>
+                <option value="PM">Saint Pierre and Miquelon</option>
+                <option value="VC">Saint Vincent and the Grenadines</option>
+                <option value="WS">Samoa</option>
+                <option value="SM">San Marino</option>
+                <option value="ST">Sao Tome and Principe</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="SN">Senegal</option>
+                <option value="RS">Serbia</option>
+                <option value="SC">Seychelles</option>
+                <option value="SL">Sierra Leone</option>
+                <option value="SG">Singapore</option>
+                <option value="SK">Slovakia</option>
+                <option value="SI">Slovenia</option>
+                <option value="SB">Solomon Islands</option>
+                <option value="SO">Somalia</option>
+                <option value="ZA">South Africa</option>
+                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                <option value="KR">South Korea</option>
+                <option value="ES">Spain</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="SD">Sudan</option>
+                <option value="SR">Suriname</option>
+                <option value="SJ">Svalbard and Jan Mayen</option>
+                <option value="SZ">Swaziland</option>
+                <option value="SE">Sweden</option>
+                <option value="CH">Switzerland</option>
+                <option value="SY">Syria</option>
+                <option value="TW">Taiwan</option>
+                <option value="TJ">Tajikistan</option>
+                <option value="TZ">Tanzania</option>
+                <option value="TH">Thailand</option>
+                <option value="TL">Timor-Leste</option>
+                <option value="TG">Togo</option>
+                <option value="TK">Tokelau</option>
+                <option value="TO">Tonga</option>
+                <option value="TT">Trinidad and Tobago</option>
+                <option value="TN">Tunisia</option>
+                <option value="TR">Turkey</option>
+                <option value="TM">Turkmenistan</option>
+                <option value="TC">Turks and Caicos Islands</option>
+                <option value="TV">Tuvalu</option>
+                <option value="VI">U.S. Virgin Islands</option>
+                <option value="UG">Uganda</option>
+                <option value="UA">Ukraine</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="GB">United Kingdom</option>
+                <option value="UM">United States Minor Outlying Islands</option>
+                <option value="UY">Uruguay</option>
+                <option value="UZ">Uzbekistan</option>
+                <option value="VU">Vanuatu</option>
+                <option value="VA">Vatican</option>
+                <option value="VE">Venezuela</option>
+                <option value="VN">Vietnam</option>
+                <option value="WF">Wallis and Futuna</option>
+                <option value="EH">Western Sahara</option>
+                <option value="YE">Yemen</option>
+                <option value="ZM">Zambia</option>
+                <option value="ZW">Zimbabwe</option>
 
                </select>
               </div>
              </div>
             </div>
             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Address 1:</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Address 1:</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
+             </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Address 2:</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
+             </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">City:</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
+             </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">State:</label>
+              <div class=" w-60p">
+               <select class="selectpicker   h-36" data-live-search="true">
+                <option value="">--</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+                <option value="">--</option>
+                <option value="AA">Armed Forces (Americas)</option>
+                <option value="AE">Armed Forces (Europe, Canada, Middle East, Africa)</option>
+                <option value="AP">Armed Forces (Pacific)</option>
+                <option value="AS">American Samoa</option>
+                <option value="FM">Federated States of Micronesia</option>
+                <option value="GU">Guam</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MP">Northern Mariana Islands</option>
+                <option value="PW">Palau</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="VI">Virgin Islands</option>
+
+               </select>
               </div>
              </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Address 2:</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
-             </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">City:</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
-             </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">State:</label>
-               <div class=" w-60p">
-                <select class="selectpicker   h-36" data-live-search="true" >
-                  <option value="">--</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District Of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option><option value="">--</option><option value="AA">Armed Forces (Americas)</option><option value="AE">Armed Forces (Europe, Canada, Middle East, Africa)</option><option value="AP">Armed Forces (Pacific)</option><option value="AS">American Samoa</option><option value="FM">Federated States of Micronesia</option><option value="GU">Guam</option><option value="MH">Marshall Islands</option><option value="MP">Northern Mariana Islands</option><option value="PW">Palau</option><option value="PR">Puerto Rico</option><option value="VI">Virgin Islands</option>
- 
-                </select>
+            </div>
+
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">ZIP code:</label>
+              <div class=" w-60p"> <input type="text" class="form-control h-36" placeholder="">
+
+               <div class="form-check form-inline mt-2">
+                <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                <label class="form-check-label style-1" for="check1"> Send Tix via Email</label>
                </div>
               </div>
              </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Phone:</label>
+              <div class=" w-60p"> <input type="text" class="form-control h-36" placeholder="">
 
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">ZIP code:</label>
-               <div class=" w-60p">               <input type="text" class="form-control h-36" placeholder="">
-                
-                <div class="form-check form-inline mt-2">
-                  <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                  <label class="form-check-label style-1" for="check1">  Send Tix via Email</label>
-                 </div>
+               <div class="form-check form-inline mt-2">
+                <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                <label class="form-check-label style-1" for="check1"> Send Tix via SMS</label>
+               </div>
               </div>
+             </div>
             </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Vehicle:</label>
+              <select class="selectpicker  w-60p h-36" data-live-search="true">
+               <option value="0"></option>
+               <option value="-1" class="newOption">[Add New Vehicle]</option>
+              </select>
              </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Phone:</label>
-               <div class=" w-60p">               <input type="text" class="form-control h-36" placeholder="">
-                
-                <div class="form-check form-inline mt-2">
-                  <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                  <label class="form-check-label style-1" for="check1">  Send Tix via SMS</label>
-                 </div>
-              </div>
             </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Trailer:</label>
+              <select class="selectpicker  w-60p h-36" data-live-search="true">
+               <option value="0"></option>
+               <option value="-1" class="newOption">[Add New Trailer]</option>
+              </select>
              </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Vehicle:</label>
-               <select class="selectpicker  w-60p h-36" data-live-search="true" >
-                <option value="0"></option><option value="-1" class="newOption">[Add New Vehicle]</option>
-                </select>
-              </div>
-             </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Trailer:</label>
-               <select class="selectpicker  w-60p h-36" data-live-search="true" >
-                <option value="0"></option><option value="-1" class="newOption">[Add New Trailer]</option>
-                </select>
-              </div>
-             </div>
-            
-            
+            </div>
+
+
            </div>
            <div class="col-md-4">
             <h5>Billing Address:
             </h5>
             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Country:</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
-             </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Address 1:</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
-             </div>
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">Address 2:</label>
-               <input type="text" class="form-control h-36 w-60p" placeholder="">
-              </div>
-             </div>
-            <div class="form-group mb-2 ">
              <div class="d-flex align-items-center">
-              <label class="form-label w-40p">City:	</label>
+              <label class="form-label w-40p">Country:</label>
               <input type="text" class="form-control h-36 w-60p" placeholder="">
              </div>
             </div>
             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">State:</label>
-               <div class=" w-60p">
-                <select class="selectpicker   h-36" data-live-search="true" >
-                  <option value="">--</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District Of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option><option value="">--</option><option value="AA">Armed Forces (Americas)</option><option value="AE">Armed Forces (Europe, Canada, Middle East, Africa)</option><option value="AP">Armed Forces (Pacific)</option><option value="AS">American Samoa</option><option value="FM">Federated States of Micronesia</option><option value="GU">Guam</option><option value="MH">Marshall Islands</option><option value="MP">Northern Mariana Islands</option><option value="PW">Palau</option><option value="PR">Puerto Rico</option><option value="VI">Virgin Islands</option>
- 
-                </select>
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Address 1:</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
+             </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">Address 2:</label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
+             </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">City: </label>
+              <input type="text" class="form-control h-36 w-60p" placeholder="">
+             </div>
+            </div>
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">State:</label>
+              <div class=" w-60p">
+               <select class="selectpicker   h-36" data-live-search="true">
+                <option value="">--</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+                <option value="">--</option>
+                <option value="AA">Armed Forces (Americas)</option>
+                <option value="AE">Armed Forces (Europe, Canada, Middle East, Africa)</option>
+                <option value="AP">Armed Forces (Pacific)</option>
+                <option value="AS">American Samoa</option>
+                <option value="FM">Federated States of Micronesia</option>
+                <option value="GU">Guam</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MP">Northern Mariana Islands</option>
+                <option value="PW">Palau</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="VI">Virgin Islands</option>
+
+               </select>
+              </div>
+             </div>
+            </div>
+
+            <div class="form-group mb-2 ">
+             <div class="d-flex align-items-center">
+              <label class="form-label w-40p">ZIP code:</label>
+              <div class=" w-60p"> <input type="text" class="form-control h-36" placeholder="">
+
+               <div class="form-check form-inline mt-2">
+                <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                <label class="form-check-label style-1" for="check1"> Custom Dispatch Fee</label>
                </div>
               </div>
              </div>
-
-             <div class="form-group mb-2 ">
-              <div class="d-flex align-items-center">
-               <label class="form-label w-40p">ZIP code:</label>
-               <div class=" w-60p">               <input type="text" class="form-control h-36" placeholder="">
-                
-                <div class="form-check form-inline mt-2">
-                  <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                  <label class="form-check-label style-1" for="check1">  Custom Dispatch Fee</label>
-                 </div>
-              </div>
             </div>
-             </div>
-        
+
            </div>
           </div>
          </div>
-       
+
          <div class="bg-form-box-blue3 p-20">
           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> Apply Tax	</label>
-           </div>
-           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> Display Note		</label>
-          
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> Apply Tax </label>
           </div>
           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> Hide Price
-            </label>
-          
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> Display Note </label>
+
           </div>
           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> International		</label>
-           </div>
-           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> Plastic Bank		</label>
-           </div>
-           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> 	Enable Points		</label>
-           </div>
-           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> VIP		</label>
-           </div>
-           <div class="form-check form-inline mt-2">
-            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1"> 	Sync to Cro
-            </label>
-           </div>
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> Hide Price
+           </label>
+
+          </div>
+          <div class="form-check form-inline mt-2">
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> International </label>
+          </div>
+          <div class="form-check form-inline mt-2">
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> Plastic Bank </label>
+          </div>
+          <div class="form-check form-inline mt-2">
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> Enable Points </label>
+          </div>
+          <div class="form-check form-inline mt-2">
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> VIP </label>
+          </div>
+          <div class="form-check form-inline mt-2">
+           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           <label class="form-check-label style-1" for="check1"> Sync to Cro
+           </label>
+          </div>
          </div>
          <div class="pxy15-20">
           <div class="bg-grey-4 pxy15-20 radius-lg d-flex align-items-center">
@@ -6432,7 +6829,7 @@
            </div>
            <div class="form-check form-inline mt-3 me-3">
             <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-            <label class="form-check-label style-1" for="check1">Precious  </label>
+            <label class="form-check-label style-1" for="check1">Precious </label>
            </div>
            <div class="form-check form-inline mt-3 me-3">
             <input class="form-check-input add-after" type="checkbox" value="" id="check1">
@@ -6922,53 +7319,47 @@
         <div class="tab-pane common-component fade" id="v-pills-add6" role="tabpanel" aria-labelledby="v-pills-add6-tab"
          tabindex="0">
          <div class="bg-grey-4 pxy15-20 d-flex justify-content-between">
-          <div class="d-flex w-45p">
-           <div class="form-group me-2 w-33p">
-            <label class="form-label">Floating Select</label>
-            <select class="selectpicker" data-live-search="true">
-             <option data-tokens="ketchup mustard">1</option>
-             <option data-tokens="mustard">2</option>
-             <option data-tokens="frosting">3</option>
-            </select>
-           </div>
-           <div class="form-group me-2 w-26p">
-            <label class="form-label">Pickup Date:</label>
-            <input type="date" class="form-control h-36" placeholder="">
-           </div>
-           <div class="form-group w-37p">
-            <label class="form-label">Pickup Date:</label>
-            <div class="d-flex">
-             <div class="form-group me-2 w-72p">
-              <input type="date" class="form-control h-36" placeholder="">
-             </div>
-             <button class="btn btn-dark btn-xs padding-5"><span class="material-symbols-rounded">search</span></button>
-            </div>
-           </div>
+
+
+          <div class="form-group me-2 w-26p">
+           <label class="form-label">From Date:</label>
+           <input type="date" class="form-control h-36" placeholder="">
           </div>
-          <div class="btn-part">
-           <div class="fs-sm fw-extrabold">DOWNLOADS</div>
+          <div class="form-group w-37p">
+           <label class="form-label">To Date:</label>
            <div class="d-flex">
-            <button class="btn btn-grey btn-xs padding-5 me-2">
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path fill="currentColor"
-               d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-9.5 8.5c0 .8-.7 1.5-1.5 1.5H7v2H5.5V9H8c.8 0 1.5.7 1.5 1.5v1m5 2c0 .8-.7 1.5-1.5 1.5h-2.5V9H13c.8 0 1.5.7 1.5 1.5v3m4-3H17v1h1.5V13H17v2h-1.5V9h3v1.5m-6.5 0h1v3h-1v-3m-5 0h1v1H7v-1Z" />
-             </svg>
-            </button>
-            <button class="btn btn-grey btn-xs padding-5 me-2">
-             <svg xmlns="http://www.w3.org/2000/svg" id="mdi-microsoft-excel" width="24" height="24"
-              viewBox="0 0 24 24">
-              <path
-               d="M21.17 3.25Q21.5 3.25 21.76 3.5 22 3.74 22 4.08V19.92Q22 20.26 21.76 20.5 21.5 20.75 21.17 20.75H7.83Q7.5 20.75 7.24 20.5 7 20.26 7 19.92V17H2.83Q2.5 17 2.24 16.76 2 16.5 2 16.17V7.83Q2 7.5 2.24 7.24 2.5 7 2.83 7H7V4.08Q7 3.74 7.24 3.5 7.5 3.25 7.83 3.25M7 13.06L8.18 15.28H9.97L8 12.06L9.93 8.89H8.22L7.13 10.9L7.09 10.96L7.06 11.03Q6.8 10.5 6.5 9.96 6.25 9.43 5.97 8.89H4.16L6.05 12.08L4 15.28H5.78M13.88 19.5V17H8.25V19.5M13.88 15.75V12.63H12V15.75M13.88 11.38V8.25H12V11.38M13.88 7V4.5H8.25V7M20.75 19.5V17H15.13V19.5M20.75 15.75V12.63H15.13V15.75M20.75 11.38V8.25H15.13V11.38M20.75 7V4.5H15.13V7Z" />
-             </svg>
-            </button>
-            <button class="btn btn-grey radius-sm with-icon h-36 btn-print me-2"><span
-              class="material-symbols-rounded me-2">print</span>summary
-             report</button>
-            <button class="btn btn-grey radius-sm with-icon h-36 btn-print"><span
-              class="material-symbols-rounded me-2">print</span>history report
-            </button>
+            <div class="form-group me-2 w-72p">
+             <input type="date" class="form-control h-36" placeholder="">
+            </div>
+            <button class="btn btn-dark btn-xs padding-5"><span class="material-symbols-rounded">search</span></button>
            </div>
           </div>
+
+
+
+          <div class="form-group me-2 ">
+           <label class="form-label">&nbsp;</label>
+           <button class="btn btn-grey radius-sm with-icon h-36 btn-print me-2">Generate report</button>
+          </div>
+          <div class="form-group me-2 ">
+           <label class="form-label">Advance Per Trans:</label>
+           <input type="text" class="form-control h-36" placeholder="">
+          </div>
+          <div class="form-group me-2 ">
+           <label class="form-label">&nbsp;</label>
+           <button class="btn btn-grey radius-sm with-icon h-36 btn-print">Save
+           </button>
+          </div>
+          <div class="form-group me-2 ">
+
+           <button type="button" class="icon-tag text-caps mt-3 color-black fs-md fw-extrabold d-flex text-nowrap mx-3 "
+            data-bs-toggle="modal" data-bs-target="#Assign-Linked-Material">
+            <span class="material-symbols-rounded me-2">add_circle</span>
+            Add Payment
+           </button>
+          </div>
+
+
          </div>
          <table class="table table-bottom-no-border inventory-order-table shadow-none mb-0">
           <thead>
@@ -7280,175 +7671,962 @@
     </div>
    </div>
   </div>
-   <!-- Add Business Popup Ends -->
+  <!-- Add Business Popup Ends -->
 
-   <!-- Add Vehicle Popup Starts -->
-   <div class="modal fade" id="Add-Vehicle" tabindex="-1" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-685">
-     <div class="modal-content">
-      <div class="modal-header">
-       <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Vehicle</h1>
-       <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
-        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
-      </div>
-      <div class="modal-body p-20">
-       <div class="d-flex justify-content-between mb-3">
+  <!-- Add Vehicle Popup Starts -->
+  <div class="modal fade" id="Add-Vehicle" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-685">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Vehicle</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <div class="d-flex justify-content-between mb-3">
 
-        <div class="form-group w-50p">
-            <div class="form-check form-inline">
-                <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                <label class="form-check-label style-1" for="check1">
-                    Trailer
-                </label>
-               </div>
-               <div class="form-check form-inline ms-3">
-                <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                <label class="form-check-label style-1" for="check1">
-                    Enter Manually
-                </label>
-               </div>
+       <div class="form-group w-50p">
+        <div class="form-check form-inline">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          Trailer
+         </label>
         </div>
-        
-        
-       </div>
-       <div class="d-flex mb-3">
-        <div class="form-group w-32p">
-            <label class="form-label">Type</label>
-            <div class="d-flex justify-content-between align-items-center">
-             <div class="form-group w-100">
-              <select class="selectpicker" data-live-search="true">
-               <option data-tokens="ketchup mustard">1</option>
-               <option data-tokens="mustard">2</option>
-               <option data-tokens="frosting">3</option>
-              </select>
-             </div>
-             
-            </div>
-           </div>
-           <div class="form-group w-32p ms-2">
-            <label class="form-label">Plate #:</label>
-     
-            <input type="text" class="form-control h-36" value="pt" placeholder="Title">
-           </div>
-           <div class="form-group w-20p ms-2">
-            <label class="form-label">State</label>
-            <div class="d-flex justify-content-between align-items-center">
-             <div class="form-group w-100">
-              <select class="selectpicker" data-live-search="true">
-               <option data-tokens="ketchup mustard">TX</option>
-               <option data-tokens="mustard">AR</option>
-               <option data-tokens="frosting">OT</option>
-              </select>
-             </div>
-             
-            </div>
-           </div>
-          
-       </div>
-
-       <div class="d-flex  mb-3">
-        <div class="form-group w-32p">
-            <label class="form-label">Make</label>
-            <div class="d-flex justify-content-between align-items-center">
-             <div class="form-group w-100">
-              <select class="selectpicker" data-live-search="true">
-               <option data-tokens="ketchup mustard">1</option>
-               <option data-tokens="mustard">2</option>
-               <option data-tokens="frosting">3</option>
-              </select>
-             </div>
-             
-            </div>
-           </div>
-
-           <div class="form-group w-32p ms-2">
-            <label class="form-label">Model</label>
-            <div class="d-flex justify-content-between align-items-center">
-             <div class="form-group w-100">
-              <select class="selectpicker" data-live-search="true">
-               <option data-tokens="ketchup mustard">1</option>
-               <option data-tokens="mustard">2</option>
-               <option data-tokens="frosting">3</option>
-              </select>
-             </div>
-             
-            </div>
-           </div>
-          
-           
-          
-       </div>
-
-       <div class="d-flex mb-3">
-        <div class="form-group w-32p">
-            <label class="form-label">Year</label>
-            <div class="d-flex justify-content-between align-items-center">
-             <div class="form-group w-100">
-              <select class="selectpicker" data-live-search="true">
-               <option data-tokens="ketchup mustard">1</option>
-               <option data-tokens="mustard">2</option>
-               <option data-tokens="frosting">3</option>
-              </select>
-             </div>
-             
-            </div>
-           </div>
-
-           <div class="form-group w-32p ms-2">
-            <label class="form-label">Color</label>
-            <div class="d-flex justify-content-between align-items-center">
-             <div class="form-group w-100">
-              <select class="selectpicker" data-live-search="true">
-               <option data-tokens="ketchup mustard">1</option>
-               <option data-tokens="mustard">2</option>
-               <option data-tokens="frosting">3</option>
-              </select>
-             </div>
-             
-            </div>
-           </div>
-
-           <div class="form-group w-32p ms-2">
-            <label class="form-label">Body Type</label>
-            <div class="d-flex justify-content-between align-items-center">
-             <div class="form-group w-100">
-              <select class="selectpicker" data-live-search="true">
-               <option data-tokens="ketchup mustard">1</option>
-               <option data-tokens="mustard">2</option>
-               <option data-tokens="frosting">3</option>
-              </select>
-             </div>
-             
-            </div>
-           </div>
-          
-           
-          
-       </div>
-
-       <div class="d-flex">
-        <div class="form-group w-40p ">
-            <label class="form-label">Notes:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-           </div>
-
-           <div class="form-group w-40p ms-2">
-            <label class="form-label">Vehicle Desc / Note</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-           </div>
+        <div class="form-check form-inline ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          Enter Manually
+         </label>
+        </div>
        </div>
 
 
-      
       </div>
-      <div class="modal-footer d-flex justify-content-end">
-       <button class="btn btn-blue btn-md me-2">Save Vehicle</button>
-       <button class="btn btn-blue btn-md">cancel</button>
+      <div class="d-flex mb-3">
+       <div class="form-group w-32p">
+        <label class="form-label">Type</label>
+        <div class="d-flex justify-content-between align-items-center">
+         <div class="form-group w-100">
+          <select class="selectpicker" data-live-search="true">
+           <option data-tokens="ketchup mustard">1</option>
+           <option data-tokens="mustard">2</option>
+           <option data-tokens="frosting">3</option>
+          </select>
+         </div>
+
+        </div>
+       </div>
+       <div class="form-group w-32p ms-2">
+        <label class="form-label">Plate #:</label>
+
+        <input type="text" class="form-control h-36" value="pt" placeholder="Title">
+       </div>
+       <div class="form-group w-20p ms-2">
+        <label class="form-label">State</label>
+        <div class="d-flex justify-content-between align-items-center">
+         <div class="form-group w-100">
+          <select class="selectpicker" data-live-search="true">
+           <option data-tokens="ketchup mustard">TX</option>
+           <option data-tokens="mustard">AR</option>
+           <option data-tokens="frosting">OT</option>
+          </select>
+         </div>
+
+        </div>
+       </div>
+
       </div>
+
+      <div class="d-flex  mb-3">
+       <div class="form-group w-32p">
+        <label class="form-label">Make</label>
+        <div class="d-flex justify-content-between align-items-center">
+         <div class="form-group w-100">
+          <select class="selectpicker" data-live-search="true">
+           <option data-tokens="ketchup mustard">1</option>
+           <option data-tokens="mustard">2</option>
+           <option data-tokens="frosting">3</option>
+          </select>
+         </div>
+
+        </div>
+       </div>
+
+       <div class="form-group w-32p ms-2">
+        <label class="form-label">Model</label>
+        <div class="d-flex justify-content-between align-items-center">
+         <div class="form-group w-100">
+          <select class="selectpicker" data-live-search="true">
+           <option data-tokens="ketchup mustard">1</option>
+           <option data-tokens="mustard">2</option>
+           <option data-tokens="frosting">3</option>
+          </select>
+         </div>
+
+        </div>
+       </div>
+
+
+
+      </div>
+
+      <div class="d-flex mb-3">
+       <div class="form-group w-32p">
+        <label class="form-label">Year</label>
+        <div class="d-flex justify-content-between align-items-center">
+         <div class="form-group w-100">
+          <select class="selectpicker" data-live-search="true">
+           <option data-tokens="ketchup mustard">1</option>
+           <option data-tokens="mustard">2</option>
+           <option data-tokens="frosting">3</option>
+          </select>
+         </div>
+
+        </div>
+       </div>
+
+       <div class="form-group w-32p ms-2">
+        <label class="form-label">Color</label>
+        <div class="d-flex justify-content-between align-items-center">
+         <div class="form-group w-100">
+          <select class="selectpicker" data-live-search="true">
+           <option data-tokens="ketchup mustard">1</option>
+           <option data-tokens="mustard">2</option>
+           <option data-tokens="frosting">3</option>
+          </select>
+         </div>
+
+        </div>
+       </div>
+
+       <div class="form-group w-32p ms-2">
+        <label class="form-label">Body Type</label>
+        <div class="d-flex justify-content-between align-items-center">
+         <div class="form-group w-100">
+          <select class="selectpicker" data-live-search="true">
+           <option data-tokens="ketchup mustard">1</option>
+           <option data-tokens="mustard">2</option>
+           <option data-tokens="frosting">3</option>
+          </select>
+         </div>
+
+        </div>
+       </div>
+
+
+
+      </div>
+
+      <div class="d-flex">
+       <div class="form-group w-40p ">
+        <label class="form-label">Notes:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+       </div>
+
+       <div class="form-group w-40p ms-2">
+        <label class="form-label">Vehicle Desc / Note</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+       </div>
+      </div>
+
+
+
+     </div>
+     <div class="modal-footer d-flex justify-content-end">
+      <button class="btn btn-blue btn-md me-2">Save Vehicle</button>
+      <button class="btn btn-blue btn-md">cancel</button>
      </div>
     </div>
    </div>
-   <!-- Add Vehicle Popup Ends -->
+  </div>
+  <!-- Add Vehicle Popup Ends -->
+  <!-- Merge Cus / Biz to Business Starts -->
+  <div class="modal fade" id="MergeCus" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-905">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Merge Cus / Biz to Business</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <div class="">
+       <div class="bg-grey-4 pxy15-20 radius-lg d-flex align-items-center">
+        <div class="w-100 row d-flex justify-content-between align-items-center">
+         <div class="col-md-5"><label class="form-label">Customer Name, License #
+          </label></div>
+         <div class="col-md-6"> <input type="text" value="aaa" class="form-control h-36" placeholder=""></div>
+         <div class="col-md-1"> <button class="btn btn-dark btn-xs padding-5 h-36"><span
+            class="material-symbols-rounded">search</span></button></div>
+
+
+
+
+
+        </div>
+       </div>
+      </div>
+      <p class="mt-3">The business selected has duplicate customer records. If these are duplicate records of the
+       same
+       business, you may merge them now.
+      </p>
+      <div class="row">
+       <div class="col-md-5 ">
+
+        <div class="card-group card-group-lg mw-100 h-50 mb-2">
+         <div class="content h-50 ">
+          &nbsp;
+         </div>
+        </div>
+        <ul class="px-3 fw-bold">
+         <li>44</li>
+         <li>456</li>
+         <li>445</li>
+         <li>3246</li>
+        </ul>
+       </div>
+       <div class="col-md-7">
+        <div class="table-scroll-h border radius-sm border-1">
+         <div class="table-wrapper">
+          <table class="table table-bottom-no-border mb-0 border-radius0" width="100%">
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+             <h6 class="fw-bold mb-0">Title place here</h6>
+             <p class="mb-1">Sub title</p>
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-success">check</span>
+                Biz
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+             <h6 class="fw-bold mb-0">Title place here</h6>
+             <p class="mb-1">Sub title</p>
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-success">check</span>
+                Biz
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+             <h6 class="fw-bold mb-0">Title place here</h6>
+             <p class="mb-1">Sub title</p>
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-success">check</span>
+                Biz
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+             <h6 class="fw-bold mb-0">Title place here</h6>
+             <p class="mb-1">Sub title</p>
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-success">check</span>
+                Biz
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+
+       </div>
+      </div>
+      <p class="small mt-3 alert alert-info">Transactional data needs to KEEP old info. Info does not get updated
+       at saved ticket level.</p>
+     </div>
+     <div class="modal-footer d-flex justify-content-end">
+      <button class="btn btn-blue btn-md me-2">Merge Selected</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Merge Cus / Biz to Business Popup Ends -->
+
+
+
+  <!-- Add scale type Popup Starts -->
+  <div class="modal fade" id="Add-scale-type" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-685">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Scale Type</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+
+
+      <div class="form-group mb-3">
+       <label class="form-label">Title:</label>
+       <input type="text" class="form-control h-36" />
+      </div>
+      <div class="form-group mb-3">
+       <div class="form-check form-inline">
+        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+        <label class="form-check-label style-1" for="check1">
+         Use ReadLine
+        </label>
+       </div>
+       <div class="form-check form-inline ms-3">
+        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+        <label class="form-check-label style-1" for="check1">
+         Use Read existing method
+        </label>
+       </div>
+      </div>
+
+      <div class="form-group mb-3">
+       <label class="form-label">Replace Char:</label>
+       <input type="text" class="form-control h-36" />
+      </div>
+      <div class="form-group ">
+       <div class="form-check form-inline">
+        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+        <label class="form-check-label style-1" for="check1">
+         Parse when replace character exists
+        </label>
+       </div>
+
+      </div>
+      <p class="small mb-3"> <strong>Note:</strong> You can use multiple split text by seperating each of them
+       with a pipe(|)
+      </p>
+      <div class="form-group mb-3">
+       <div class="form-check form-inline">
+        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+        <label class="form-check-label style-1" for="check1">
+         Start with space
+        </label>
+       </div>
+
+      </div>
+      <div class="form-group">
+       <label class="form-label">Start Char:</label>
+       <input type="text" class="form-control h-36" />
+      </div>
+      <p class="small mb-3"><strong>Note:</strong> You can use multiple split text by seperating each of them with
+       a comma(,)
+      </p>
+      <div class="form-group">
+       <label class="form-label">End Char:</label>
+       <input type="text" class="form-control h-36" />
+      </div>
+      <p class="small mb-3"><strong>Note:</strong> You can use multiple split text by seperating each of them with
+       a comma(,)
+      </p>
+
+      <div class="d-flex mb-3">
+       <div class="form-group w-32p">
+        <label class="form-label">Skip Position / Orientation: </label>
+
+       </div>
+       <div class="form-group w-32p ms-2">
+        <input type="text" class="form-control h-36" value="" placeholder="Title">
+       </div>
+       <div class="form-group w-32p ms-2">
+        <select class="selectpicker">
+         <option data-tokens="ketchup mustard">First</option>
+         <option data-tokens="mustard">Last</option>
+        </select>
+       </div>
+
+      </div>
+      <div class="d-flex mb-3">
+       <div class="form-group w-32p">
+        <label class="form-label">Split Char: </label>
+
+       </div>
+       <div class="form-group w-65p ms-2">
+        <select class="selectpicker">
+         <option value="1">New Line</option>
+         <option value="2">Space</option>
+         <option value="3">Space-Other</option>
+         <option value="4">New Line-Other</option>
+        </select>
+       </div>
+      </div>
+     </div>
+     <div class="modal-footer d-flex justify-content-end">
+      <button class="btn btn-blue btn-md me-2">Save Scale Type</button>
+      <button class="btn btn-blue btn-md">cancel</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Popup Ends -->
+  <!-- Add scale  Popup Starts -->
+  <div class="modal fade" id="Add-scale" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-905">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Scale</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <div class="row">
+       <div class="col-md-6">
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Title:</label>
+          <input type="text" class="form-control h-36 w-60p" placeholder="">
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Port: </label>
+          <input type="text" class="form-control h-36 w-60p" placeholder="">
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Baud Rate: </label>
+          <div class="w-60p">
+           <select class="selectpicker">
+            <option value="300">300</option>
+            <option value="600">600</option>
+            <option value="1200">1200</option>
+            <option value="2400">2400</option>
+            <option value="4800">4800</option>
+            <option value="9600">9600</option>
+            <option value="14400">14400</option>
+            <option value="19200">19200</option>
+            <option value="28800">28800</option>
+            <option value="36000">36000</option>
+            <option value="38400">38400</option>
+            <option value="115000">115000</option>
+           </select>
+          </div>
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Parity: </label>
+          <div class="w-60p">
+           <select class="selectpicker">
+
+            <option value="300">300</option>
+            <option value="600">600</option>
+            <option value="1200">1200</option>
+            <option value="2400">2400</option>
+            <option value="4800">4800</option>
+            <option value="9600">9600</option>
+            <option value="14400">14400</option>
+            <option value="19200">19200</option>
+            <option value="28800">28800</option>
+            <option value="36000">36000</option>
+            <option value="38400">38400</option>
+            <option value="115000">115000</option>
+
+           </select>
+          </div>
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Data Bits: </label>
+          <div class="w-60p">
+           <select class="selectpicker">
+
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+           </select>
+          </div>
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Stop Bits: </label>
+          <div class="w-60p">
+           <select class="selectpicker">
+
+            <option value="None">None</option>
+            <option value="One">One</option>
+            <option value="Two">Two</option>
+            <option value="OnePointFive">OnePointFive</option>
+
+           </select>
+          </div>
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Scale Type:</label>
+          <div class="w-60p">
+           <select class="selectpicker">
+
+            <option value="0">IoT Scale</option>
+
+            <option value="6">
+             Mettler</option>
+
+            <option value="12">
+             OFFICE SCALE</option>
+
+            <option value="7">
+             test</option>
+
+            <option value="13">
+             test</option>
+
+            <option value="14">
+             TEST123</option>
+
+            <option value="11">
+             testing1</option>
+
+           </select>
+
+           </select>
+          </div>
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-start">
+          <label class="form-label w-40p form-check-label style-1" for="check1">NTEP: </label>
+          <div class="w-60p">
+           <div class="form-check form-inline">
+            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+           </div>
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Interval: </label>
+            <div class="w-60p">
+             <input type="text" class="form-control" />
+            </div>
+           </div>
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Increment: </label>
+            <div class="w-60p">
+             <select class="selectpicker">
+              <option value="">None</option>
+              <option value=".01">.01</option>
+              <option value=".1">.1</option>
+              <option value="1">1</option>
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+             </select>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+
+       </div>
+       <div class="col-md-6">
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">IoT Device ID:</label>
+          <div class="w-60p">
+           <input type="text" class="form-control" />
+
+
+          </div>
+         </div>
+        </div>
+        <div class="black-box mb-3">
+         <input type="text" class="form-control">
+         <h6 class="text-end text-white-50 p-1 small">LIVE FEED</h6>
+        </div>
+
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Tone:</label>
+          <div class="w-60p">
+           <select class="selectpicker">
+            <option value="None">None</option>
+            <option value="Bell">Bell</option>
+            <option value="Buzzer">Buzzer</option>
+            <option value="Guitar">Guitar</option>
+            <option value="Phone">Phone</option>
+           </select>
+          </div>
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Weight Trigger: </label>
+          <div class="w-60p">
+           <input type="text" class="form-control" />
+          </div>
+         </div>
+        </div>
+        <div class="form-group mb-2 ">
+         <div class="d-flex align-items-center">
+          <label class="form-label w-40p">Repeat(sec):</label>
+          <div class="w-60p">
+           <input type="text" class="form-control" />
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="modal-footer d-flex justify-content-end">
+      <button class="btn btn-blue btn-md me-2">Save Scale</button>
+      <button class="btn btn-blue btn-md">cancel</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Popup Ends -->
+    <!-- Add Add Cinema Material Screen  Popup Starts -->
+    <div class="modal fade" id="Add-Cinema-Material" tabindex="-1" aria-labelledby="" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-905">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Cinema Material Screen</h1>
+        <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+         aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+       </div>
+       <div class="modal-body p-20">
+        <div class="row">
+         <div class="col-md-6">
+          <div class="form-group mb-2 ">
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Title:</label>
+            <input type="text" class="form-control h-36 w-60p" placeholder="">
+           </div>
+          </div>
+          <div class="form-group mb-2 ">
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Slider Type: </label>
+            <div class="w-60p">
+             <select class="selectpicker">
+              <option value="0">Image</option>
+              <option value="1">List</option>
+          </select>
+            </div>
+           </div>
+          </div>
+          <div class="form-group mb-2 ">
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Slider Effect: </label>
+            <div class="w-60p">
+             <select class="selectpicker">
+               <option value="0">Swipe Left</option>
+             </select>
+            </div>
+           </div>
+          </div>
+          <div class="form-group mb-2 ">
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Pause Speed:	 </label>
+            <div class="w-60p">
+             <input type="text" class="form-control" value="0">
+            </div>
+           </div>
+          </div>
+          <div class="form-group mb-2 ">
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Grid Lines Color: </label>
+            <div class="w-60p">
+             <input type="text" class="form-control" value="#000">
+            </div>
+           </div>
+          </div>
+          <div class="form-group mb-2 ">
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Background Color: </label>
+            <div class="w-60p">
+             <input type="text" class="form-control" value="#000">
+            </div>
+           </div>
+          </div>
+          <label class="form-label text-center w-100">OR </label>
+          <div class="form-group mb-2 ">
+           <div class="d-flex align-items-center">
+            <label class="form-label w-40p">Background Image:</label>
+            <div class="w-60p">
+             <input type="file" class="form-control">
+  
+         
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="col-md-6">
+          
+          <p>Drag groups and materials to assign material display order:</p>
+          <div class="text-end">
+          <input type="button" value="select all" class="btn btn-grey btn-sm h-25" >
+           </div>
+         <div class="border border-1 overflow-scroll  table-scroll-h">
+          <div id="jstree">
+          </div>
+         </div>
+         </div>
+        </div>
+       </div>
+       <div class="modal-footer d-flex justify-content-end">
+        <button class="btn btn-blue btn-md me-2">Save Screen</button>
+        <button class="btn btn-blue btn-md">cancel</button>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- Popup Ends -->
+    <div class="modal fade" id="AddSignatureScanner" tabindex="-1" aria-labelledby="" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-465">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold"> Add Signature Scanner</h1>
+        <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+         aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+       </div>
+       <div class="modal-body p-20">
+  
+        <div class="form-group mb-2">
+         <label class="form-label">Title:</label>  
+         <input type="text" class="form-control h-36" placeholder="Title" />
+        </div>
+  
+  
+        <div class="form-group mb-2">
+         <label class="form-label">Port:	</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group">
+         <label class="form-label">Type:	</label>
+         <select class="selectpicker">
+          <option value="0">4X5 Black and White</option>
+          <option value="1">Color</option>
+          <option value="2">SigLite 1x5</option>
+      </select>
+  
+        </div>
+       </div>
+       <div class="modal-footer d-flex justify-content-between">
+        <button class="btn btn-blue btn-md me-2">Save SIG Scanner</button>
+        <button class="btn btn-blue btn-md">Cancel</button>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="modal fade" id="AddFingerprintScanner" tabindex="-1" aria-labelledby="" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-465">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold">Add Fingerprint Scanner</h1>
+        <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+         aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+       </div>
+       <div class="modal-body p-20">
+  
+        <div class="form-group mb-2">
+         <label class="form-label">Title:</label>  
+         <input type="text" class="form-control h-36" placeholder="Title" />
+        </div>
+  
+  
+        <div class="form-group mb-2">
+         <label class="form-label">IP:		</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group">
+         <label class="form-label">Type:	</label>
+         <select class="selectpicker">
+
+           <option value=""></option>
+           
+           <option value="1">
+               Cross Match</option>
+           
+           <option value="2">
+               Secugen</option>
+           
+           <option value="3">
+               IoT U.are.U</option>
+           
+           <option value="4">
+               IoT Secugen</option>
+           
+      </select>
+  
+        </div>
+       </div>
+       <div class="modal-footer d-flex justify-content-between">
+        <button class="btn btn-blue btn-md me-2">Save FP Scanner</button>
+        <button class="btn btn-blue btn-md">Cancel</button>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="modal fade" id="AddScanner" tabindex="-1" aria-labelledby="" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-465">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold">Add Scanner</h1>
+        <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+         aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+       </div>
+       <div class="modal-body p-20">
+  
+        <div class="form-group mb-2">
+         <label class="form-label">Scanner Type:</label>  
+         <select class="selectpicker">
+          <option value="1">Acuant Snapshell</option>
+          <option value="2">Comboscan</option>
+          <option value="3">Gemalto CR5400</option>
+          <option value="4">IoT Gemalto CR5400</option>
+      </select>
+        </div>
+  
+  
+        <div class="form-group mb-2">
+         <label class="form-label">Title:			</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group">
+         <label class="form-label">Url:		</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group">
+         <label class="form-label">Port:		</label>
+         <input type="text" class="form-control h-36"value="8888" placeholder="" />
+  
+        </div>
+       </div>
+       <div class="modal-footer d-flex justify-content-between">
+        <button class="btn btn-blue btn-md me-2">Save canner</button>
+        <button class="btn btn-blue btn-md">Cancel</button>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="modal fade" id="AddCameraType" tabindex="-1" aria-labelledby="" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-905">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold">Camera Type</h1>
+        <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+         aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+       </div>
+       <div class="modal-body p-20">
+        <div class="row">
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Title:</label>  
+         <input type="text" class="form-control h-36" placeholder="Title" />
+        </div>  
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Video URL:	</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Small Video URL:	</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Snapshot URL:		</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Channel:		</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Width:	</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Height:	</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Username:	</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class="form-group col-md-6 mb-2">
+         <label class="form-label">Password:	</label>
+         <input type="text" class="form-control h-36" placeholder="" />
+  
+        </div>
+        <div class=" col-md-6">
+        <div class="form-check  form-inline mt-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          Send Credentials:
+         </label>
+        </div>
+       </div>
+       </div>
+       </div>
+       <div class="modal-footer d-flex justify-content-between">
+        <button class="btn btn-blue btn-md me-2">Save Camera Type</button>
+        <button class="btn btn-blue btn-md">Cancel</button>
+       </div>
+      </div>
+     </div>
+    </div>
  </div>
  <script src="../assets/dist/js/all.min.js"></script>
 </body>
