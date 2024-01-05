@@ -135,7 +135,8 @@
    data-bs-target="#Edit-material-cady">Edit material cady cane</button>
   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
    data-bs-target="#Cashdrawer">Cashdrawer</button>
-  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#AddCatitemdetail">Add
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#AddCatitemdetail">Add
    Cat item detail</button>
   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
    data-bs-target="#AddSignatureScanner">Add Signature Scanner</button>
@@ -151,15 +152,26 @@
   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#AddCashDrawer">
    Add Cash Drawer</button>
 
-   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#AddCoupon">
-    Add Coupon</button>
-    <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#editCoupon">
-     edit Coupon</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#AddCoupon">
+   Add Coupon</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#editCoupon">
+   edit Coupon</button>
 
-     <h1>Material - PriceList Popups</h1>
+  <h1>Material - PriceList Popups</h1>
 
-     <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#addMaterialInPriceList">
-        Add Material in Price List</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#addMaterialInPriceList">
+   Add Material in Price List</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#MergeCustomers">Merge
+   Customers</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#QuoteDetails">Quote Details</button>
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#Alert">Alert</button>
+   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+   data-bs-target="#selectpickerGroup">Select Group</button>
+
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
@@ -459,7 +471,7 @@
     </div>
    </div>
   </div>
- 
+
   <div class="modal fade" id="assetModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
    <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
@@ -12967,135 +12979,150 @@
        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
      </div>
      <div class="modal-body p-0">
-      
-       <div class="p-3">
 
-        <div class="form-group mb-2 ">
-         <div class="d-flex align-items-center">
-          <label class="form-label w-40p">Title:</label>
-          <input type="text" class="form-control h-36 w-60p" placeholder="">
-         </div>
-        </div>
-        <div class="form-group mb-2 ">
-         <div class="d-flex align-items-center">
-          <label class="form-label w-40p">IP Address:</label>
-           <input type="text" class="form-control h-36 w-60p" placeholder="">
-         </div>
-        </div>
-        <div class="form-group mb-2 ">
-         <div class="d-flex align-items-center">
-          <label class="form-label w-40p"> Auto close:	</label>
-          <div class="form-check form-inline  w-60p">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1"></label>
-          </div>
-         </div>
-        </div>
+      <div class="p-3">
 
-       
-     
-        <div class="form-group mb-2 ">
-         <div class="d-flex align-items-center">
-          <label class="form-label w-40p">Printer:	 </label>
-          <div class="w-60p">
-           <div class="dropdown bootstrap-select">
-            <select class="selectpicker">
-              <option value="0">None</option>              
-              <option value="1877">
-                  Star MCP30</option>
-            </select>
-           </div>
-          </div>
-         </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Title:</label>
+         <input type="text" class="form-control h-36 w-60p" placeholder="">
         </div>
-        <div class="form-group mb-2 ">
-         <div class="d-flex align-items-center">
-          <label class="form-label w-40p">Vault Drawer:	</label>
-          <div class="w-60p">
-           <select id="drpParentDrawer" class="selectpicker"><option value="0">None</option><option value="1">Default</option><option value="4">Nick Drawer</option><option value="5">SAFE 1</option><option value="6">RD3 Drawer</option><option value="7">Michelle Drawer</option><option value="8">Choys safe</option><option value="9">test</option><option value="10">demo</option><option value="11">Testing</option><option value="12">Main Vault</option><option value="13">TEST 12</option><option value="14">Ram</option></select>
-         
-          </div>
-         </div>
-        </div>
-        <div class="form-group mb-2 ">
-         <div class="d-flex align-items-center">
-          <label class="form-label w-40p">Warning Amount:	 </label>
-          <div class="w-60p">
-           <input type="text" class="form-control h-36 " placeholder="">
-          </div>
-         </div>
-        </div>
-        <div class="form-group mb-2 ">
-         <div class="d-flex align-items-center">
-          <label class="form-label w-40p">Checks :	 </label>
-          <div class="w-60p d-flex align-items-center justified-content-between text-dark">
-           <input type="text" class="form-control h-36 w-25p" placeholder="">
-          <small class="px-2"> <a href="" class="text-info">Add</a> <a href="" class="text-danger">Deduct</a> (Balance : undefined)</small>
-          </div>
-
-         </div>
-        </div>
-       
-
        </div>
-       <div class="p-3">
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">IP Address:</label>
+         <input type="text" class="form-control h-36 w-60p" placeholder="">
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p"> Auto close: </label>
+         <div class="form-check form-inline  w-60p">
+          <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+          <label class="form-check-label style-1" for="check1"></label>
+         </div>
+        </div>
+       </div>
 
-      <div class="row">
-       <div class="col-6">
-        Assign Users:
+
+
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Printer: </label>
+         <div class="w-60p">
+          <div class="dropdown bootstrap-select">
+           <select class="selectpicker">
+            <option value="0">None</option>
+            <option value="1877">
+             Star MCP30</option>
+           </select>
+          </div>
+         </div>
+        </div>
        </div>
-       <div class="col-6 text-end mb-2">
-        <input type="button" value="select all" class="btn btn-grey btn-sm h-20">
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Vault Drawer: </label>
+         <div class="w-60p">
+          <select id="drpParentDrawer" class="selectpicker">
+           <option value="0">None</option>
+           <option value="1">Default</option>
+           <option value="4">Nick Drawer</option>
+           <option value="5">SAFE 1</option>
+           <option value="6">RD3 Drawer</option>
+           <option value="7">Michelle Drawer</option>
+           <option value="8">Choys safe</option>
+           <option value="9">test</option>
+           <option value="10">demo</option>
+           <option value="11">Testing</option>
+           <option value="12">Main Vault</option>
+           <option value="13">TEST 12</option>
+           <option value="14">Ram</option>
+          </select>
+
+         </div>
+        </div>
        </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Warning Amount: </label>
+         <div class="w-60p">
+          <input type="text" class="form-control h-36 " placeholder="">
+         </div>
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Checks : </label>
+         <div class="w-60p d-flex align-items-center justified-content-between text-dark">
+          <input type="text" class="form-control h-36 w-25p" placeholder="">
+          <small class="px-2"> <a href="" class="text-info">Add</a> <a href="" class="text-danger">Deduct</a>
+           (Balance : undefined)</small>
+         </div>
+
+        </div>
+       </div>
+
+
       </div>
-         <div class="border border-1 overflow-scroll py-3  table-scroll-h">
-          <div class="form-check form-block ms-3">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1">
-            Admin Admin
-           </label>
-          </div>
-          <div class="form-check form-block ms-3">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1">
-            Nick V
-           </label>
-          </div>
-          <div class="form-check form-block ms-3">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1">
-            mobisig sig
-           </label>
-          </div>
-          <div class="form-check form-block ms-3">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1">
-            JIMBO SMITH
-           </label>
-          </div>
-          <div class="form-check form-block ms-3">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1">
-            nick-sig v-sig
-           </label>
-          </div>
-          <div class="form-check form-block ms-3">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1">
-            &nbsp;
-           </label>
-          </div>
-          <div class="form-check form-block ms-3">
-           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-           <label class="form-check-label style-1" for="check1">
-            Mike R
-           </label>
-          </div>
+      <div class="p-3">
+
+       <div class="row">
+        <div class="col-6">
+         Assign Users:
         </div>
-       
+        <div class="col-6 text-end mb-2">
+         <input type="button" value="select all" class="btn btn-grey btn-sm h-20">
+        </div>
        </div>
-   
-   
+       <div class="border border-1 overflow-scroll py-3  table-scroll-h">
+        <div class="form-check form-block ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          Admin Admin
+         </label>
+        </div>
+        <div class="form-check form-block ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          Nick V
+         </label>
+        </div>
+        <div class="form-check form-block ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          mobisig sig
+         </label>
+        </div>
+        <div class="form-check form-block ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          JIMBO SMITH
+         </label>
+        </div>
+        <div class="form-check form-block ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          nick-sig v-sig
+         </label>
+        </div>
+        <div class="form-check form-block ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          &nbsp;
+         </label>
+        </div>
+        <div class="form-check form-block ms-3">
+         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+         <label class="form-check-label style-1" for="check1">
+          Mike R
+         </label>
+        </div>
+       </div>
+
+      </div>
+
+
 
      </div>
      <div class="modal-footer d-flex justify-content-center">
@@ -13108,1447 +13135,721 @@
   <!-- Add Cash Drawer Popup Ends -->
 
 
-<!-- Add Coupon Popup Starts -->
-<div class="modal fade" id="AddCoupon" tabindex="-1" aria-labelledby="" aria-hidden="true">
- <div class="modal-dialog modal-dialog-centered  modal-685">
-  <div class="modal-content">
-   <div class="modal-header">
-    <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Coupon
-    </h1>
-    <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
-     aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
-   </div>
-   <div class="modal-body p-0">
-    
-     <div class="p-3">
-
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Coupon Code:</label>
-        <input type="text" class="form-control h-36 w-60p" placeholder="">
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Title:</label>
-         <input type="text" class="form-control h-36 w-60p" placeholder="">
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Expire Date:	</label>
-         <input type="date" class="form-control h-36 w-60p" placeholder="">
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Description:</label>
-        <div class="w-60p">
-         <textarea  class="form-control "></textarea>
-         <button type="button" class="icon-tag text-caps color-black fs-md fw-extrabold d-flex text-nowrap mt-3 " data-bs-toggle="modal" data-bs-target="#addMaterialinCoupon">
-          <span class="material-symbols-rounded me-2">add_circle</span>
-          Add Material(s)
-         </button>
-        </div>
-       </div>
-      
-      </div>
-
-
-     <div class="alert alert-info">No material exist for this coupon.
-     </div>
-     </div>
- 
-
-   </div>
-   <div class="modal-footer d-flex justify-content-center">
-    <button class="btn btn-grey btn-md me-2">Save Coupon</button>
-    <button class="btn btn-grey btn-md">cancel</button>
-   </div>
-  </div>
- </div>
-</div>
-<!-- Add Coupon Popup Ends -->
-
-<!-- edit Coupon Popup Starts -->
-<div class="modal fade" id="editCoupon" tabindex="-1" aria-labelledby="" aria-hidden="true">
- <div class="modal-dialog modal-dialog-centered  modal-685">
-  <div class="modal-content">
-   <div class="modal-header">
-    <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Coupon
-    </h1>
-    <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
-     aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
-   </div>
-   <div class="modal-body p-0">
-    
-     <div class="p-3">
-
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Coupon Code:</label>
-        <input type="text" class="form-control h-36 w-60p" placeholder="">
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Title:</label>
-         <input type="text" class="form-control h-36 w-60p" placeholder="">
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Expire Date:	</label>
-         <input type="date" class="form-control h-36 w-60p" placeholder="">
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Description:</label>
-       <div class="w-60p">
-        <textarea  class="form-control "></textarea>
-        <button type="button" class="icon-tag text-caps color-black fs-md fw-extrabold d-flex text-nowrap mt-3 " data-bs-toggle="modal" data-bs-target="#addMaterialinCoupon">
-         <span class="material-symbols-rounded me-2">add_circle</span>
-         Add Material(s)
-        </button>
-       </div>
-      </div>
-
-
-      <div class="tablescroll mt-3">
-       
-       <table class="table table-bottom-no-border inventory-order-table shadow-none mb-0">
-        <thead>
-         <tr>
-          <th scope="col">Material</th>
-          <th scope="col">Price</th>
-          <th scope="col"></th>
-         </tr>
-        </thead>
-        <tbody>
-         <tr>
-          <td>Candy Cane$</td>
-          <td>$220.00/kg</td>
-          <td><a class="edit" href="#" title="Edit Material price"></a> 
-           <a class="delete" href="#" title="Delete Material"></a></td>
-         </tr>
-         <tr>
-          <td>KA 19 EQ 1316</td>
-          <td>2022</td>
-          <td><a class="edit" href="#" title="Edit Material price"></a> 
-           <a class="delete" href="#" title="Delete Material"></a></td>
-          
-         </tr>
-       
-        
-        </tbody>
-       </table>
-      
-</div>
-     </div>
- 
-
-   </div>
-   <div class="modal-footer d-flex justify-content-center">
-    <button class="btn btn-grey btn-md me-2">Save Coupon</button>
-    <button class="btn btn-grey btn-md">cancel</button>
-   </div>
-  </div>
- </div>
-</div>
-<!-- edit Coupon Popup Ends -->
-
- </div>
-<!-- edit Coupon Popup Starts -->
-
- <div class="modal fade" id="addMaterialinCoupon" tabindex="-1" aria-labelledby="" aria-hidden="true">
- <div class="modal-dialog modal-dialog-centered  modal-685">
-  <div class="modal-content">
-   <div class="modal-header">
-    <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Material in Coupon
-    </h1>
-    <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
-     aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
-   </div>
-   <div class="modal-body p-0">
-    
-     <div class="p-3">
-
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Material:</label>
-        <div class="w-60p">
-
-         <select id="" class="selectpicker">
-          <option value="">All Material</option>
-          
-          <option class="matgroup" value="|4|">
-              ALUMINUM</option>
-          
-          <option value="6">Aluminum Sheet</option>
-          
-          <option value="7">Aluminum Cans</option>
-          
-          <option value="12">Aluminum Extrusion</option>
-          
-          <option value="13">Aluminum MLC (sort)</option>
-          
-          <option value="14">Aluminum Turnings</option>
-          
-          <option value="15">Cast Aluminum</option>
-          
-          <option value="32">REG1</option>
-          
-          <option value="33">REG1-LINKED</option>
-          
-          <option value="34">AVG8</option>
-          
-          <option value="35">AVG8-REG</option>
-          
-          <option value="36">AVG10</option>
-          
-          <option value="37">Alum Tires w Wheels</option>
-          
-          <option value="38">CAR RIMS</option>
-          
-          <option value="40">Fruits</option>
-          
-          <option value="44">Candy Cane$</option>
-          
-          <option value="46">Test Aluminium</option>
-          
-          <option value="47">SELL ITEM</option>
-          
-          <option value="49">FIFOTEST1</option>
-          
-          <option value="56">inspection</option>
-          
-          <option value="57">AVGTEST1</option>
-          
-          <option value="58">AVGTEST2</option>
-          
-          <option value="66">NickWheels</option>
-          
-          <option value="67">NickWheels2</option>
-          
-          <option value="69">Aluminum MLC</option>
-          
-          <option value="70">Aluminum Breakage (sort)</option>
-          
-          <option value="71">Aluminum Grade A</option>
-          
-          <option value="72">Aluminum Grade B</option>
-          
-          <option value="74">Aluminum Car Rims</option>
-          
-          <option value="75">69-CHILD</option>
-          
-          <option value="76">69-LINK1</option>
-          
-          <option value="77">69-LINK2</option>
-          
-          <option value="78">AVGC EASY TEST</option>
-          
-          <option value="80">TURNINGS (pricelist)</option>
-          
-          <option value="81">TEST-A</option>
-          
-          <option value="82">TEST-B</option>
-          
-          <option value="83">TEST-C</option>
-          
-          <option value="87">AVG-1</option>
-          
-          <option value="88">AVG-2</option>
-          
-          <option value="89">AVG-3</option>
-          
-          <option value="90">AVG-A</option>
-          
-          <option value="91">AVG-B</option>
-          
-          <option value="92">AVG-C</option>
-          
-          <option value="93">AVG-D</option>
-          
-          <option value="94">AVG-E</option>
-          
-          <option value="95">AVG-F</option>
-          
-          <option value="97">MAT-1</option>
-          
-          <option value="98">MAT-2</option>
-          
-          <option value="99">MAT-3</option>
-          
-          <option value="100">AP-EDIT</option>
-          
-          <option value="101">AP-EDIT-1</option>
-          
-          <option value="102">NEG-VOID-TEST</option>
-          
-          <option value="108">Sample Aluminum</option>
-          
-          <option value="109">Sample Aluminum 2</option>
-          
-          <option value="110">Sample Aluminum 3</option>
-          
-          <option value="111">AP-TEST-1</option>
-          
-          <option value="131">company paper</option>
-          
-          <option value="134">Alum Cans Each</option>
-          
-          <option value="135">FREIGHTFEE</option>
-          
-          <option value="139">sfsdfdfdfsd</option>
-          
-          <option value="168">SORT and Settle</option>
-          
-          <option value="188">SRU Material</option>
-          
-          <option class="matgroup" value="|5|">
-              BRASS</option>
-          
-          <option value="8">Yellow Brass</option>
-          
-          <option value="16">Red Brass</option>
-          
-          <option value="17">Mixed Brass</option>
-          
-          <option value="18">Brass Shells</option>
-          
-          <option value="138">Brass test</option>
-          
-          <option value="148">Brass choy</option>
-          
-          <option value="155">Test</option>
-          
-          <option value="166">Steel engine</option>
-          
-          <option class="matgroup" value="|6|">
-              STEEL</option>
-          
-          <option value="9">Shred</option>
-          
-          <option value="10">Unprepared Steel</option>
-          
-          <option value="30">Prepared, Steel</option>
-          
-          <option value="41">Basic Car</option>
-          
-          <option value="42">Basic Car Metal</option>
-          
-          <option value="48">STEEL #222222</option>
-          
-          <option value="50">BB STEEL TESTING</option>
-          
-          <option value="60">Check Weight</option>
-          
-          <option value="112">UNKNOWN MATERIAL</option>
-          
-          <option value="114">LIGHT IRON</option>
-          
-          <option value="115">SHRED2</option>
-          
-          <option value="116">ZORBA</option>
-          
-          <option value="117">FLUFF</option>
-          
-          <option value="170">TRUCK FRAMES</option>
-          
-          <option value="173">TEST DRIVE</option>
-          
-          <option class="matgroup" value="|7|">
-              COPPER</option>
-          
-          <option value="19">Bright &amp; Shiny Copper (fg)</option>
-          
-          <option value="20">Copper #1 (fg)</option>
-          
-          <option value="21">Copper #2</option>
-          
-          <option value="22">Copper #3</option>
-          
-          <option value="31">ICW 20</option>
-          
-          <option value="39">Copper tubing</option>
-          
-          <option value="96">TEST </option>
-          
-          <option value="118">Copper </option>
-          
-          <option value="125">Supercop123</option>
-          
-          <option class="matgroup" value="|8|">
-              CATS</option>
-          
-          <option value="11">Breadloaf</option>
-          
-          <option value="23">Toyota Pre</option>
-          
-          <option value="24">GM Large</option>
-          
-          <option value="25">Exotic</option>
-          
-          <option value="26">Domestic</option>
-          
-          <option value="27">Super Cat</option>
-          
-          <option value="113">UNGRADED CAT</option>
-          
-          <option class="matgroup" value="|9|">
-              PAPER</option>
-          
-          <option value="28">Office Paper</option>
-          
-          <option value="29">OCC</option>
-          
-          <option class="matgroup" value="|11|">
-              Candy Cane</option>
-          
-          <option value="43">Candy Cane</option>
-          
-          <option value="143">Brass</option>
-          
-          <option class="matgroup" value="|12|">
-              Stainless Steel</option>
-          
-          <option value="45">Dirty Stainless</option>
-          
-          <option value="130">Material Test</option>
-          
-          <option class="matgroup" value="|13|">
-              ALUM RUSA</option>
-          
-          <option value="51">ALUM SIDING</option>
-          
-          <option value="52">AL,ALUCABOND</option>
-          
-          <option value="53">IRONY ALUM</option>
-          
-          <option value="54">SHREDDER FEED</option>
-          
-          <option value="55">ALUM CAST</option>
-          
-          <option value="62">RUSA1</option>
-          
-          <option value="63">RUSA2</option>
-          
-          <option value="64">RUSA3</option>
-          
-          <option value="65">RUSA4</option>
-          
-          <option value="140">fdsfsdf</option>
-          
-          <option value="156">Test 333</option>
-          
-          <option value="171">test</option>
-          
-          <option value="179">Demo</option>
-          
-          <option class="matgroup" value="|14|">
-              test</option>
-          
-          <option value="61">GRAVEL</option>
-          
-          <option value="68">FEE</option>
-          
-          <option value="119">Sample Buy</option>
-          
-          <option value="120">SAMPLE SELL</option>
-          
-          <option value="121">DROPOFF FEE</option>
-          
-          <option value="123">Construction and Demo C&amp;D</option>
-          
-          <option value="124">LDPE plastic</option>
-          
-          <option value="159">Test 444</option>
-          
-          <option value="169">FEE dispatch</option>
-          
-          <option value="189">Test Material Recicladora</option>
-          
-          <option value="190">sample Test POS</option>
-          
-          <option class="matgroup" value="|15|">
-              VIDEO SETUP</option>
-          
-          <option value="59">Video Test</option>
-          
-          <option class="matgroup" value="|16|">
-              Earn Points</option>
-          
-          <option value="79">$10 Gift Card (Scrap Points)</option>
-          
-          <option value="144">new brass</option>
-          
-          <option class="matgroup" value="|17|">
-              pallets</option>
-          
-          <option value="103">DECKING</option>
-          
-          <option value="104">CANTS</option>
-          
-          <option value="105">RUNNERS</option>
-          
-          <option value="106">NAILS</option>
-          
-          <option value="107">42 X 48 PALLETS</option>
-          
-          <option class="matgroup" value="|18|">
-              video setup</option>
-          
-          <option value="122">video test material</option>
-          
-          <option class="matgroup" value="|19|">
-              A Million</option>
-          
-          <option value="175">Steel</option>
-          
-          <option class="matgroup" value="|21|">
-              QA_Test_1004</option>
-          
-          <option value="127">QA_test</option>
-          
-          <option value="128">Dirty Steel</option>
-          
-          <option class="matgroup" value="|22|">
-              Alloys</option>
-          
-          <option value="129">Copper and Lead</option>
-          
-          <option value="167">playdoh</option>
-          
-          <option value="198">AVC test</option>
-          
-          <option class="matgroup" value="|23|">
-              Test Group</option>
-          
-          <option value="133">Copper</option>
-          
-          <option value="191">Mat test 1</option>
-          
-          <option value="192">Mat test 2</option>
-          
-          <option value="193">Mat test 3</option>
-          
-          <option value="194">Mat test 4</option>
-          
-          <option value="195">Mat Test Plastics</option>
-          
-          <option value="196">Mixed Plastics Test</option>
-          
-          <option value="197">Mat Test 5</option>
-          
-          <option class="matgroup" value="|24|">
-              PayLater Test</option>
-          
-          <option value="136">This is just a demo of pay later payment</option>
-          
-          <option class="matgroup" value="|27|">
-              best material</option>
-          
-          <option value="132">ALLUMINIUM </option>
-          
-          <option value="141">test</option>
-          
-          <option value="142">ddgg</option>
-          
-          <option class="matgroup" value="|29|">
-              data material in</option>
-          
-          <option value="145">testing per</option>
-          
-          <option class="matgroup" value="|31|">
-              steel</option>
-          
-          <option value="146">test cat</option>
-          
-          <option value="165">demosteel</option>
-          
-          <option class="matgroup" value="|32|">
-              Cast iron material</option>
-          
-          <option value="147">cast iron</option>
-          
-          <option class="matgroup" value="|34|">
-              Cast iron group</option>
-          
-          <option value="149">cast iron group</option>
-          
-          <option class="matgroup" value="|35|">
-              cast iron</option>
-          
-          <option value="150">test cast iron</option>
-          
-          <option value="151">test cast iron</option>
-          
-          <option value="152">test</option>
-          
-          <option value="153">test t</option>
-          
-          <option class="matgroup" value="|39|">
-              Workshop</option>
-          
-          <option value="157">Candy cane</option>
-          
-          <option class="matgroup" value="|41|">
-              Import meterial grp</option>
-          
-          <option value="158">import meterials</option>
-          
-          <option class="matgroup" value="|45|">
-              Test material group </option>
-          
-          <option value="160">test material</option>
-          
-          <option class="matgroup" value="|46|">
-              PRECIOUS METALS</option>
-          
-          <option value="161">10KT GOLD</option>
-          
-          <option value="162">SILVER</option>
-          
-          <option class="matgroup" value="|47|">
-              Workshop</option>
-          
-          <option value="163">Candy Cane</option>
-          
-          <option class="matgroup" value="|49|">
-              Steel</option>
-          
-          <option value="164">Stainless Steel</option>
-          
-          <option class="matgroup" value="|52|">
-              Demo123</option>
-          
-          <option value="172">Testing</option>
-          
-          <option class="matgroup" value="|54|">
-              CARS2</option>
-          
-          <option value="174">Cars</option>
-          
-          <option class="matgroup" value="|55|">
-              ND TEST</option>
-          
-          <option value="176">TEST Drive</option>
-          
-          <option class="matgroup" value="|56|">
-              REDMI</option>
-          
-          <option value="177">RETEST</option>
-          
-          <option value="178">DRE TEST</option>
-          
-          <option class="matgroup" value="|59|">
-              FEE TEST</option>
-          
-          <option value="183">TRUCKING FEE</option>
-          
-          <option class="matgroup" value="|60|">
-              Rajkot</option>
-          
-          <option value="184">Bikes</option>
-          
-          <option class="matgroup" value="|61|">
-              NJ TEST</option>
-          
-          <option value="185">NJ TEST DRIVE</option>
-          
-          <option value="187">NJ TEST DRIVEE</option>
-          
-      </select>
-        </div>
-
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Base Price:	</label>
-        <div class="w-60p">varies
-         </div>
-         
-       </div>
-      </div>
-      <div class="form-group mb-2 ">
-       <div class="d-flex align-items-center">
-        <label class="form-label w-40p">Price:	</label>
-       
-         
-       </div>
-      </div>
-<div class="row">
-<div class="col-md-2">
- <div class="form-group mb-2 ">
-  <label class="form-label">From units:	</label>
-   <input type="text" class="form-control h-36 " value="0" placeholder="">
- </div>
-</div>
-<div class="col-md-3">
- <div class="form-group mb-2 ">
-  <label class="form-label">To units:	</label>
-   <input type="text" class="form-control h-36 " value="unlimted" placeholder="">
- </div>
-</div>
-<div class="col-md-2">
- <div class="form-group mb-2 ">
-  <label class="form-label">Value:	</label>
-   <input type="text" class="form-control h-36 " value="0" placeholder="">
- </div>
-</div>
-<div class="col-md-2">
- <div class="form-group mb-2 ">
-  <label class="form-label">Method:	</label>
-  <select id="pricemethod_0" class="selectpicker"><option value="1" selected="">+/- $</option><option value="2">+/- %</option><option value="3">flat $</option></select>
- </div>
-</div>
-<div class="col-md-2">
- <div class="form-group mb-2 ">
-  <label class="form-label">Price:	</label>
-  varies
- </div>
-</div>
-</div>
-
-
-
-   </div>
-   <div class="modal-footer d-flex justify-content-center">
-    <button class="btn btn-grey btn-md px-3 me-2">Save Material</button>
-    <button class="btn btn-grey btn-md px-3">cancel</button>
-    <button class="btn btn-grey btn-md px-3 me-2">Prev</button>
-    <button class="btn btn-grey btn-md px-3">Next</button>
-   </div>
-  </div>
- </div>
-</div>
-<!-- edit Coupon Popup Ends -->
-
- </div>
-
-<!-- Add Cash Drawer Popup Starts -->
-  <div class="modal fade" id="AddCatitemdetail" tabindex="-1" aria-labelledby="" aria-hidden="true">
-   <div class="modal-dialog modal-dialog-centered  modal-1100">
+  <!-- Add Coupon Popup Starts -->
+  <div class="modal fade" id="AddCoupon" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered  modal-685">
     <div class="modal-content">
      <div class="modal-header">
-      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add CAT Item Detail
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Coupon
       </h1>
       <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
      </div>
      <div class="modal-body p-0">
-      
-       <div class="p-3">
-        <div class="row">
-         <div class="col-md-6">
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">OEM/Serial Number: <span class="text-danger">*</span></label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Make:</label>
-             <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"> Model:	</label>
-              <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"> Category:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"> Shape:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"> Weight:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"> Default:	</label>
-            <div class="form-check form-inline  w-60p">
-             <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-             <label class="form-check-label style-1" for="check1"></label>
-            </div>
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"> Pipe Detail:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"> Inlet Pipe size:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Outlet Pipe size:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Shell size:	</label>
-            <input type="text" class="form-control h-36 w-20p" placeholder="Length">
-            <input type="text" class="form-control h-36 w-20p" placeholder="Width">
-            <input type="text" class="form-control h-36 w-20p" placeholder="Height">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Body Petterning:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">characteristics	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-        
-         </div>
-         <div class="col-md-6">
 
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">CAT Image:	</label>
-            <input type="file" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
+      <div class="p-3">
 
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Attachment:	</label>
-            <input type="File" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Fianges	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p"># of Biscuits	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Scrap Wt	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Biscuits Shape	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Biscuits Weight (lbs)<span class="text-danger">*</span>	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-          <div class="form-group mb-2 ">
-           <div class="d-flex align-items-center">
-            <label class="form-label w-40p">Notes:	</label>
-            <input type="text" class="form-control h-36 w-60p" placeholder="">
-           </div>
-          </div>
-         </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Coupon Code:</label>
+         <input type="text" class="form-control h-36 w-60p" placeholder="">
         </div>
        </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Title:</label>
+         <input type="text" class="form-control h-36 w-60p" placeholder="">
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Expire Date: </label>
+         <input type="date" class="form-control h-36 w-60p" placeholder="">
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Description:</label>
+         <div class="w-60p">
+          <textarea class="form-control "></textarea>
+          <button type="button" class="icon-tag text-caps color-black fs-md fw-extrabold d-flex text-nowrap mt-3 "
+           data-bs-toggle="modal" data-bs-target="#addMaterialinCoupon">
+           <span class="material-symbols-rounded me-2">add_circle</span>
+           Add Material(s)
+          </button>
+         </div>
+        </div>
+
+       </div>
+
+
+       <div class="alert alert-info">No material exist for this coupon.
+       </div>
+      </div>
+
+
      </div>
      <div class="modal-footer d-flex justify-content-center">
-      <button class="btn btn-grey btn-md me-2">Save</button>
+      <button class="btn btn-grey btn-md me-2">Save Coupon</button>
       <button class="btn btn-grey btn-md">cancel</button>
      </div>
     </div>
    </div>
   </div>
-<!-- Add Cash Drawer Popup Ends -->
+  <!-- Add Coupon Popup Ends -->
+
+  <!-- edit Coupon Popup Starts -->
+  <div class="modal fade" id="editCoupon" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered  modal-685">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Coupon
+      </h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-0">
+
+      <div class="p-3">
+
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Coupon Code:</label>
+         <input type="text" class="form-control h-36 w-60p" placeholder="">
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Title:</label>
+         <input type="text" class="form-control h-36 w-60p" placeholder="">
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Expire Date: </label>
+         <input type="date" class="form-control h-36 w-60p" placeholder="">
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Description:</label>
+         <div class="w-60p">
+          <textarea class="form-control "></textarea>
+          <button type="button" class="icon-tag text-caps color-black fs-md fw-extrabold d-flex text-nowrap mt-3 "
+           data-bs-toggle="modal" data-bs-target="#addMaterialinCoupon">
+           <span class="material-symbols-rounded me-2">add_circle</span>
+           Add Material(s)
+          </button>
+         </div>
+        </div>
 
 
- <!-- Add Material In Price List Modal Starts -->
-  <div class="modal fade" id="addMaterialInPriceList" tabindex="-1" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered  modal-685">
-     <div class="modal-content">
-      <div class="modal-header">
-       <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Material in Coupon
-       </h1>
-       <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
-        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+        <div class="tablescroll mt-3">
+
+         <table class="table table-bottom-no-border inventory-order-table shadow-none mb-0">
+          <thead>
+           <tr>
+            <th scope="col">Material</th>
+            <th scope="col">Price</th>
+            <th scope="col"></th>
+           </tr>
+          </thead>
+          <tbody>
+           <tr>
+            <td>Candy Cane$</td>
+            <td>$220.00/kg</td>
+            <td><a class="edit" href="#" title="Edit Material price"></a>
+             <a class="delete" href="#" title="Delete Material"></a>
+            </td>
+           </tr>
+           <tr>
+            <td>KA 19 EQ 1316</td>
+            <td>2022</td>
+            <td><a class="edit" href="#" title="Edit Material price"></a>
+             <a class="delete" href="#" title="Delete Material"></a>
+            </td>
+
+           </tr>
+
+
+          </tbody>
+         </table>
+
+        </div>
+       </div>
+
+
       </div>
-      <div class="modal-body p-0">
-       
-        <div class="p-3">
-   
-         <div class="form-group mb-2 ">
-          <div class="d-flex align-items-center">
-           <label class="form-label w-40p">Material:</label>
-           <div class="w-60p">
-   
-            <select id="" class="selectpicker">
-             <option value="">All Material</option>
-             
-             <option class="matgroup" value="|4|">
-                 ALUMINUM</option>
-             
-             <option value="6">Aluminum Sheet</option>
-             
-             <option value="7">Aluminum Cans</option>
-             
-             <option value="12">Aluminum Extrusion</option>
-             
-             <option value="13">Aluminum MLC (sort)</option>
-             
-             <option value="14">Aluminum Turnings</option>
-             
-             <option value="15">Cast Aluminum</option>
-             
-             <option value="32">REG1</option>
-             
-             <option value="33">REG1-LINKED</option>
-             
-             <option value="34">AVG8</option>
-             
-             <option value="35">AVG8-REG</option>
-             
-             <option value="36">AVG10</option>
-             
-             <option value="37">Alum Tires w Wheels</option>
-             
-             <option value="38">CAR RIMS</option>
-             
-             <option value="40">Fruits</option>
-             
-             <option value="44">Candy Cane$</option>
-             
-             <option value="46">Test Aluminium</option>
-             
-             <option value="47">SELL ITEM</option>
-             
-             <option value="49">FIFOTEST1</option>
-             
-             <option value="56">inspection</option>
-             
-             <option value="57">AVGTEST1</option>
-             
-             <option value="58">AVGTEST2</option>
-             
-             <option value="66">NickWheels</option>
-             
-             <option value="67">NickWheels2</option>
-             
-             <option value="69">Aluminum MLC</option>
-             
-             <option value="70">Aluminum Breakage (sort)</option>
-             
-             <option value="71">Aluminum Grade A</option>
-             
-             <option value="72">Aluminum Grade B</option>
-             
-             <option value="74">Aluminum Car Rims</option>
-             
-             <option value="75">69-CHILD</option>
-             
-             <option value="76">69-LINK1</option>
-             
-             <option value="77">69-LINK2</option>
-             
-             <option value="78">AVGC EASY TEST</option>
-             
-             <option value="80">TURNINGS (pricelist)</option>
-             
-             <option value="81">TEST-A</option>
-             
-             <option value="82">TEST-B</option>
-             
-             <option value="83">TEST-C</option>
-             
-             <option value="87">AVG-1</option>
-             
-             <option value="88">AVG-2</option>
-             
-             <option value="89">AVG-3</option>
-             
-             <option value="90">AVG-A</option>
-             
-             <option value="91">AVG-B</option>
-             
-             <option value="92">AVG-C</option>
-             
-             <option value="93">AVG-D</option>
-             
-             <option value="94">AVG-E</option>
-             
-             <option value="95">AVG-F</option>
-             
-             <option value="97">MAT-1</option>
-             
-             <option value="98">MAT-2</option>
-             
-             <option value="99">MAT-3</option>
-             
-             <option value="100">AP-EDIT</option>
-             
-             <option value="101">AP-EDIT-1</option>
-             
-             <option value="102">NEG-VOID-TEST</option>
-             
-             <option value="108">Sample Aluminum</option>
-             
-             <option value="109">Sample Aluminum 2</option>
-             
-             <option value="110">Sample Aluminum 3</option>
-             
-             <option value="111">AP-TEST-1</option>
-             
-             <option value="131">company paper</option>
-             
-             <option value="134">Alum Cans Each</option>
-             
-             <option value="135">FREIGHTFEE</option>
-             
-             <option value="139">sfsdfdfdfsd</option>
-             
-             <option value="168">SORT and Settle</option>
-             
-             <option value="188">SRU Material</option>
-             
-             <option class="matgroup" value="|5|">
-                 BRASS</option>
-             
-             <option value="8">Yellow Brass</option>
-             
-             <option value="16">Red Brass</option>
-             
-             <option value="17">Mixed Brass</option>
-             
-             <option value="18">Brass Shells</option>
-             
-             <option value="138">Brass test</option>
-             
-             <option value="148">Brass choy</option>
-             
-             <option value="155">Test</option>
-             
-             <option value="166">Steel engine</option>
-             
-             <option class="matgroup" value="|6|">
-                 STEEL</option>
-             
-             <option value="9">Shred</option>
-             
-             <option value="10">Unprepared Steel</option>
-             
-             <option value="30">Prepared, Steel</option>
-             
-             <option value="41">Basic Car</option>
-             
-             <option value="42">Basic Car Metal</option>
-             
-             <option value="48">STEEL #222222</option>
-             
-             <option value="50">BB STEEL TESTING</option>
-             
-             <option value="60">Check Weight</option>
-             
-             <option value="112">UNKNOWN MATERIAL</option>
-             
-             <option value="114">LIGHT IRON</option>
-             
-             <option value="115">SHRED2</option>
-             
-             <option value="116">ZORBA</option>
-             
-             <option value="117">FLUFF</option>
-             
-             <option value="170">TRUCK FRAMES</option>
-             
-             <option value="173">TEST DRIVE</option>
-             
-             <option class="matgroup" value="|7|">
-                 COPPER</option>
-             
-             <option value="19">Bright &amp; Shiny Copper (fg)</option>
-             
-             <option value="20">Copper #1 (fg)</option>
-             
-             <option value="21">Copper #2</option>
-             
-             <option value="22">Copper #3</option>
-             
-             <option value="31">ICW 20</option>
-             
-             <option value="39">Copper tubing</option>
-             
-             <option value="96">TEST </option>
-             
-             <option value="118">Copper </option>
-             
-             <option value="125">Supercop123</option>
-             
-             <option class="matgroup" value="|8|">
-                 CATS</option>
-             
-             <option value="11">Breadloaf</option>
-             
-             <option value="23">Toyota Pre</option>
-             
-             <option value="24">GM Large</option>
-             
-             <option value="25">Exotic</option>
-             
-             <option value="26">Domestic</option>
-             
-             <option value="27">Super Cat</option>
-             
-             <option value="113">UNGRADED CAT</option>
-             
-             <option class="matgroup" value="|9|">
-                 PAPER</option>
-             
-             <option value="28">Office Paper</option>
-             
-             <option value="29">OCC</option>
-             
-             <option class="matgroup" value="|11|">
-                 Candy Cane</option>
-             
-             <option value="43">Candy Cane</option>
-             
-             <option value="143">Brass</option>
-             
-             <option class="matgroup" value="|12|">
-                 Stainless Steel</option>
-             
-             <option value="45">Dirty Stainless</option>
-             
-             <option value="130">Material Test</option>
-             
-             <option class="matgroup" value="|13|">
-                 ALUM RUSA</option>
-             
-             <option value="51">ALUM SIDING</option>
-             
-             <option value="52">AL,ALUCABOND</option>
-             
-             <option value="53">IRONY ALUM</option>
-             
-             <option value="54">SHREDDER FEED</option>
-             
-             <option value="55">ALUM CAST</option>
-             
-             <option value="62">RUSA1</option>
-             
-             <option value="63">RUSA2</option>
-             
-             <option value="64">RUSA3</option>
-             
-             <option value="65">RUSA4</option>
-             
-             <option value="140">fdsfsdf</option>
-             
-             <option value="156">Test 333</option>
-             
-             <option value="171">test</option>
-             
-             <option value="179">Demo</option>
-             
-             <option class="matgroup" value="|14|">
-                 test</option>
-             
-             <option value="61">GRAVEL</option>
-             
-             <option value="68">FEE</option>
-             
-             <option value="119">Sample Buy</option>
-             
-             <option value="120">SAMPLE SELL</option>
-             
-             <option value="121">DROPOFF FEE</option>
-             
-             <option value="123">Construction and Demo C&amp;D</option>
-             
-             <option value="124">LDPE plastic</option>
-             
-             <option value="159">Test 444</option>
-             
-             <option value="169">FEE dispatch</option>
-             
-             <option value="189">Test Material Recicladora</option>
-             
-             <option value="190">sample Test POS</option>
-             
-             <option class="matgroup" value="|15|">
-                 VIDEO SETUP</option>
-             
-             <option value="59">Video Test</option>
-             
-             <option class="matgroup" value="|16|">
-                 Earn Points</option>
-             
-             <option value="79">$10 Gift Card (Scrap Points)</option>
-             
-             <option value="144">new brass</option>
-             
-             <option class="matgroup" value="|17|">
-                 pallets</option>
-             
-             <option value="103">DECKING</option>
-             
-             <option value="104">CANTS</option>
-             
-             <option value="105">RUNNERS</option>
-             
-             <option value="106">NAILS</option>
-             
-             <option value="107">42 X 48 PALLETS</option>
-             
-             <option class="matgroup" value="|18|">
-                 video setup</option>
-             
-             <option value="122">video test material</option>
-             
-             <option class="matgroup" value="|19|">
-                 A Million</option>
-             
-             <option value="175">Steel</option>
-             
-             <option class="matgroup" value="|21|">
-                 QA_Test_1004</option>
-             
-             <option value="127">QA_test</option>
-             
-             <option value="128">Dirty Steel</option>
-             
-             <option class="matgroup" value="|22|">
-                 Alloys</option>
-             
-             <option value="129">Copper and Lead</option>
-             
-             <option value="167">playdoh</option>
-             
-             <option value="198">AVC test</option>
-             
-             <option class="matgroup" value="|23|">
-                 Test Group</option>
-             
-             <option value="133">Copper</option>
-             
-             <option value="191">Mat test 1</option>
-             
-             <option value="192">Mat test 2</option>
-             
-             <option value="193">Mat test 3</option>
-             
-             <option value="194">Mat test 4</option>
-             
-             <option value="195">Mat Test Plastics</option>
-             
-             <option value="196">Mixed Plastics Test</option>
-             
-             <option value="197">Mat Test 5</option>
-             
-             <option class="matgroup" value="|24|">
-                 PayLater Test</option>
-             
-             <option value="136">This is just a demo of pay later payment</option>
-             
-             <option class="matgroup" value="|27|">
-                 best material</option>
-             
-             <option value="132">ALLUMINIUM </option>
-             
-             <option value="141">test</option>
-             
-             <option value="142">ddgg</option>
-             
-             <option class="matgroup" value="|29|">
-                 data material in</option>
-             
-             <option value="145">testing per</option>
-             
-             <option class="matgroup" value="|31|">
-                 steel</option>
-             
-             <option value="146">test cat</option>
-             
-             <option value="165">demosteel</option>
-             
-             <option class="matgroup" value="|32|">
-                 Cast iron material</option>
-             
-             <option value="147">cast iron</option>
-             
-             <option class="matgroup" value="|34|">
-                 Cast iron group</option>
-             
-             <option value="149">cast iron group</option>
-             
-             <option class="matgroup" value="|35|">
-                 cast iron</option>
-             
-             <option value="150">test cast iron</option>
-             
-             <option value="151">test cast iron</option>
-             
-             <option value="152">test</option>
-             
-             <option value="153">test t</option>
-             
-             <option class="matgroup" value="|39|">
-                 Workshop</option>
-             
-             <option value="157">Candy cane</option>
-             
-             <option class="matgroup" value="|41|">
-                 Import meterial grp</option>
-             
-             <option value="158">import meterials</option>
-             
-             <option class="matgroup" value="|45|">
-                 Test material group </option>
-             
-             <option value="160">test material</option>
-             
-             <option class="matgroup" value="|46|">
-                 PRECIOUS METALS</option>
-             
-             <option value="161">10KT GOLD</option>
-             
-             <option value="162">SILVER</option>
-             
-             <option class="matgroup" value="|47|">
-                 Workshop</option>
-             
-             <option value="163">Candy Cane</option>
-             
-             <option class="matgroup" value="|49|">
-                 Steel</option>
-             
-             <option value="164">Stainless Steel</option>
-             
-             <option class="matgroup" value="|52|">
-                 Demo123</option>
-             
-             <option value="172">Testing</option>
-             
-             <option class="matgroup" value="|54|">
-                 CARS2</option>
-             
-             <option value="174">Cars</option>
-             
-             <option class="matgroup" value="|55|">
-                 ND TEST</option>
-             
-             <option value="176">TEST Drive</option>
-             
-             <option class="matgroup" value="|56|">
-                 REDMI</option>
-             
-             <option value="177">RETEST</option>
-             
-             <option value="178">DRE TEST</option>
-             
-             <option class="matgroup" value="|59|">
-                 FEE TEST</option>
-             
-             <option value="183">TRUCKING FEE</option>
-             
-             <option class="matgroup" value="|60|">
-                 Rajkot</option>
-             
-             <option value="184">Bikes</option>
-             
-             <option class="matgroup" value="|61|">
-                 NJ TEST</option>
-             
-             <option value="185">NJ TEST DRIVE</option>
-             
-             <option value="187">NJ TEST DRIVEE</option>
-             
-         </select>
-           </div>
-   
-          </div>
+      <div class="modal-footer d-flex justify-content-center">
+       <button class="btn btn-grey btn-md me-2">Save Coupon</button>
+       <button class="btn btn-grey btn-md">cancel</button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- edit Coupon Popup Ends -->
+
+  </div>
+  <!-- edit Coupon Popup Starts -->
+
+  <div class="modal fade" id="addMaterialinCoupon" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered  modal-685">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Material in Coupon
+      </h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-0">
+
+      <div class="p-3">
+
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Material:</label>
+         <div class="w-60p">
+
+          <select id="" class="selectpicker">
+           <option value="">All Material</option>
+
+           <option class="matgroup" value="|4|">
+            ALUMINUM</option>
+
+           <option value="6">Aluminum Sheet</option>
+
+           <option value="7">Aluminum Cans</option>
+
+           <option value="12">Aluminum Extrusion</option>
+
+           <option value="13">Aluminum MLC (sort)</option>
+
+           <option value="14">Aluminum Turnings</option>
+
+           <option value="15">Cast Aluminum</option>
+
+           <option value="32">REG1</option>
+
+           <option value="33">REG1-LINKED</option>
+
+           <option value="34">AVG8</option>
+
+           <option value="35">AVG8-REG</option>
+
+           <option value="36">AVG10</option>
+
+           <option value="37">Alum Tires w Wheels</option>
+
+           <option value="38">CAR RIMS</option>
+
+           <option value="40">Fruits</option>
+
+           <option value="44">Candy Cane$</option>
+
+           <option value="46">Test Aluminium</option>
+
+           <option value="47">SELL ITEM</option>
+
+           <option value="49">FIFOTEST1</option>
+
+           <option value="56">inspection</option>
+
+           <option value="57">AVGTEST1</option>
+
+           <option value="58">AVGTEST2</option>
+
+           <option value="66">NickWheels</option>
+
+           <option value="67">NickWheels2</option>
+
+           <option value="69">Aluminum MLC</option>
+
+           <option value="70">Aluminum Breakage (sort)</option>
+
+           <option value="71">Aluminum Grade A</option>
+
+           <option value="72">Aluminum Grade B</option>
+
+           <option value="74">Aluminum Car Rims</option>
+
+           <option value="75">69-CHILD</option>
+
+           <option value="76">69-LINK1</option>
+
+           <option value="77">69-LINK2</option>
+
+           <option value="78">AVGC EASY TEST</option>
+
+           <option value="80">TURNINGS (pricelist)</option>
+
+           <option value="81">TEST-A</option>
+
+           <option value="82">TEST-B</option>
+
+           <option value="83">TEST-C</option>
+
+           <option value="87">AVG-1</option>
+
+           <option value="88">AVG-2</option>
+
+           <option value="89">AVG-3</option>
+
+           <option value="90">AVG-A</option>
+
+           <option value="91">AVG-B</option>
+
+           <option value="92">AVG-C</option>
+
+           <option value="93">AVG-D</option>
+
+           <option value="94">AVG-E</option>
+
+           <option value="95">AVG-F</option>
+
+           <option value="97">MAT-1</option>
+
+           <option value="98">MAT-2</option>
+
+           <option value="99">MAT-3</option>
+
+           <option value="100">AP-EDIT</option>
+
+           <option value="101">AP-EDIT-1</option>
+
+           <option value="102">NEG-VOID-TEST</option>
+
+           <option value="108">Sample Aluminum</option>
+
+           <option value="109">Sample Aluminum 2</option>
+
+           <option value="110">Sample Aluminum 3</option>
+
+           <option value="111">AP-TEST-1</option>
+
+           <option value="131">company paper</option>
+
+           <option value="134">Alum Cans Each</option>
+
+           <option value="135">FREIGHTFEE</option>
+
+           <option value="139">sfsdfdfdfsd</option>
+
+           <option value="168">SORT and Settle</option>
+
+           <option value="188">SRU Material</option>
+
+           <option class="matgroup" value="|5|">
+            BRASS</option>
+
+           <option value="8">Yellow Brass</option>
+
+           <option value="16">Red Brass</option>
+
+           <option value="17">Mixed Brass</option>
+
+           <option value="18">Brass Shells</option>
+
+           <option value="138">Brass test</option>
+
+           <option value="148">Brass choy</option>
+
+           <option value="155">Test</option>
+
+           <option value="166">Steel engine</option>
+
+           <option class="matgroup" value="|6|">
+            STEEL</option>
+
+           <option value="9">Shred</option>
+
+           <option value="10">Unprepared Steel</option>
+
+           <option value="30">Prepared, Steel</option>
+
+           <option value="41">Basic Car</option>
+
+           <option value="42">Basic Car Metal</option>
+
+           <option value="48">STEEL #222222</option>
+
+           <option value="50">BB STEEL TESTING</option>
+
+           <option value="60">Check Weight</option>
+
+           <option value="112">UNKNOWN MATERIAL</option>
+
+           <option value="114">LIGHT IRON</option>
+
+           <option value="115">SHRED2</option>
+
+           <option value="116">ZORBA</option>
+
+           <option value="117">FLUFF</option>
+
+           <option value="170">TRUCK FRAMES</option>
+
+           <option value="173">TEST DRIVE</option>
+
+           <option class="matgroup" value="|7|">
+            COPPER</option>
+
+           <option value="19">Bright &amp; Shiny Copper (fg)</option>
+
+           <option value="20">Copper #1 (fg)</option>
+
+           <option value="21">Copper #2</option>
+
+           <option value="22">Copper #3</option>
+
+           <option value="31">ICW 20</option>
+
+           <option value="39">Copper tubing</option>
+
+           <option value="96">TEST </option>
+
+           <option value="118">Copper </option>
+
+           <option value="125">Supercop123</option>
+
+           <option class="matgroup" value="|8|">
+            CATS</option>
+
+           <option value="11">Breadloaf</option>
+
+           <option value="23">Toyota Pre</option>
+
+           <option value="24">GM Large</option>
+
+           <option value="25">Exotic</option>
+
+           <option value="26">Domestic</option>
+
+           <option value="27">Super Cat</option>
+
+           <option value="113">UNGRADED CAT</option>
+
+           <option class="matgroup" value="|9|">
+            PAPER</option>
+
+           <option value="28">Office Paper</option>
+
+           <option value="29">OCC</option>
+
+           <option class="matgroup" value="|11|">
+            Candy Cane</option>
+
+           <option value="43">Candy Cane</option>
+
+           <option value="143">Brass</option>
+
+           <option class="matgroup" value="|12|">
+            Stainless Steel</option>
+
+           <option value="45">Dirty Stainless</option>
+
+           <option value="130">Material Test</option>
+
+           <option class="matgroup" value="|13|">
+            ALUM RUSA</option>
+
+           <option value="51">ALUM SIDING</option>
+
+           <option value="52">AL,ALUCABOND</option>
+
+           <option value="53">IRONY ALUM</option>
+
+           <option value="54">SHREDDER FEED</option>
+
+           <option value="55">ALUM CAST</option>
+
+           <option value="62">RUSA1</option>
+
+           <option value="63">RUSA2</option>
+
+           <option value="64">RUSA3</option>
+
+           <option value="65">RUSA4</option>
+
+           <option value="140">fdsfsdf</option>
+
+           <option value="156">Test 333</option>
+
+           <option value="171">test</option>
+
+           <option value="179">Demo</option>
+
+           <option class="matgroup" value="|14|">
+            test</option>
+
+           <option value="61">GRAVEL</option>
+
+           <option value="68">FEE</option>
+
+           <option value="119">Sample Buy</option>
+
+           <option value="120">SAMPLE SELL</option>
+
+           <option value="121">DROPOFF FEE</option>
+
+           <option value="123">Construction and Demo C&amp;D</option>
+
+           <option value="124">LDPE plastic</option>
+
+           <option value="159">Test 444</option>
+
+           <option value="169">FEE dispatch</option>
+
+           <option value="189">Test Material Recicladora</option>
+
+           <option value="190">sample Test POS</option>
+
+           <option class="matgroup" value="|15|">
+            VIDEO SETUP</option>
+
+           <option value="59">Video Test</option>
+
+           <option class="matgroup" value="|16|">
+            Earn Points</option>
+
+           <option value="79">$10 Gift Card (Scrap Points)</option>
+
+           <option value="144">new brass</option>
+
+           <option class="matgroup" value="|17|">
+            pallets</option>
+
+           <option value="103">DECKING</option>
+
+           <option value="104">CANTS</option>
+
+           <option value="105">RUNNERS</option>
+
+           <option value="106">NAILS</option>
+
+           <option value="107">42 X 48 PALLETS</option>
+
+           <option class="matgroup" value="|18|">
+            video setup</option>
+
+           <option value="122">video test material</option>
+
+           <option class="matgroup" value="|19|">
+            A Million</option>
+
+           <option value="175">Steel</option>
+
+           <option class="matgroup" value="|21|">
+            QA_Test_1004</option>
+
+           <option value="127">QA_test</option>
+
+           <option value="128">Dirty Steel</option>
+
+           <option class="matgroup" value="|22|">
+            Alloys</option>
+
+           <option value="129">Copper and Lead</option>
+
+           <option value="167">playdoh</option>
+
+           <option value="198">AVC test</option>
+
+           <option class="matgroup" value="|23|">
+            Test Group</option>
+
+           <option value="133">Copper</option>
+
+           <option value="191">Mat test 1</option>
+
+           <option value="192">Mat test 2</option>
+
+           <option value="193">Mat test 3</option>
+
+           <option value="194">Mat test 4</option>
+
+           <option value="195">Mat Test Plastics</option>
+
+           <option value="196">Mixed Plastics Test</option>
+
+           <option value="197">Mat Test 5</option>
+
+           <option class="matgroup" value="|24|">
+            PayLater Test</option>
+
+           <option value="136">This is just a demo of pay later payment</option>
+
+           <option class="matgroup" value="|27|">
+            best material</option>
+
+           <option value="132">ALLUMINIUM </option>
+
+           <option value="141">test</option>
+
+           <option value="142">ddgg</option>
+
+           <option class="matgroup" value="|29|">
+            data material in</option>
+
+           <option value="145">testing per</option>
+
+           <option class="matgroup" value="|31|">
+            steel</option>
+
+           <option value="146">test cat</option>
+
+           <option value="165">demosteel</option>
+
+           <option class="matgroup" value="|32|">
+            Cast iron material</option>
+
+           <option value="147">cast iron</option>
+
+           <option class="matgroup" value="|34|">
+            Cast iron group</option>
+
+           <option value="149">cast iron group</option>
+
+           <option class="matgroup" value="|35|">
+            cast iron</option>
+
+           <option value="150">test cast iron</option>
+
+           <option value="151">test cast iron</option>
+
+           <option value="152">test</option>
+
+           <option value="153">test t</option>
+
+           <option class="matgroup" value="|39|">
+            Workshop</option>
+
+           <option value="157">Candy cane</option>
+
+           <option class="matgroup" value="|41|">
+            Import meterial grp</option>
+
+           <option value="158">import meterials</option>
+
+           <option class="matgroup" value="|45|">
+            Test material group </option>
+
+           <option value="160">test material</option>
+
+           <option class="matgroup" value="|46|">
+            PRECIOUS METALS</option>
+
+           <option value="161">10KT GOLD</option>
+
+           <option value="162">SILVER</option>
+
+           <option class="matgroup" value="|47|">
+            Workshop</option>
+
+           <option value="163">Candy Cane</option>
+
+           <option class="matgroup" value="|49|">
+            Steel</option>
+
+           <option value="164">Stainless Steel</option>
+
+           <option class="matgroup" value="|52|">
+            Demo123</option>
+
+           <option value="172">Testing</option>
+
+           <option class="matgroup" value="|54|">
+            CARS2</option>
+
+           <option value="174">Cars</option>
+
+           <option class="matgroup" value="|55|">
+            ND TEST</option>
+
+           <option value="176">TEST Drive</option>
+
+           <option class="matgroup" value="|56|">
+            REDMI</option>
+
+           <option value="177">RETEST</option>
+
+           <option value="178">DRE TEST</option>
+
+           <option class="matgroup" value="|59|">
+            FEE TEST</option>
+
+           <option value="183">TRUCKING FEE</option>
+
+           <option class="matgroup" value="|60|">
+            Rajkot</option>
+
+           <option value="184">Bikes</option>
+
+           <option class="matgroup" value="|61|">
+            NJ TEST</option>
+
+           <option value="185">NJ TEST DRIVE</option>
+
+           <option value="187">NJ TEST DRIVEE</option>
+
+          </select>
          </div>
-         <div class="form-group mb-2 ">
-          <div class="d-flex align-items-center">
-           <label class="form-label w-40p">Base Price:	</label>
-           <div class="w-60p">varies
-            </div>
-            
-          </div>
+
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Base Price: </label>
+         <div class="w-60p">varies
          </div>
+
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Price: </label>
+
+
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-md-2">
          <div class="form-group mb-2 ">
-          <div class="d-flex align-items-center">
-           <label class="form-label w-40p">Price:	</label>
-          
-            
-          </div>
+          <label class="form-label">From units: </label>
+          <input type="text" class="form-control h-36 " value="0" placeholder="">
          </div>
-   <div class="row">
-   <div class="col-md-2">
-    <div class="form-group mb-2 ">
-     <label class="form-label">From units:	</label>
-      <input type="text" class="form-control h-36 " value="0" placeholder="">
-    </div>
-   </div>
-   <div class="col-md-3">
-    <div class="form-group mb-2 ">
-     <label class="form-label">To units:	</label>
-      <input type="text" class="form-control h-36 " value="unlimted" placeholder="">
-    </div>
-   </div>
-   <div class="col-md-2">
-    <div class="form-group mb-2 ">
-     <label class="form-label">Value:	</label>
-      <input type="text" class="form-control h-36 " value="0" placeholder="">
-    </div>
-   </div>
-   <div class="col-md-2">
-    <div class="form-group mb-2 ">
-     <label class="form-label">Method:	</label>
-     <select id="pricemethod_0" class="selectpicker"><option value="1" selected="">+/- $</option><option value="2">+/- %</option><option value="3">flat $</option></select>
-    </div>
-   </div>
-   <div class="col-md-2">
-    <div class="form-group mb-2 ">
-     <label class="form-label">Price:	</label>
-     varies
-    </div>
-   </div>
-   </div>
-   
-   
-   
+        </div>
+        <div class="col-md-3">
+         <div class="form-group mb-2 ">
+          <label class="form-label">To units: </label>
+          <input type="text" class="form-control h-36 " value="unlimted" placeholder="">
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+          <label class="form-label">Value: </label>
+          <input type="text" class="form-control h-36 " value="0" placeholder="">
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+          <label class="form-label">Method: </label>
+          <select id="pricemethod_0" class="selectpicker">
+           <option value="1" selected="">+/- $</option>
+           <option value="2">+/- %</option>
+           <option value="3">flat $</option>
+          </select>
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+          <label class="form-label">Price: </label>
+          varies
+         </div>
+        </div>
+       </div>
+
+
+
       </div>
       <div class="modal-footer d-flex justify-content-center">
        <button class="btn btn-grey btn-md px-3 me-2">Save Material</button>
@@ -14559,13 +13860,2336 @@
      </div>
     </div>
    </div>
-   
-   
+   <!-- edit Coupon Popup Ends -->
+
   </div>
-<!-- Add Material In Price List Modal Ends -->
+
+  <!-- Add Cash Drawer Popup Starts -->
+  <div class="modal fade" id="AddCatitemdetail" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered  modal-1100">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add CAT Item Detail
+      </h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-0">
+
+      <div class="p-3">
+       <div class="row">
+        <div class="col-md-6">
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">OEM/Serial Number: <span class="text-danger">*</span></label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Make:</label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"> Model: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"> Category: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"> Shape: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"> Weight: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"> Default: </label>
+           <div class="form-check form-inline  w-60p">
+            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+            <label class="form-check-label style-1" for="check1"></label>
+           </div>
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"> Pipe Detail: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"> Inlet Pipe size: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Outlet Pipe size: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Shell size: </label>
+           <input type="text" class="form-control h-36 w-20p" placeholder="Length">
+           <input type="text" class="form-control h-36 w-20p" placeholder="Width">
+           <input type="text" class="form-control h-36 w-20p" placeholder="Height">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Body Petterning: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">characteristics </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+
+        </div>
+        <div class="col-md-6">
+
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">CAT Image: </label>
+           <input type="file" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Attachment: </label>
+           <input type="File" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Fianges </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p"># of Biscuits </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Scrap Wt </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Biscuits Shape </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Biscuits Weight (lbs)<span class="text-danger">*</span> </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+         <div class="form-group mb-2 ">
+          <div class="d-flex align-items-center">
+           <label class="form-label w-40p">Notes: </label>
+           <input type="text" class="form-control h-36 w-60p" placeholder="">
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="modal-footer d-flex justify-content-center">
+      <button class="btn btn-grey btn-md me-2">Save</button>
+      <button class="btn btn-grey btn-md">cancel</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Add Cash Drawer Popup Ends -->
 
 
- <script src="../assets/dist/js/all.min.js"></script>
+  <!-- Add Material In Price List Modal Starts -->
+  <div class="modal fade" id="addMaterialInPriceList" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered  modal-685">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add Material in Price List
+      </h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-0">
+
+      <div class="p-3">
+
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Material:</label>
+         <div class="w-60p">
+
+          <select id="" class="selectpicker">
+           <option value="">All Material</option>
+
+           <option class="matgroup" value="|4|">
+            ALUMINUM</option>
+
+           <option value="6">Aluminum Sheet</option>
+
+           <option value="7">Aluminum Cans</option>
+
+           <option value="12">Aluminum Extrusion</option>
+
+           <option value="13">Aluminum MLC (sort)</option>
+
+           <option value="14">Aluminum Turnings</option>
+
+           <option value="15">Cast Aluminum</option>
+
+           <option value="32">REG1</option>
+
+           <option value="33">REG1-LINKED</option>
+
+           <option value="34">AVG8</option>
+
+           <option value="35">AVG8-REG</option>
+
+           <option value="36">AVG10</option>
+
+           <option value="37">Alum Tires w Wheels</option>
+
+           <option value="38">CAR RIMS</option>
+
+           <option value="40">Fruits</option>
+
+           <option value="44">Candy Cane$</option>
+
+           <option value="46">Test Aluminium</option>
+
+           <option value="47">SELL ITEM</option>
+
+           <option value="49">FIFOTEST1</option>
+
+           <option value="56">inspection</option>
+
+           <option value="57">AVGTEST1</option>
+
+           <option value="58">AVGTEST2</option>
+
+           <option value="66">NickWheels</option>
+
+           <option value="67">NickWheels2</option>
+
+           <option value="69">Aluminum MLC</option>
+
+           <option value="70">Aluminum Breakage (sort)</option>
+
+           <option value="71">Aluminum Grade A</option>
+
+           <option value="72">Aluminum Grade B</option>
+
+           <option value="74">Aluminum Car Rims</option>
+
+           <option value="75">69-CHILD</option>
+
+           <option value="76">69-LINK1</option>
+
+           <option value="77">69-LINK2</option>
+
+           <option value="78">AVGC EASY TEST</option>
+
+           <option value="80">TURNINGS (pricelist)</option>
+
+           <option value="81">TEST-A</option>
+
+           <option value="82">TEST-B</option>
+
+           <option value="83">TEST-C</option>
+
+           <option value="87">AVG-1</option>
+
+           <option value="88">AVG-2</option>
+
+           <option value="89">AVG-3</option>
+
+           <option value="90">AVG-A</option>
+
+           <option value="91">AVG-B</option>
+
+           <option value="92">AVG-C</option>
+
+           <option value="93">AVG-D</option>
+
+           <option value="94">AVG-E</option>
+
+           <option value="95">AVG-F</option>
+
+           <option value="97">MAT-1</option>
+
+           <option value="98">MAT-2</option>
+
+           <option value="99">MAT-3</option>
+
+           <option value="100">AP-EDIT</option>
+
+           <option value="101">AP-EDIT-1</option>
+
+           <option value="102">NEG-VOID-TEST</option>
+
+           <option value="108">Sample Aluminum</option>
+
+           <option value="109">Sample Aluminum 2</option>
+
+           <option value="110">Sample Aluminum 3</option>
+
+           <option value="111">AP-TEST-1</option>
+
+           <option value="131">company paper</option>
+
+           <option value="134">Alum Cans Each</option>
+
+           <option value="135">FREIGHTFEE</option>
+
+           <option value="139">sfsdfdfdfsd</option>
+
+           <option value="168">SORT and Settle</option>
+
+           <option value="188">SRU Material</option>
+
+           <option class="matgroup" value="|5|">
+            BRASS</option>
+
+           <option value="8">Yellow Brass</option>
+
+           <option value="16">Red Brass</option>
+
+           <option value="17">Mixed Brass</option>
+
+           <option value="18">Brass Shells</option>
+
+           <option value="138">Brass test</option>
+
+           <option value="148">Brass choy</option>
+
+           <option value="155">Test</option>
+
+           <option value="166">Steel engine</option>
+
+           <option class="matgroup" value="|6|">
+            STEEL</option>
+
+           <option value="9">Shred</option>
+
+           <option value="10">Unprepared Steel</option>
+
+           <option value="30">Prepared, Steel</option>
+
+           <option value="41">Basic Car</option>
+
+           <option value="42">Basic Car Metal</option>
+
+           <option value="48">STEEL #222222</option>
+
+           <option value="50">BB STEEL TESTING</option>
+
+           <option value="60">Check Weight</option>
+
+           <option value="112">UNKNOWN MATERIAL</option>
+
+           <option value="114">LIGHT IRON</option>
+
+           <option value="115">SHRED2</option>
+
+           <option value="116">ZORBA</option>
+
+           <option value="117">FLUFF</option>
+
+           <option value="170">TRUCK FRAMES</option>
+
+           <option value="173">TEST DRIVE</option>
+
+           <option class="matgroup" value="|7|">
+            COPPER</option>
+
+           <option value="19">Bright &amp; Shiny Copper (fg)</option>
+
+           <option value="20">Copper #1 (fg)</option>
+
+           <option value="21">Copper #2</option>
+
+           <option value="22">Copper #3</option>
+
+           <option value="31">ICW 20</option>
+
+           <option value="39">Copper tubing</option>
+
+           <option value="96">TEST </option>
+
+           <option value="118">Copper </option>
+
+           <option value="125">Supercop123</option>
+
+           <option class="matgroup" value="|8|">
+            CATS</option>
+
+           <option value="11">Breadloaf</option>
+
+           <option value="23">Toyota Pre</option>
+
+           <option value="24">GM Large</option>
+
+           <option value="25">Exotic</option>
+
+           <option value="26">Domestic</option>
+
+           <option value="27">Super Cat</option>
+
+           <option value="113">UNGRADED CAT</option>
+
+           <option class="matgroup" value="|9|">
+            PAPER</option>
+
+           <option value="28">Office Paper</option>
+
+           <option value="29">OCC</option>
+
+           <option class="matgroup" value="|11|">
+            Candy Cane</option>
+
+           <option value="43">Candy Cane</option>
+
+           <option value="143">Brass</option>
+
+           <option class="matgroup" value="|12|">
+            Stainless Steel</option>
+
+           <option value="45">Dirty Stainless</option>
+
+           <option value="130">Material Test</option>
+
+           <option class="matgroup" value="|13|">
+            ALUM RUSA</option>
+
+           <option value="51">ALUM SIDING</option>
+
+           <option value="52">AL,ALUCABOND</option>
+
+           <option value="53">IRONY ALUM</option>
+
+           <option value="54">SHREDDER FEED</option>
+
+           <option value="55">ALUM CAST</option>
+
+           <option value="62">RUSA1</option>
+
+           <option value="63">RUSA2</option>
+
+           <option value="64">RUSA3</option>
+
+           <option value="65">RUSA4</option>
+
+           <option value="140">fdsfsdf</option>
+
+           <option value="156">Test 333</option>
+
+           <option value="171">test</option>
+
+           <option value="179">Demo</option>
+
+           <option class="matgroup" value="|14|">
+            test</option>
+
+           <option value="61">GRAVEL</option>
+
+           <option value="68">FEE</option>
+
+           <option value="119">Sample Buy</option>
+
+           <option value="120">SAMPLE SELL</option>
+
+           <option value="121">DROPOFF FEE</option>
+
+           <option value="123">Construction and Demo C&amp;D</option>
+
+           <option value="124">LDPE plastic</option>
+
+           <option value="159">Test 444</option>
+
+           <option value="169">FEE dispatch</option>
+
+           <option value="189">Test Material Recicladora</option>
+
+           <option value="190">sample Test POS</option>
+
+           <option class="matgroup" value="|15|">
+            VIDEO SETUP</option>
+
+           <option value="59">Video Test</option>
+
+           <option class="matgroup" value="|16|">
+            Earn Points</option>
+
+           <option value="79">$10 Gift Card (Scrap Points)</option>
+
+           <option value="144">new brass</option>
+
+           <option class="matgroup" value="|17|">
+            pallets</option>
+
+           <option value="103">DECKING</option>
+
+           <option value="104">CANTS</option>
+
+           <option value="105">RUNNERS</option>
+
+           <option value="106">NAILS</option>
+
+           <option value="107">42 X 48 PALLETS</option>
+
+           <option class="matgroup" value="|18|">
+            video setup</option>
+
+           <option value="122">video test material</option>
+
+           <option class="matgroup" value="|19|">
+            A Million</option>
+
+           <option value="175">Steel</option>
+
+           <option class="matgroup" value="|21|">
+            QA_Test_1004</option>
+
+           <option value="127">QA_test</option>
+
+           <option value="128">Dirty Steel</option>
+
+           <option class="matgroup" value="|22|">
+            Alloys</option>
+
+           <option value="129">Copper and Lead</option>
+
+           <option value="167">playdoh</option>
+
+           <option value="198">AVC test</option>
+
+           <option class="matgroup" value="|23|">
+            Test Group</option>
+
+           <option value="133">Copper</option>
+
+           <option value="191">Mat test 1</option>
+
+           <option value="192">Mat test 2</option>
+
+           <option value="193">Mat test 3</option>
+
+           <option value="194">Mat test 4</option>
+
+           <option value="195">Mat Test Plastics</option>
+
+           <option value="196">Mixed Plastics Test</option>
+
+           <option value="197">Mat Test 5</option>
+
+           <option class="matgroup" value="|24|">
+            PayLater Test</option>
+
+           <option value="136">This is just a demo of pay later payment</option>
+
+           <option class="matgroup" value="|27|">
+            best material</option>
+
+           <option value="132">ALLUMINIUM </option>
+
+           <option value="141">test</option>
+
+           <option value="142">ddgg</option>
+
+           <option class="matgroup" value="|29|">
+            data material in</option>
+
+           <option value="145">testing per</option>
+
+           <option class="matgroup" value="|31|">
+            steel</option>
+
+           <option value="146">test cat</option>
+
+           <option value="165">demosteel</option>
+
+           <option class="matgroup" value="|32|">
+            Cast iron material</option>
+
+           <option value="147">cast iron</option>
+
+           <option class="matgroup" value="|34|">
+            Cast iron group</option>
+
+           <option value="149">cast iron group</option>
+
+           <option class="matgroup" value="|35|">
+            cast iron</option>
+
+           <option value="150">test cast iron</option>
+
+           <option value="151">test cast iron</option>
+
+           <option value="152">test</option>
+
+           <option value="153">test t</option>
+
+           <option class="matgroup" value="|39|">
+            Workshop</option>
+
+           <option value="157">Candy cane</option>
+
+           <option class="matgroup" value="|41|">
+            Import meterial grp</option>
+
+           <option value="158">import meterials</option>
+
+           <option class="matgroup" value="|45|">
+            Test material group </option>
+
+           <option value="160">test material</option>
+
+           <option class="matgroup" value="|46|">
+            PRECIOUS METALS</option>
+
+           <option value="161">10KT GOLD</option>
+
+           <option value="162">SILVER</option>
+
+           <option class="matgroup" value="|47|">
+            Workshop</option>
+
+           <option value="163">Candy Cane</option>
+
+           <option class="matgroup" value="|49|">
+            Steel</option>
+
+           <option value="164">Stainless Steel</option>
+
+           <option class="matgroup" value="|52|">
+            Demo123</option>
+
+           <option value="172">Testing</option>
+
+           <option class="matgroup" value="|54|">
+            CARS2</option>
+
+           <option value="174">Cars</option>
+
+           <option class="matgroup" value="|55|">
+            ND TEST</option>
+
+           <option value="176">TEST Drive</option>
+
+           <option class="matgroup" value="|56|">
+            REDMI</option>
+
+           <option value="177">RETEST</option>
+
+           <option value="178">DRE TEST</option>
+
+           <option class="matgroup" value="|59|">
+            FEE TEST</option>
+
+           <option value="183">TRUCKING FEE</option>
+
+           <option class="matgroup" value="|60|">
+            Rajkot</option>
+           <option value="184">Bikes</option>
+           <option class="matgroup" value="|61|">
+            NJ TEST</option>
+           <option value="185">NJ TEST DRIVE</option>
+           <option value="187">NJ TEST DRIVEE</option>
+          </select>
+         </div>
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">UOM:</label>
+         <div class="w-60p">
+
+
+         </div>
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Index:</label>
+         <div class="w-60p">
+
+          <select id="drpMatIndex" class="selectpicker">
+
+           <option value="0">Material Base Price</option>
+
+
+          </select>
+         </div>
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Base Price: </label>
+         <div class="w-60p"><strong>$0.44/lb</strong>
+         </div>
+        </div>
+       </div>
+       <div class="form-group mb-2 ">
+        <div class="d-flex align-items-center">
+         <label class="form-label w-40p">Price Price: </label>
+         <div class="w-60p bold">
+          <strong>$0.4400/lb to $0.4400/lb</strong>
+         </div>
+        </div>
+       </div>
+       <hr />
+       <div class="row">
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+          <label class="form-label">From units: </label>
+         </div>
+        </div>
+        <div class="col-md-3">
+         <div class="form-group mb-2 ">
+          <label class="form-label">To units: </label>
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2">
+          <label class="form-label">Value: </label>
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+          <label class="form-label">Method: </label>
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+          Price:
+         </div>
+        </div>
+        <div class="col-md-1">
+         <a href="" class="btn btn-success text-white d-inline-flex align-items-center p-0">
+          <span class="material-symbols-rounded text-white">add</span>
+         </a>
+        </div>
+       </div>
+       <div class="row align-items-center">
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+
+          <input type="text" class="form-control h-36 " value="0" placeholder="">
+         </div>
+        </div>
+        <div class="col-md-3">
+         <div class="form-group mb-2 ">
+
+          <input type="text" class="form-control h-36 " value="unlimted" placeholder="">
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+
+          <input type="text" class="form-control h-36 " value="0" placeholder="">
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+
+          <select id="pricemethod_0" class="selectpicker">
+           <option value="1" selected="">+/- $</option>
+           <option value="2">+/- %</option>
+           <option value="3">flat $</option>
+          </select>
+         </div>
+        </div>
+        <div class="col-md-2">
+         <div class="form-group mb-2 ">
+
+          $0.4400
+         </div>
+        </div>
+        <div class="col-md-1">
+         <a href="" class="btn btn-danger text-white d-inline-flex align-items-center p-0">
+          <span class="material-symbols-rounded text-white">remove</span>
+         </a>
+        </div>
+       </div>
+       <hr class="mt-0" />
+       <div class="form-group mb-2">
+        <div class="d-flex align-items-center ">
+         <label class="form-label w-40p"><strong>Parent Linked Qualified Material:</strong></label>
+         <div class="w-60p bold">
+          <div class="d-flex justify-content-between align-items-center">
+           <select id="drplinkedQualifiedMaterial" class="selectpicker mx-3">
+            <option value="0">None</option>
+
+            <option id="option_6" value="6">
+             Aluminum Sheet</option>
+
+            <option id="option_7" value="7">
+             Aluminum Cans</option>
+
+            <option id="option_8" value="8">
+             Yellow Brass</option>
+
+            <option id="option_9" value="9">
+             Shred</option>
+
+            <option id="option_10" value="10">
+             Unprepared Steel</option>
+
+            <option id="option_11" value="11">
+             Breadloaf</option>
+
+            <option id="option_12" value="12">
+             Aluminum Extrusion</option>
+
+            <option id="option_13" value="13">
+             Aluminum MLC (sort)</option>
+
+            <option id="option_14" value="14">
+             Aluminum Turnings</option>
+
+            <option id="option_15" value="15">
+             Cast Aluminum</option>
+
+            <option id="option_16" value="16">
+             Red Brass</option>
+
+            <option id="option_17" value="17">
+             Mixed Brass</option>
+
+            <option id="option_18" value="18">
+             Brass Shells</option>
+
+            <option id="option_19" value="19">
+             Bright &amp; Shiny Copper (fg)</option>
+
+            <option id="option_20" value="20">
+             Copper #1 (fg)</option>
+
+            <option id="option_21" value="21">
+             Copper #2</option>
+
+            <option id="option_22" value="22">
+             Copper #3</option>
+
+            <option id="option_23" value="23">
+             Toyota Pre</option>
+
+            <option id="option_24" value="24">
+             GM Large</option>
+
+            <option id="option_25" value="25">
+             Exotic</option>
+
+            <option id="option_26" value="26">
+             Domestic</option>
+
+            <option id="option_27" value="27">
+             Super Cat</option>
+
+            <option id="option_28" value="28">
+             Office Paper</option>
+
+            <option id="option_29" value="29">
+             OCC</option>
+
+            <option id="option_30" value="30">
+             Prepared, Steel</option>
+
+            <option id="option_31" value="31">
+             ICW 20</option>
+
+            <option id="option_32" value="32">
+             REG1</option>
+
+            <option id="option_33" value="33">
+             REG1-LINKED</option>
+
+            <option id="option_34" value="34">
+             AVG8</option>
+
+            <option id="option_35" value="35">
+             AVG8-REG</option>
+
+            <option id="option_36" value="36">
+             AVG10</option>
+
+            <option id="option_37" value="37">
+             Alum Tires w Wheels</option>
+
+            <option id="option_38" value="38">
+             CAR RIMS</option>
+
+            <option id="option_39" value="39">
+             Copper tubing</option>
+
+            <option id="option_40" value="40">
+             Fruits</option>
+
+            <option id="option_41" value="41">
+             Basic Car</option>
+
+            <option id="option_42" value="42">
+             Basic Car Metal</option>
+
+            <option id="option_43" value="43">
+             Candy Cane</option>
+
+            <option id="option_44" value="44">
+             Candy Cane$</option>
+
+            <option id="option_45" value="45">
+             Dirty Stainless</option>
+
+            <option id="option_46" value="46">
+             Test Aluminium</option>
+
+            <option id="option_47" value="47">
+             SELL ITEM</option>
+
+            <option id="option_48" value="48">
+             STEEL #222222</option>
+
+            <option id="option_49" value="49">
+             FIFOTEST1</option>
+
+            <option id="option_50" value="50">
+             BB STEEL TESTING</option>
+
+            <option id="option_51" value="51">
+             ALUM SIDING</option>
+
+            <option id="option_52" value="52">
+             AL,ALUCABOND</option>
+
+            <option id="option_53" value="53">
+             IRONY ALUM</option>
+
+            <option id="option_54" value="54">
+             SHREDDER FEED</option>
+
+            <option id="option_55" value="55">
+             ALUM CAST</option>
+
+            <option id="option_56" value="56">
+             inspection</option>
+
+            <option id="option_57" value="57">
+             AVGTEST1</option>
+
+            <option id="option_58" value="58">
+             AVGTEST2</option>
+
+            <option id="option_59" value="59">
+             Video Test</option>
+
+            <option id="option_60" value="60">
+             Check Weight</option>
+
+            <option id="option_61" value="61">
+             GRAVEL</option>
+
+            <option id="option_62" value="62">
+             RUSA1</option>
+
+            <option id="option_63" value="63">
+             RUSA2</option>
+
+            <option id="option_64" value="64">
+             RUSA3</option>
+
+            <option id="option_65" value="65">
+             RUSA4</option>
+
+            <option id="option_66" value="66">
+             NickWheels</option>
+
+            <option id="option_67" value="67">
+             NickWheels2</option>
+
+            <option id="option_68" value="68">
+             FEE</option>
+
+            <option id="option_69" value="69">
+             Aluminum MLC</option>
+
+            <option id="option_70" value="70">
+             Aluminum Breakage (sort)</option>
+
+            <option id="option_71" value="71">
+             Aluminum Grade A</option>
+
+            <option id="option_72" value="72">
+             Aluminum Grade B</option>
+
+            <option id="option_74" value="74">
+             Aluminum Car Rims</option>
+
+            <option id="option_75" value="75">
+             69-CHILD</option>
+
+            <option id="option_76" value="76">
+             69-LINK1</option>
+
+            <option id="option_77" value="77">
+             69-LINK2</option>
+
+            <option id="option_78" value="78">
+             AVGC EASY TEST</option>
+
+            <option id="option_79" value="79">
+             $10 Gift Card (Scrap Points)</option>
+
+            <option id="option_80" value="80">
+             TURNINGS (pricelist)</option>
+
+            <option id="option_81" value="81">
+             TEST-A</option>
+
+            <option id="option_82" value="82">
+             TEST-B</option>
+
+            <option id="option_83" value="83">
+             TEST-C</option>
+
+            <option id="option_87" value="87">
+             AVG-1</option>
+
+            <option id="option_88" value="88">
+             AVG-2</option>
+
+            <option id="option_89" value="89">
+             AVG-3</option>
+
+            <option id="option_90" value="90">
+             AVG-A</option>
+
+            <option id="option_91" value="91">
+             AVG-B</option>
+
+            <option id="option_92" value="92">
+             AVG-C</option>
+
+            <option id="option_93" value="93">
+             AVG-D</option>
+
+            <option id="option_94" value="94">
+             AVG-E</option>
+
+            <option id="option_95" value="95">
+             AVG-F</option>
+
+            <option id="option_96" value="96">
+             TEST </option>
+
+            <option id="option_97" value="97">
+             MAT-1</option>
+
+            <option id="option_98" value="98">
+             MAT-2</option>
+
+            <option id="option_99" value="99">
+             MAT-3</option>
+
+            <option id="option_100" value="100">
+             AP-EDIT</option>
+
+            <option id="option_101" value="101">
+             AP-EDIT-1</option>
+
+            <option id="option_102" value="102">
+             NEG-VOID-TEST</option>
+
+            <option id="option_103" value="103">
+             DECKING</option>
+
+            <option id="option_104" value="104">
+             CANTS</option>
+
+            <option id="option_105" value="105">
+             RUNNERS</option>
+
+            <option id="option_106" value="106">
+             NAILS</option>
+
+            <option id="option_107" value="107">
+             42 X 48 PALLETS</option>
+
+            <option id="option_108" value="108">
+             Sample Aluminum</option>
+
+            <option id="option_109" value="109">
+             Sample Aluminum 2</option>
+
+            <option id="option_110" value="110">
+             Sample Aluminum 3</option>
+
+            <option id="option_111" value="111">
+             AP-TEST-1</option>
+
+            <option id="option_112" value="112">
+             UNKNOWN MATERIAL</option>
+
+            <option id="option_113" value="113">
+             UNGRADED CAT</option>
+
+            <option id="option_114" value="114">
+             LIGHT IRON</option>
+
+            <option id="option_115" value="115">
+             SHRED2</option>
+
+            <option id="option_116" value="116">
+             ZORBA</option>
+
+            <option id="option_117" value="117">
+             FLUFF</option>
+
+            <option id="option_118" value="118">
+             Copper </option>
+
+            <option id="option_119" value="119">
+             Sample Buy</option>
+
+            <option id="option_120" value="120">
+             SAMPLE SELL</option>
+
+            <option id="option_121" value="121">
+             DROPOFF FEE</option>
+
+            <option id="option_122" value="122">
+             video test material</option>
+
+            <option id="option_123" value="123">
+             Construction and Demo C&amp;D</option>
+
+            <option id="option_124" value="124">
+             LDPE plastic</option>
+
+            <option id="option_125" value="125">
+             Supercop123</option>
+
+            <option id="option_127" value="127">
+             QA_test</option>
+
+            <option id="option_128" value="128">
+             Dirty Steel</option>
+
+            <option id="option_129" value="129">
+             Copper and Lead</option>
+
+            <option id="option_130" value="130">
+             Material Test</option>
+
+            <option id="option_131" value="131">
+             company paper</option>
+
+            <option id="option_132" value="132">
+             ALLUMINIUM </option>
+
+            <option id="option_133" value="133">
+             Copper</option>
+
+            <option id="option_134" value="134">
+             Alum Cans Each</option>
+
+            <option id="option_135" value="135">
+             FREIGHTFEE</option>
+
+            <option id="option_136" value="136">
+             This is just a demo of pay later payment</option>
+
+            <option id="option_138" value="138">
+             Brass test</option>
+
+            <option id="option_139" value="139">
+             sfsdfdfdfsd</option>
+
+            <option id="option_140" value="140">
+             fdsfsdf</option>
+
+            <option id="option_141" value="141">
+             test</option>
+
+            <option id="option_142" value="142">
+             ddgg</option>
+
+            <option id="option_143" value="143">
+             Brass</option>
+
+            <option id="option_144" value="144">
+             new brass</option>
+
+            <option id="option_145" value="145">
+             testing per</option>
+
+            <option id="option_146" value="146">
+             test cat</option>
+
+            <option id="option_147" value="147">
+             cast iron</option>
+
+            <option id="option_148" value="148">
+             Brass choy</option>
+
+            <option id="option_149" value="149">
+             cast iron group</option>
+
+            <option id="option_150" value="150">
+             test cast iron</option>
+
+            <option id="option_151" value="151">
+             test cast iron</option>
+
+            <option id="option_152" value="152">
+             test</option>
+
+            <option id="option_153" value="153">
+             test t</option>
+
+            <option id="option_155" value="155">
+             Test</option>
+
+            <option id="option_156" value="156">
+             Test 333</option>
+
+            <option id="option_157" value="157">
+             Candy cane</option>
+
+            <option id="option_158" value="158">
+             import meterials</option>
+
+            <option id="option_159" value="159">
+             Test 444</option>
+
+            <option id="option_160" value="160">
+             test material</option>
+
+            <option id="option_161" value="161">
+             10KT GOLD</option>
+
+            <option id="option_162" value="162">
+             SILVER</option>
+
+            <option id="option_163" value="163">
+             Candy Cane</option>
+
+            <option id="option_164" value="164">
+             Stainless Steel</option>
+
+            <option id="option_165" value="165">
+             demosteel</option>
+
+            <option id="option_166" value="166">
+             Steel engine</option>
+
+            <option id="option_167" value="167">
+             playdoh</option>
+
+            <option id="option_168" value="168">
+             SORT and Settle</option>
+
+            <option id="option_169" value="169">
+             FEE dispatch</option>
+
+            <option id="option_170" value="170">
+             TRUCK FRAMES</option>
+
+            <option id="option_171" value="171">
+             test</option>
+
+            <option id="option_172" value="172">
+             Testing</option>
+
+            <option id="option_173" value="173">
+             TEST DRIVE</option>
+
+            <option id="option_174" value="174">
+             Cars</option>
+
+            <option id="option_175" value="175">
+             Steel</option>
+
+            <option id="option_176" value="176">
+             TEST Drive</option>
+
+            <option id="option_177" value="177">
+             RETEST</option>
+
+            <option id="option_178" value="178">
+             DRE TEST</option>
+
+            <option id="option_179" value="179">
+             Demo</option>
+
+            <option id="option_183" value="183">
+             TRUCKING FEE</option>
+
+            <option id="option_184" value="184">
+             Bikes</option>
+
+            <option id="option_185" value="185">
+             NJ TEST DRIVE</option>
+
+            <option id="option_187" value="187">
+             NJ TEST DRIVEE</option>
+
+            <option id="option_188" value="188">
+             SRU Material</option>
+
+            <option id="option_189" value="189">
+             Test Material Recicladora</option>
+
+            <option id="option_190" value="190">
+             sample Test POS</option>
+
+            <option id="option_191" value="191">
+             Mat test 1</option>
+
+            <option id="option_192" value="192">
+             Mat test 2</option>
+
+            <option id="option_193" value="193">
+             Mat test 3</option>
+
+            <option id="option_194" value="194">
+             Mat test 4</option>
+
+            <option id="option_195" value="195">
+             Mat Test Plastics</option>
+
+            <option id="option_196" value="196">
+             Mixed Plastics Test</option>
+
+            <option id="option_197" value="197">
+             Mat Test 5</option>
+
+            <option id="option_198" value="198">
+             AVC test</option>
+
+           </select>
+           <a href="" class="btn btn-success text-white d-inline-flex align-items-center p-0">
+            <span class="material-symbols-rounded text-white">add</span>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="form-group mb-2">
+        <div class="d-flex align-items-center ">
+         <label class="form-label w-40p">Toyota Pre</label>
+         <div class="w-60p bold">
+          <div class="d-flex justify-content-between align-items-center">
+           <div class=" mr-3">
+            &nbsp;
+           </div>
+           <a href="" class="btn btn-danger text-white d-inline-flex align-items-center p-0">
+            <span class="material-symbols-rounded text-white">remove</span>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <hr class="my-0" />
+       <div class="form-check form-inline mt-3">
+        <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked>
+        <label class="form-check-label style-1" for="check1">
+         Special Qualified Price
+        </label>
+       </div>
+       <div class="hide-show-with-checkbox">
+        <div class="row align-items-center">
+         <div class="col-md-4">
+
+          <div class="form-group mb-2">
+           <label class="form-label">Qty :</label>
+           <input type="text" class="form-control h-36 " value="" placeholder="">
+          </div>
+         </div>
+         <div class="col-md-4">
+          <div class="form-group mb-2 ">
+           <label class="form-label">Max Qualified Qty: </label>
+           <input type="text" class="form-control h-36 " value="unlimted" placeholder="">
+          </div>
+         </div>
+         <div class="col-md-4">
+          <div class="form-group mb-2 ">
+           <label class="form-label">Material: </label>
+           <div class="d-flex justify-content-between align-items-center">
+            <div class=" w-80p mr-3">
+             <select id="drpSpecialPriceQualifiedMaterial" class="selectpicker">
+              <option value="0">None</option>
+
+              <option id="soption_6" value="6">
+               Aluminum Sheet</option>
+
+              <option id="soption_7" value="7">
+               Aluminum Cans</option>
+
+              <option id="soption_8" value="8">
+               Yellow Brass</option>
+
+              <option id="soption_9" value="9">
+               Shred</option>
+
+              <option id="soption_10" value="10">
+               Unprepared Steel</option>
+
+              <option id="soption_11" value="11">
+               Breadloaf</option>
+
+              <option id="soption_12" value="12">
+               Aluminum Extrusion</option>
+
+              <option id="soption_13" value="13">
+               Aluminum MLC (sort)</option>
+
+              <option id="soption_14" value="14">
+               Aluminum Turnings</option>
+
+              <option id="soption_15" value="15">
+               Cast Aluminum</option>
+
+              <option id="soption_16" value="16">
+               Red Brass</option>
+
+              <option id="soption_17" value="17">
+               Mixed Brass</option>
+
+              <option id="soption_18" value="18">
+               Brass Shells</option>
+
+              <option id="soption_19" value="19">
+               Bright &amp; Shiny Copper (fg)</option>
+
+              <option id="soption_20" value="20">
+               Copper #1 (fg)</option>
+
+              <option id="soption_21" value="21">
+               Copper #2</option>
+
+              <option id="soption_22" value="22">
+               Copper #3</option>
+
+              <option id="soption_23" value="23">
+               Toyota Pre</option>
+
+              <option id="soption_24" value="24">
+               GM Large</option>
+
+              <option id="soption_25" value="25">
+               Exotic</option>
+
+              <option id="soption_26" value="26">
+               Domestic</option>
+
+              <option id="soption_27" value="27">
+               Super Cat</option>
+
+              <option id="soption_28" value="28">
+               Office Paper</option>
+
+              <option id="soption_29" value="29">
+               OCC</option>
+
+              <option id="soption_30" value="30">
+               Prepared, Steel</option>
+
+              <option id="soption_31" value="31">
+               ICW 20</option>
+
+              <option id="soption_32" value="32">
+               REG1</option>
+
+              <option id="soption_33" value="33">
+               REG1-LINKED</option>
+
+              <option id="soption_34" value="34">
+               AVG8</option>
+
+              <option id="soption_35" value="35">
+               AVG8-REG</option>
+
+              <option id="soption_36" value="36">
+               AVG10</option>
+
+              <option id="soption_37" value="37">
+               Alum Tires w Wheels</option>
+
+              <option id="soption_38" value="38">
+               CAR RIMS</option>
+
+              <option id="soption_39" value="39">
+               Copper tubing</option>
+
+              <option id="soption_40" value="40">
+               Fruits</option>
+
+              <option id="soption_41" value="41">
+               Basic Car</option>
+
+              <option id="soption_42" value="42">
+               Basic Car Metal</option>
+
+              <option id="soption_43" value="43">
+               Candy Cane</option>
+
+              <option id="soption_44" value="44">
+               Candy Cane$</option>
+
+              <option id="soption_45" value="45">
+               Dirty Stainless</option>
+
+              <option id="soption_46" value="46">
+               Test Aluminium</option>
+
+              <option id="soption_47" value="47">
+               SELL ITEM</option>
+
+              <option id="soption_48" value="48">
+               STEEL #222222</option>
+
+              <option id="soption_49" value="49">
+               FIFOTEST1</option>
+
+              <option id="soption_50" value="50">
+               BB STEEL TESTING</option>
+
+              <option id="soption_51" value="51">
+               ALUM SIDING</option>
+
+              <option id="soption_52" value="52">
+               AL,ALUCABOND</option>
+
+              <option id="soption_53" value="53">
+               IRONY ALUM</option>
+
+              <option id="soption_54" value="54">
+               SHREDDER FEED</option>
+
+              <option id="soption_55" value="55">
+               ALUM CAST</option>
+
+              <option id="soption_56" value="56">
+               inspection</option>
+
+              <option id="soption_57" value="57">
+               AVGTEST1</option>
+
+              <option id="soption_58" value="58">
+               AVGTEST2</option>
+
+              <option id="soption_59" value="59">
+               Video Test</option>
+
+              <option id="soption_60" value="60">
+               Check Weight</option>
+
+              <option id="soption_61" value="61">
+               GRAVEL</option>
+
+              <option id="soption_62" value="62">
+               RUSA1</option>
+
+              <option id="soption_63" value="63">
+               RUSA2</option>
+
+              <option id="soption_64" value="64">
+               RUSA3</option>
+
+              <option id="soption_65" value="65">
+               RUSA4</option>
+
+              <option id="soption_66" value="66">
+               NickWheels</option>
+
+              <option id="soption_67" value="67">
+               NickWheels2</option>
+
+              <option id="soption_68" value="68">
+               FEE</option>
+
+              <option id="soption_69" value="69">
+               Aluminum MLC</option>
+
+              <option id="soption_70" value="70">
+               Aluminum Breakage (sort)</option>
+
+              <option id="soption_71" value="71">
+               Aluminum Grade A</option>
+
+              <option id="soption_72" value="72">
+               Aluminum Grade B</option>
+
+              <option id="soption_74" value="74">
+               Aluminum Car Rims</option>
+
+              <option id="soption_75" value="75">
+               69-CHILD</option>
+
+              <option id="soption_76" value="76">
+               69-LINK1</option>
+
+              <option id="soption_77" value="77">
+               69-LINK2</option>
+
+              <option id="soption_78" value="78">
+               AVGC EASY TEST</option>
+
+              <option id="soption_79" value="79">
+               $10 Gift Card (Scrap Points)</option>
+
+              <option id="soption_80" value="80">
+               TURNINGS (pricelist)</option>
+
+              <option id="soption_81" value="81">
+               TEST-A</option>
+
+              <option id="soption_82" value="82">
+               TEST-B</option>
+
+              <option id="soption_83" value="83">
+               TEST-C</option>
+
+              <option id="soption_87" value="87">
+               AVG-1</option>
+
+              <option id="soption_88" value="88">
+               AVG-2</option>
+
+              <option id="soption_89" value="89">
+               AVG-3</option>
+
+              <option id="soption_90" value="90">
+               AVG-A</option>
+
+              <option id="soption_91" value="91">
+               AVG-B</option>
+
+              <option id="soption_92" value="92">
+               AVG-C</option>
+
+              <option id="soption_93" value="93">
+               AVG-D</option>
+
+              <option id="soption_94" value="94">
+               AVG-E</option>
+
+              <option id="soption_95" value="95">
+               AVG-F</option>
+
+              <option id="soption_96" value="96">
+               TEST </option>
+
+              <option id="soption_97" value="97">
+               MAT-1</option>
+
+              <option id="soption_98" value="98">
+               MAT-2</option>
+
+              <option id="soption_99" value="99">
+               MAT-3</option>
+
+              <option id="soption_100" value="100">
+               AP-EDIT</option>
+
+              <option id="soption_101" value="101">
+               AP-EDIT-1</option>
+
+              <option id="soption_102" value="102">
+               NEG-VOID-TEST</option>
+
+              <option id="soption_103" value="103">
+               DECKING</option>
+
+              <option id="soption_104" value="104">
+               CANTS</option>
+
+              <option id="soption_105" value="105">
+               RUNNERS</option>
+
+              <option id="soption_106" value="106">
+               NAILS</option>
+
+              <option id="soption_107" value="107">
+               42 X 48 PALLETS</option>
+
+              <option id="soption_108" value="108">
+               Sample Aluminum</option>
+
+              <option id="soption_109" value="109">
+               Sample Aluminum 2</option>
+
+              <option id="soption_110" value="110">
+               Sample Aluminum 3</option>
+
+              <option id="soption_111" value="111">
+               AP-TEST-1</option>
+
+              <option id="soption_112" value="112">
+               UNKNOWN MATERIAL</option>
+
+              <option id="soption_113" value="113">
+               UNGRADED CAT</option>
+
+              <option id="soption_114" value="114">
+               LIGHT IRON</option>
+
+              <option id="soption_115" value="115">
+               SHRED2</option>
+
+              <option id="soption_116" value="116">
+               ZORBA</option>
+
+              <option id="soption_117" value="117">
+               FLUFF</option>
+
+              <option id="soption_118" value="118">
+               Copper </option>
+
+              <option id="soption_119" value="119">
+               Sample Buy</option>
+
+              <option id="soption_120" value="120">
+               SAMPLE SELL</option>
+
+              <option id="soption_121" value="121">
+               DROPOFF FEE</option>
+
+              <option id="soption_122" value="122">
+               video test material</option>
+
+              <option id="soption_123" value="123">
+               Construction and Demo C&amp;D</option>
+
+              <option id="soption_124" value="124">
+               LDPE plastic</option>
+
+              <option id="soption_125" value="125">
+               Supercop123</option>
+
+              <option id="soption_127" value="127">
+               QA_test</option>
+
+              <option id="soption_128" value="128">
+               Dirty Steel</option>
+
+              <option id="soption_129" value="129">
+               Copper and Lead</option>
+
+              <option id="soption_130" value="130">
+               Material Test</option>
+
+              <option id="soption_131" value="131">
+               company paper</option>
+
+              <option id="soption_132" value="132">
+               ALLUMINIUM </option>
+
+              <option id="soption_133" value="133">
+               Copper</option>
+
+              <option id="soption_134" value="134">
+               Alum Cans Each</option>
+
+              <option id="soption_135" value="135">
+               FREIGHTFEE</option>
+
+              <option id="soption_136" value="136">
+               This is just a demo of pay later payment</option>
+
+              <option id="soption_138" value="138">
+               Brass test</option>
+
+              <option id="soption_139" value="139">
+               sfsdfdfdfsd</option>
+
+              <option id="soption_140" value="140">
+               fdsfsdf</option>
+
+              <option id="soption_141" value="141">
+               test</option>
+
+              <option id="soption_142" value="142">
+               ddgg</option>
+
+              <option id="soption_143" value="143">
+               Brass</option>
+
+              <option id="soption_144" value="144">
+               new brass</option>
+
+              <option id="soption_145" value="145">
+               testing per</option>
+
+              <option id="soption_146" value="146">
+               test cat</option>
+
+              <option id="soption_147" value="147">
+               cast iron</option>
+
+              <option id="soption_148" value="148">
+               Brass choy</option>
+
+              <option id="soption_149" value="149">
+               cast iron group</option>
+
+              <option id="soption_150" value="150">
+               test cast iron</option>
+
+              <option id="soption_151" value="151">
+               test cast iron</option>
+
+              <option id="soption_152" value="152">
+               test</option>
+
+              <option id="soption_153" value="153">
+               test t</option>
+
+              <option id="soption_155" value="155">
+               Test</option>
+
+              <option id="soption_156" value="156">
+               Test 333</option>
+
+              <option id="soption_157" value="157">
+               Candy cane</option>
+
+              <option id="soption_158" value="158">
+               import meterials</option>
+
+              <option id="soption_159" value="159">
+               Test 444</option>
+
+              <option id="soption_160" value="160">
+               test material</option>
+
+              <option id="soption_161" value="161">
+               10KT GOLD</option>
+
+              <option id="soption_162" value="162">
+               SILVER</option>
+
+              <option id="soption_163" value="163">
+               Candy Cane</option>
+
+              <option id="soption_164" value="164">
+               Stainless Steel</option>
+
+              <option id="soption_165" value="165">
+               demosteel</option>
+
+              <option id="soption_166" value="166">
+               Steel engine</option>
+
+              <option id="soption_167" value="167">
+               playdoh</option>
+
+              <option id="soption_168" value="168">
+               SORT and Settle</option>
+
+              <option id="soption_169" value="169">
+               FEE dispatch</option>
+
+              <option id="soption_170" value="170">
+               TRUCK FRAMES</option>
+
+              <option id="soption_171" value="171">
+               test</option>
+
+              <option id="soption_172" value="172">
+               Testing</option>
+
+              <option id="soption_173" value="173">
+               TEST DRIVE</option>
+
+              <option id="soption_174" value="174">
+               Cars</option>
+
+              <option id="soption_175" value="175">
+               Steel</option>
+
+              <option id="soption_176" value="176">
+               TEST Drive</option>
+
+              <option id="soption_177" value="177">
+               RETEST</option>
+
+              <option id="soption_178" value="178">
+               DRE TEST</option>
+
+              <option id="soption_179" value="179">
+               Demo</option>
+
+              <option id="soption_183" value="183">
+               TRUCKING FEE</option>
+
+              <option id="soption_184" value="184">
+               Bikes</option>
+
+              <option id="soption_185" value="185">
+               NJ TEST DRIVE</option>
+
+              <option id="soption_187" value="187">
+               NJ TEST DRIVEE</option>
+
+              <option id="soption_188" value="188">
+               SRU Material</option>
+
+              <option id="soption_189" value="189">
+               Test Material Recicladora</option>
+
+              <option id="soption_190" value="190">
+               sample Test POS</option>
+
+              <option id="soption_191" value="191">
+               Mat test 1</option>
+
+              <option id="soption_192" value="192">
+               Mat test 2</option>
+
+              <option id="soption_193" value="193">
+               Mat test 3</option>
+
+              <option id="soption_194" value="194">
+               Mat test 4</option>
+
+              <option id="soption_195" value="195">
+               Mat Test Plastics</option>
+
+              <option id="soption_196" value="196">
+               Mixed Plastics Test</option>
+
+              <option id="soption_197" value="197">
+               Mat Test 5</option>
+
+              <option id="soption_198" value="198">
+               AVC test</option>
+
+             </select>
+            </div>
+            <a href="" class="btn btn-success text-white d-inline-flex align-items-center p-0">
+             <span class="material-symbols-rounded text-white">add</span>
+            </a>
+           </div>
+
+
+
+          </div>
+         </div>
+
+
+        </div>
+        <div class="form-group mb-2">
+         <div class="d-flex align-items-center ">
+          <label class="form-label w-40p">GM Large</label>
+          <div class="w-60p bold text-end">
+
+
+           <a href="" class="btn btn-danger text-white d-inline-flex align-items-center p-0">
+            <span class="material-symbols-rounded text-white">remove</span>
+           </a>
+
+          </div>
+         </div>
+        </div>
+       </div>
+
+
+       <div class="form-group mb-3">
+        <h6>Apply Pricing :</h6>
+        <div class="border bg-form-box px-2 pt-1 align-items-center">
+         <div class="form-check form-inline me-2">
+          <input class="form-check-input add-after2" type="radio" name="flexRadioDefault" id="radio1">
+          <label class="form-check-label mb-0" for="radio1">To Entire Weight</label>
+         </div>
+         <div class="form-check form-inline me-2">
+          <input class="form-check-input add-after2" type="radio" name="flexRadioDefault" id="radio1">
+          <label class="form-check-label mb-0" for="radio1">In Strata</label>
+         </div>
+         <label class="form-label form-inline">
+          Expire Date :</label>
+         <label class="form-label form-inline">
+          <input type="date" value="" class="form-control h-30 mb-1 form-inline w-auto " placeholder="">
+         </label>
+        </div>
+
+       </div>
+      </div>
+      <div class="modal-footer">
+       <button class="btn btn-grey btn-md px-3 me-2">Save Material</button>
+       <button class="btn btn-grey btn-md px-3">cancel</button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Add Material In Price List Modal Ends -->
+  <!-- Merge Cusomer Modal Starts -->
+  <div class="modal fade" id="MergeCustomers" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-905">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Merge Customers</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <div class="">
+       <div class="bg-grey-4 pxy15-20 radius-lg d-flex align-items-center">
+        <div class="w-100 row d-flex justify-content-between align-items-center">
+         <div class="col-md-5"><label class="form-label">Change Match %
+          </label></div>
+         <div class="col-md-4"> <input type="text" value="60" class="form-control h-36" placeholder=""></div>
+         <div class="col-md-3"> <button class="btn btn-dark btn-xs padding-5 w-100 h-36">Update</button></div>
+        </div>
+       </div>
+       <div class="bg-grey-4 pxy15-20 radius-lg d-flex align-items-center">
+        <div class="w-100 row d-flex justify-content-between align-items-center">
+         <div class="col-md-5"><label class="form-label">Customer Name, License #
+          </label></div>
+         <div class="col-md-6"> <input type="text" value="aaa" class="form-control h-36" placeholder=""></div>
+         <div class="col-md-1"> <button class="btn btn-dark btn-xs padding-5 h-36"><span
+            class="material-symbols-rounded">search</span></button></div>
+        </div>
+       </div>
+      </div>
+
+      <div class="row">
+       <div class="col-md-5 ">
+        <p class="mt-3">The customer selected is a > 60\% match to 523 other customer records. If these are
+         duplicate records of the same customer. you may merge them now.
+         <br />
+         Click on a thumbnail to the right to swap selected records.
+        </p>
+        <div class="card-group card-group-lg mw-100 h-50 mb-2">
+         <div class="content h-50 ">
+          &nbsp;
+         </div>
+        </div>
+       </div>
+       <div class="col-md-7">
+        <div class="table-scroll-h border radius-sm border-1 mt-3">
+         <div class="table-wrapper">
+          <table class="table table-bottom-no-border mb-0 border-radius0" width="100%">
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-danger">delete</span>
+                Remove
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-danger">delete</span>
+                Remove
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-danger">delete</span>
+                Remove
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td width="30%" class="border-opacity-100">
+             <img src="../images/backgrounds/a3.jpg" class="table-img105 me-2" alt="">
+            </td>
+            <td width="70%">
+
+             <div class="d-flex align-items-center">
+              <div class="form-check form-inline">
+               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+               <label class="form-check-label style-1" for="check1">
+                Merge
+               </label>
+              </div>
+              <div class="form-check form-inline">
+               <label class="form-check-label style-1 mb-0 d-flex align-items-center"><span
+                 class="material-symbols-rounded text-danger">delete</span>
+                Remove
+               </label>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="text-center mt-2 ">
+         <ul class="pagination">
+          <li class="page-item"><a class="page-link text-black" href="#">Back</a></li>
+          <li class="page-item"><a class="page-link text-black" href="#">1</a></li>
+          <li class="page-item"><a class="page-link text-black" href="#">2</a></li>
+          <li class="page-item"><a class="page-link text-black" href="#">3</a></li>
+          <li class="page-item"><a class="page-link text-black" href="#">Next</a></li>
+         </ul>
+        </div>
+
+       </div>
+      </div>
+
+      <div class="modal-footer d-flex justify-content-end">
+       <button class="btn btn-blue btn-md me-2">Merge Selected</button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Merge Cusomer  Modal End -->
+  <!-- Quote Details Modal Starts -->
+  <div class="modal fade" id="QuoteDetails" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-905">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold" id="QuoteDetails">Quote Details</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <h6><strong>Quote: #3023</strong></h6>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Name:</label>
+        <div class="w-60p">
+         Testing Last name
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Email Address:</label>
+        <div class="w-60p">
+         testing@gmail.com
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Mobile:</label>
+        <div class="w-60p">
+         1234567894
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">VIN Pattern:</label>
+        <div class="w-60p">
+         testing@gmail.com
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Make/Modal/Year</label>
+        <div class="w-60p">
+         BMW - M2 - 2017
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Has CAT?</label>
+        <div class="w-60p">
+         Yes ($ 20, 00)
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Did you want to two?</label>
+        <div class="w-60p">
+         <div class="form-check form-inline">
+          <input class="form-check-input add-after" type="checkbox" value="" id="check1"><svg width="20" height="20"
+           viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path
+            d="M16.0627 7.33363C16.3574 7.00445 16.3295 6.49869 16.0003 6.20398C15.6711 5.90927 15.1653 5.93721 14.8706 6.26639L11.2769 10.2804C10.5486 11.0938 10.0582 11.6387 9.63895 11.9911C9.23954 12.3268 9.00494 12.4 8.8 12.4C8.59507 12.4 8.36047 12.3268 7.96105 11.9911C7.54176 11.6387 7.05136 11.0938 6.32315 10.2804L5.39603 9.2449C5.10132 8.91573 4.59556 8.88779 4.26638 9.1825C3.93721 9.47721 3.90927 9.98297 4.20398 10.3121L5.17073 11.3919C5.84896 12.1495 6.41467 12.7815 6.93158 13.2159C7.47839 13.6755 8.06819 14 8.8 14C9.53181 14 10.1216 13.6755 10.6684 13.2159C11.1853 12.7815 11.751 12.1496 12.4293 11.392L16.0627 7.33363Z"
+            fill="white"></path>
+          </svg>
+
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Address:</label>
+        <div class="w-60p">
+         <div class="d-flex align-items-center">
+          <input type="text" class="form-control" placeholder="Street" />
+          <input type="text" class="form-control" placeholder="City" />
+
+          <select id="" class="selectpicker">
+           <option value="">State</option>
+          </select>
+          <input type="text" class="form-control" placeholder="zip" />
+         </div>
+
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Estimated Price:</label>
+        <div class="w-60p">
+         $ 120.00
+
+        </div>
+       </div>
+      </div>
+      <div class="form-group mb-2 ">
+       <div class="d-flex align-items-center">
+        <label class="form-label w-40p">Note:</label>
+        <div class="w-60p">
+         <textarea class="form-control h-200" rows="15"></textarea>
+
+        </div>
+       </div>
+      </div>
+
+
+      <div class="modal-footer d-flex justify-content-end">
+       <button class="btn btn-blue btn-md me-2">Update</button>
+       <button class="btn btn-blue btn-md me-2">Save & Create Dispatch</button>
+       <button class="btn btn-blue btn-md me-2">Cancel</button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Quote Details Modal End -->
+
+  <!--Alert Modal-->
+  <div class="modal fade" id="Alert" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-465">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold"> Alert</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <div class="d-flex">
+       <div class="col-md-4">
+        <span class="material-symbols-rounded text-warning font-lg">error</span>
+       </div>
+       <div class="col-md-8">
+        <h4>Please try to save customer first then try to generate cash card</h4>
+       </div>
+      </div>
+
+     </div>
+     <div class="modal-footer text-end">
+      <button class="btn btn-blue btn-md me-2">Yes</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--Alert Modal-->
+   <!--Select picker Modal-->
+   <div class="modal fade" id="selectpickerGroup" tabindex="-1" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-465">
+     <div class="modal-content">
+      <div class="modal-header">
+       <h1 class="modal-title fs-5 fw-bold"> Select Picker Group</h1>
+       <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+      </div>
+      <div class="modal-body p-20">
+       <select class="selectpicker" multiple name="selectpickerdemo" id="selectpickerdemo">
+        <optgroup label="Label 1" id="label1">
+          <option value='abc'>ABC</option>
+          <option value='abcd'>ABCD</option>
+        </optgroup>
+        <optgroup label="Label 2" id="label2">
+          <option value='abc'>ABC</option>
+          <option value='abcd'>ABCD</option>
+        </optgroup>
+      </select>
+ 
+      </div>
+      
+     </div>
+    </div>
+   </div>
+   <!--Select picker Modal-->
+  <script src="../assets/dist/js/all.min.js"></script>
 </body>
 
 </html>

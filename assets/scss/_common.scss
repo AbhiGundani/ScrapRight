@@ -326,7 +326,6 @@ button{
 #loader{
     height:100px;
     width:100px;
-   
     border-radius:50%;
     border:5px solid #ddd;
     border-top-color:#333;
@@ -334,7 +333,7 @@ button{
   }
   @keyframes rotate{
     100%{
-      rotate:360deg;
+      rotate:360deg; 
     }
   }
 
