@@ -169,9 +169,10 @@
    data-bs-target="#QuoteDetails">Quote Details</button>
   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
    data-bs-target="#Alert">Alert</button>
-   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
    data-bs-target="#selectpickerGroup">Select Group</button>
-
+  <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#CashCard">Cash
+   Card</button>
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
@@ -16162,34 +16163,207 @@
    </div>
   </div>
   <!--Alert Modal-->
-   <!--Select picker Modal-->
-   <div class="modal fade" id="selectpickerGroup" tabindex="-1" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-465">
-     <div class="modal-content">
-      <div class="modal-header">
-       <h1 class="modal-title fs-5 fw-bold"> Select Picker Group</h1>
-       <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
-        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
-      </div>
-      <div class="modal-body p-20">
-       <select class="selectpicker" multiple name="selectpickerdemo" id="selectpickerdemo">
-        <optgroup label="Label 1" id="label1">
-          <option value='abc'>ABC</option>
-          <option value='abcd'>ABCD</option>
-        </optgroup>
-        <optgroup label="Label 2" id="label2">
-          <option value='abc'>ABC</option>
-          <option value='abcd'>ABCD</option>
-        </optgroup>
+  <!--Select picker Modal-->
+  <div class="modal fade" id="selectpickerGroup" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-465">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold"> Select Picker Group</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <select class="selectpicker" multiple name="selectpickerdemo" id="selectpickerdemo">
+       <optgroup label="Label 1" id="label1">
+        <option value='abc'>ABC</option>
+        <option value='abcd'>ABCD</option>
+       </optgroup>
+       <optgroup label="Label 2" id="label2">
+        <option value='abc'>ABC</option>
+        <option value='abcd'>ABCD</option>
+       </optgroup>
       </select>
- 
+
+     </div>
+
+    </div>
+   </div>
+  </div>
+
+  <!-- Cash Card Modal Starts -->
+  <div class="modal fade" id="CashCard" tabindex="-1" aria-labelledby="" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-905">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5 fw-bold">Cash Card</h1>
+      <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+       aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+     </div>
+     <div class="modal-body p-20">
+      <div class="row">
+       <div class="col-md-12 text-center" id="grad1">
+        <form id="msform">
+         <!-- progressbar -->
+         <ul id="progressbar">
+          <li class="active" id="aboutyou"><strong>Seller's Image</strong></li>
+          <li id="aboutvehicle"><strong>Thumb Print </strong></li>
+          <li id="vehicledetails"><strong>Sigature </strong></li>
+          <li id="review"><strong>Review</strong></li>
+         </ul>
+         <!-- fieldsets -->
+         <fieldset>
+          <div class="form-card p-0">
+           <div class="row justify-content-center">
+            <div class="col-md-8">
+             <div class="form-group mb-3">
+              <div class="blank-box  m-auto h-20vh bg-black"></div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <button type="button" class="btn btn-blue" value=""><span
+            class="material-symbols-rounded">refresh</span></button>
+          <button type="button" name="next" class="next action-button btn btn-blue" value=""><span
+            class="material-symbols-rounded">camera</span></button>
+         </fieldset>
+         <fieldset>
+          <div class="form-card p-0">
+           <div class="row justify-content-center">
+            <div class="col-md-8">
+             <div class="form-group mb-3">
+              <div class="blank-box  m-auto h-20vh bg-black">
+               <div class="d-flex align-items-center h-100 w-100">
+                <span class="text-white w-100 ">Click to scan your Thumbprint</span>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <button type="button" class="btn btn-blue" value=""><span
+            class="material-symbols-rounded">refresh</span></button>
+          <button type="button" name="next" class="next action-button btn btn-blue" value=""><span
+            class="material-symbols-rounded">camera</span></button>
+         </fieldset>
+         <fieldset>
+          <div class="form-card p-0">
+           <div class="row justify-content-center">
+            <div class="col-md-8">
+             <div class="form-group mb-3">
+              <div class="blank-box  m-auto h-10vh bg-black">
+               <div class="d-flex align-items-center h-100 w-100">
+                <span class="text-white w-100 ">Click to scan your Signature</span>
+               </div>
+              </div>
+              <p class="text-danger">*Clicking SCAN will prompt for the signature on Mobisig</p>
+              <p>By signing this document, you are ceclaring you are the person describe above.</p>
+             </div>
+            </div>
+           </div>
+          </div>
+          <button type="button" class="btn btn-blue" value="">Scan</button>
+
+          <button type="button" name="next" class="next action-button btn btn-blue" value="">Accept</button>
+          <button type="button" class="btn btn-grey" value="">Clear</button>
+         </fieldset>
+         <fieldset>
+          <div class="form-card p-0">
+           <div class="row justify-content-center">
+            <div class="col-md-8">
+             <div class="form-group mb-3">
+              Review Screen Data will come here
+             </div>
+
+            </div>
+           </div>
+          </div>
+
+         </fieldset>
+
+        </form>
+       </div>
       </div>
-      
+
+      <div class="modal-footer d-flex justify-content-end mt-2">
+       <button class="btn btn-blue btn-md me-2">Cancel</button>
+      </div>
      </div>
     </div>
    </div>
-   <!--Select picker Modal-->
+  </div>
+  <!-- Cash Card Modal End -->
+  <!--Select picker Modal-->
   <script src="../assets/dist/js/all.min.js"></script>
+  <script>
+   $(document).ready(function () {
+
+    var current_fs, next_fs, previous_fs; //fieldsets
+    var opacity;
+
+    $(".next").click(function () {
+
+     current_fs = $(this).parent();
+     next_fs = $(this).parent().next();
+
+     //Add Class Active
+     $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+     //show the next fieldset
+     next_fs.show();
+     //hide the current fieldset with style
+     current_fs.animate({ opacity: 0 }, {
+      step: function (now) {
+       // for making fielset appear animation
+       opacity = 1 - now;
+
+       current_fs.css({
+        'display': 'none',
+        'position': 'relative'
+       });
+       next_fs.css({ 'opacity': opacity });
+      },
+      duration: 600
+     });
+    });
+
+    $(".previous").click(function () {
+
+     current_fs = $(this).parent();
+     previous_fs = $(this).parent().prev();
+
+     //Remove class active
+     $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+     //show the previous fieldset
+     previous_fs.show();
+
+     //hide the current fieldset with style
+     current_fs.animate({ opacity: 0 }, {
+      step: function (now) {
+       // for making fielset appear animation
+       opacity = 1 - now;
+
+       current_fs.css({
+        'display': 'none',
+        'position': 'relative'
+       });
+       previous_fs.css({ 'opacity': opacity });
+      },
+      duration: 600
+     });
+    });
+
+    $('.radio-group .radio').click(function () {
+     $(this).parent().find('.radio').removeClass('selected');
+     $(this).addClass('selected');
+    });
+
+    $(".submit").click(function () {
+     return false;
+    })
+
+   });
+  </script>
 </body>
 
 </html>
