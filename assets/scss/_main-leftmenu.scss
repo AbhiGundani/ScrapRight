@@ -33,6 +33,11 @@
                     color: $white;  
                     background-color: $primary;  
                 }
+
+                &.active{
+                    color: $white;  
+                    background-color: $primary;  
+                }
             }
         }
     }
