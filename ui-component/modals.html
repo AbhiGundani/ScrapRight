@@ -181,6 +181,7 @@
 
    <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#assay-lot">Assay Lot
    </button>
+   <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal" data-bs-target="#organation">Organation</button>
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
@@ -16285,7 +16286,8 @@
             </div>
            </div>
           </div>
-
+          <button type="button" name="next" class="next action-button btn btn-blue" value="">Accept</button>
+          <button type="button" class="btn btn-grey" value="">Clear</button>
          </fieldset>
 
         </form>
@@ -16302,7 +16304,7 @@
   <!-- Cash Card Modal End -->
 
 
-  <!-- Add Vehicle Popup Starts -->
+  <!-- Add assay Popup Starts -->
   <div class="modal fade" id="assay-lot" tabindex="-1" aria-labelledby="" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-685">
      <div class="modal-content">
@@ -16457,8 +16459,477 @@
      </div>
     </div>
    </div>
-   <!-- Add Vehicle Popup Ends -->
+   <!-- Add assay Popup Ends -->
 
+  <!-- Add assay Popup Starts -->
+  <div class="modal fade" id="organation" tabindex="-1" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel"> Organation </h1>
+          <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+            aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+        </div>
+        <div class="modal-body p-20 d-block">
+  
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Organation Name: </label>
+                  <div class="w-100p">
+                    <input type="text" class="form-control h-36 w-100p" placeholder="">
+                    <input type="file" class="form-control h-36 w-100p" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Logo: </label>
+                  <img src="../images/logo/scrap-right-logo.png" class=" w-40p" />
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Country: </label>
+                  <div class="w-60p">
+                    <select class="form-control h-36 selectpicker">
+                      <option>United States</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">State: </label>
+                  <div class="w-60p">
+                    <select class="form-control h-36 selectpicker">
+                      <option>States</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">City: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Address 1: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Address 2: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Postal Code: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Phone: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Fax: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Website: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-md-6">
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Email ID: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Version: </label>
+                  <select>
+                    <option>USA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">NTEP CC#: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Google Maps: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Key: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">VSAAS: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Code: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">VSAAS Sites (enter each site in new line): </label>
+                  <textarea class="form-control w-60p"></textarea>
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label form-check-label style-1 w-40p">Hide SR logo in receipt: </label>
+                  <div class="form-check form-inline   w-60p">
+                    <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                  </div>
+  
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label form-check-label style-1 w-40p">Disable web Notifdication: </label>
+                  <div class="form-check form-inline   w-60p">
+                    <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                  </div>
+  
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label form-check-label style-1 w-40p">Alert whe iternet is out for IoT: </label>
+                  <div class="form-check form-inline   w-60p">
+                    <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                  </div>
+  
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">TimeZone Difference (minutes): </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Customer Number: </label>
+                  <input type="text" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+              <div class="form-group mb-2 ">
+                <div class="d-flex align-items-center">
+                  <label class="form-label w-40p">Date Format: </label>
+                  <input type="date" class="form-control h-36 w-60p" placeholder="">
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <h4>Selling Company</h4>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Organation Name: </label>
+                      <div class="w-100p">
+                        <input type="text" class="form-control h-36 w-100p" placeholder="">
+                        <input type="file" class="form-control h-36 w-100p" placeholder="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Logo: </label>
+                      <img src="../images/logo/scrap-right-logo.png" class=" w-40p" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Country: </label>
+                      <div class="w-60p">
+                        <select class="form-control h-36 selectpicker">
+                          <option>United States</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">State: </label>
+                      <div class="w-60p">
+                        <select class="form-control h-36 selectpicker">
+                          <option>States</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">City: </label>
+                      <input type="text" class="form-control h-36 w-60p" placeholder="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Address: </label>
+                      <input type="text" class="form-control h-36 w-60p" placeholder="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Zip: </label>
+                      <input type="text" class="form-control h-36 w-60p" placeholder="">
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Phone: </label>
+                      <input type="text" class="form-control h-36 w-60p" placeholder="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Fax: </label>
+                      <input type="text" class="form-control h-36 w-60p" placeholder="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-2 ">
+                    <div class="d-flex align-items-center">
+                      <label class="form-label w-40p">Website: </label>
+                      <input type="text" class="form-control h-36 w-60p" placeholder="">
+                    </div>
+                  </div>
+                </div>
+  
+  
+                <div class="col-md-12">
+                  <div class="form-group mb-2 row">
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p">Workstation</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                      <label class="form-label  w-20p">User</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline  ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p">Permission</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline  2">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 2">Unlimted</label>
+                        </div>
+                      </div>
+                      <label class="form-label  w-20p">FP Device</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline   ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group mb-2 row">
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p">DL Scanner</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline  ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1">Unlimted</label>
+                        </div>
+                      </div>
+                      <label class="form-label  w-20p">Signature Pads</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p">Camera</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                      <label class="form-label  w-20p">Material</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 p">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group mb-2 row">
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p">Material Group</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline  ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                      <label class="form-label  w-20p">Printer</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p">Cash Drawer</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                      <label class="form-label  w-20p">Scale</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group mb-2 row">
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p ">ATM</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline  ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                      <label class="form-label  w-20p">Mobile App</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center col-md-6">
+                      <label class="form-label  w-20p">Driver</label>
+                      <input type="text" class="form-control h-36  w-20p" placeholder="">
+                      <div class="d-flex align-items-center">
+                        <div class="form-check form-inline  ">
+                          <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+                          <label class="form-label form-check-label style-1 ">Unlimted</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+          </div>
+          <hr />
+          <h4>iScrapRight App Feature</h4>
+          <div class="form-group mb-2 ">
+            <div class="d-flex align-items-center">
+              <div class="form-check form-inline ">
+                <label class="form-label form-check-label style-1">Allow Scales: </label>
+                <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+              </div>
+              <div class="form-check form-inline ">
+                <label class="form-label form-check-label style-1">Allow Flip ID: </label>
+                <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+              </div>
+              <div class="form-check form-inline ">
+                <label class="form-label form-check-label style-1">Allow Fingerprint Capturing: </label>
+                <input class="form-check-input add-after" type="checkbox" value="" id="check1" checked="">
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-end">
+          <button class="btn btn-blue  me-2">Save Organation</button>
+  
+          <button class="btn btn-inventory-primary">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Add Organation Popup Ends -->
 
 
 

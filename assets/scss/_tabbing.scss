@@ -590,9 +590,24 @@ select {
 			content: "3";
 		}
 	}
+    #review {
+		&:before {
+			
+			content: "3";
+		}
+	}
 	
 }
 #progressbar li.active:before,
   #progressbar li.active:after {
 	background: #0d3967;
+}
+
+.modal{
+    #progressbar{
+
+     li {
+        width: 25%;
+}
+}
 }
