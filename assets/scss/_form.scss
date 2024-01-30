@@ -227,6 +227,7 @@ input[type="time"]{
             }
             a{
                     color: $black;
+                    width: auto;
                     &:hover, &:focus{
                         background-color: $grey-5;
                         span{
