@@ -28,6 +28,37 @@
    <title>ScrapRight</title>
   </head>
   <body>
+
+    <div class="offcanvas offcanvas-end left-radius10" tabindex="-1" id="offcanvasWithBackdrop"
+    aria-labelledby="offcanvasWithBackdropLabel" aria-modal="true" role="dialog">
+    <div class="offcanvas-header">
+      <button class="btn btn-dark color-white btn-lg filter-close-btn offcanvas-close" data-bs-dismiss="offcanvas"
+        aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+    </div>
+    <div class="offcanvas-body p-0">
+      <div class="new-ticket-leftmenu tabbing-bg">
+        <div class="inbound-tabbing">
+          <div class="d-flex align-items-center justify-content-between p-3">
+            <div class="color-secondary text-caps fw-extrabold fs-xl">Ticket Activity</div>
+            <div><button class="btn btn-grey h-36 radius-sm p-2">Export</button></div>
+          </div>
+
+          
+        
+        </div>
+      </div>
+
+      <div class="ticket-review-list">
+        <div class="p-1">
+          <a href="" class="card border-dashed-grey dispatch-card">12/06/2023 01:24 - Lucifer - Ticket Device Locked</a>
+          <a href="" class="card border-dashed-grey dispatch-card">12/06/2023 01:24 -d</a>
+          <a href="" class="card border-dashed-grey dispatch-card">12/06/2023 01:24 - Lucifer - Ticket Device Locked</a>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
     <div class="layout-1 style-5 wrapper">
         <nav class="navbar main-navbar navbar-expand-xl">
             <div class="d-flex justify-content-between w-100">
@@ -252,6 +283,11 @@
             <div class="end-col p-0">
               <nav class="navbar-h-98 navbar-expand-xl mb-5 w-100">
                 <div class="color-secondary text-caps fw-extrabold fs-xl">TICKET #: 1024</div>
+                <div>
+                  
+
+                  <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" class="btn btn-blue h-36 radius-sm p-2">Ticket Review</button>
+                </div>
               </nav>
               <div class="pxy25-20 border-bottom-grey">
                 <div class="admin-review-card bg-white shadow-lg-custom p-25">
