@@ -108,6 +108,16 @@
     border: 1px solid $grey-5;
     border-radius: $radius-lg;
     position: relative;
+    display: flex;
+
+    .information-text{
+        color: $white;
+        font-size: $font-size-13;
+        position: absolute;
+        right: 15px;
+        bottom: 0px;
+    }
+
     &::before { 
         width:165px; 
         height:1px; 
@@ -117,6 +127,55 @@
         bottom: 20px; 
         right: 20px;
     }
+
+    .buy-sell {
+        display: inline-flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        justify-content: space-around;
+        a {
+           color: #fff;
+           text-decoration: none;
+           font-weight: 700;
+           background-color: rgba(255, 255, 255, 0.1);
+           padding: 5px 10px;
+           display: inline-flex;
+           
+           &:hover {
+              text-decoration: underline;
+              background-color: rgba(255, 255, 255);
+              color: $secondary;
+           }
+        }
+
+        a.back{
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            background-color: transparent;
+            padding: 5px 10px;
+            display: inline-flex;
+
+            span{
+                color: $white;
+            }
+        }
+     
+     }
+
+     .text-area{
+        width: 50%;
+        .form-control{
+            background-color: transparent;
+            border: 0px;
+            color: $white;
+            font-size: $font-size-23;
+            margin-top: 25px;
+        }
+     }
+
+
 }
 
 .blank-box{
