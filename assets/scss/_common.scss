@@ -344,3 +344,25 @@ button{
 
   .bg-grey{background: #868686;}
   .bg-blue{background: #264d76;}
+
+  .buy-sell {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    text-align: center;
+    line-height: 30px;
+    padding: 24px;
+ 
+    a {
+       color: #fff;
+       text-decoration: none;
+       font-weight: 700;
+ 
+       &:hover {
+          text-decoration: underline;
+       }
+    }
+ 
+ }
