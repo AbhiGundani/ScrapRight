@@ -447,6 +447,10 @@
         }
     }
 } 
+
+
+
+
 .inbound-tabbing{
     .nav{
         &.nav-pills{
@@ -496,6 +500,36 @@
                 }
             }
         }
+    }
+}
+
+
+.new-ticket-leftmenu{
+    .inbound-tabbing{
+        .tab-content{
+            #v-pills-inbound{
+        button{
+
+            &:hover{
+                background-color: $secondary;
+                &.ticket-detail{
+                    .txt-color{
+                        color: $white;
+                    }
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    border-top: 0px solid transparent;
+                    border-bottom: 0px solid transparent;
+                    border-left: 0px solid $secondary;
+                    top: 0%;
+                    right: 0px;
+                }
+            }
+        }
+    }
+}
     }
 }
 
