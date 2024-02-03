@@ -282,5 +282,12 @@ buttons();
 loadCalendar();
 */
 
-
+$('.datatable').DataTable({
+  responsive: false,
+  search:true,
+  filter:false,
+  length:false,
+  paginate:false,
+  info:false,
+});
 

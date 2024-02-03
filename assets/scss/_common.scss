@@ -347,7 +347,29 @@ button{
 
   
 
-
+/*03-02-2024*/
+.h-100px{
+    height: 100px;
+    white-space: break-spaces !important;
+}
+.scroll-y{
+    overflow-y: auto;
+    height: 500px;
+    overflow-x: hidden;
+}
+.list-none{
+    margin: 10px 0px;
+    padding: 5px 0px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    li{
+        display: inline-block;
+        list-style: none;
+        padding: 5px 10px;
+        span{font-weight: bold; 
+        background: #333; margin-left: 5px; border-radius: 15px; text-align: center; color: #fff; line-height: 14px; font-size: 12px; padding: 0px 10px;}
+    }
+}
 
 
 
