@@ -36,6 +36,11 @@
        padding: 7px 10px;
        border-radius:0;
     }
+    &.btn-small-1 {
+        padding: 10px 10px;
+        height: auto;
+        font-size: $font-size-sm;
+    } 
     &.btn-md {
         padding: 15px 30px;
         height: auto;
