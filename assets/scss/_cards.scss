@@ -560,3 +560,36 @@
     }
 }
 
+/* New Ticket Hide section Style*/
+
+.material-card{
+    &.note-attachement-box{
+        .input-part{
+            .form-group{
+                max-width: inherit;
+                width: auto;
+
+                &.w-25p{
+                    width: 25%;
+                }
+                &.w-50p{
+                    width: 50%;
+                    .form-label{
+                        width: 30%;
+                    }
+                }
+
+                textarea{
+                    height: 100px;
+                    resize: auto;
+                }
+            }
+        }
+    }
+    
+    &.ticket-payout-box{
+        .blank-box{
+            height: 180px;
+        }
+    }
+}
