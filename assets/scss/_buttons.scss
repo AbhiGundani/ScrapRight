@@ -386,11 +386,15 @@
 .action-btn{
     .btn{
         background-color: $light-blue-4;
-        min-width: 8%;
+        max-width:10%;
         font-size: $font-size-sm;
         color: $primary;
         font-weight: $font-800;
         text-transform: $text-uppercase;
+        display: inline-block;
+        word-wrap: break-word;
+        word-break: break-word;
+        white-space: inherit;
     }
 }
 
