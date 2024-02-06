@@ -485,31 +485,35 @@ button.card-material-group{
 $color_1: #000;
 $color_2: Blue;
 
+div.osk{
+#numberPad{
+    input[type='button']{
+        background: #f7f7f7;
+        border-radius: 10px;
+        border: 1px solid #d3d3d3;
+
+        &:hover{
+            background: $grey-5;
+        }
+    }
+}
+
+#keyboard{
+    input[type='button']{
+        background: #f7f7f7;
+        border-radius: 10px;
+        border: 1px solid #d3d3d3;
+        &:hover{
+            background: $grey-5;
+        }
+    }
+}
+}
+
 div.osk {
     height: 286px;
 	z-index: 1015;
-    #numberPad{
-        input[type='button']{
-            background: #f7f7f7;
-            border-radius: 10px;
-            border: 1px solid #d3d3d3;
-
-            &:hover{
-                background: $grey-5;
-            }
-        }
-    }
-
-    #keyboard{
-        input[type='button']{
-            background: #f7f7f7;
-            border-radius: 10px;
-            border: 1px solid #d3d3d3;
-            &:hover{
-                background: $grey-5;
-            }
-        }
-    }
+    
 
 
 	
