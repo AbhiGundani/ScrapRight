@@ -481,6 +481,9 @@ button.card-material-group{
 
 
 /* OSK STYLE */
+.ticketItemCurrent{
+    background-color: #f0f5fe !important;
+}
 
 $color_1: #000;
 $color_2: Blue;
@@ -513,9 +516,6 @@ div.osk{
 div.osk {
     height: 286px;
 	z-index: 1015;
-    
-
-
 	
 	a {
 		color: $color_1;
