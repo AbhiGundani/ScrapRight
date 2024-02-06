@@ -475,3 +475,176 @@ button.card-material-group{
     }
 } 
 
+
+
+
+
+
+/* OSK STYLE */
+
+$color_1: #000;
+$color_2: Blue;
+
+div.osk {
+    height: 286px;
+	z-index: 1015;
+    #numberPad{
+        input[type='button']{
+            background: #f7f7f7;
+            border-radius: 10px;
+            border: 1px solid #d3d3d3;
+
+            &:hover{
+                background: $grey-5;
+            }
+        }
+    }
+
+    #keyboard{
+        input[type='button']{
+            background: #f7f7f7;
+            border-radius: 10px;
+            border: 1px solid #d3d3d3;
+            &:hover{
+                background: $grey-5;
+            }
+        }
+    }
+
+
+	
+	a {
+		color: $color_1;
+		text-decoration: none;
+	}
+	#numberPad {
+		position: relative;
+		float: right;
+		width: 252px;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	#keyboard {
+		position: relative;
+		float: right;
+		width: 735px;
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+	.key {
+		width: 57px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 26px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.keyPlusMinus {
+		width: 57px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 26px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_numpad_delete {
+		width: 57px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_numpad_enter {
+		width: 57px;
+		height: 128px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		padding-bottom: 75px;
+	}
+	.key_delete {
+		width: 87px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_enter {
+		width: 120px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_shift {
+		width: 50px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_shift_active {
+		color: $color_2;
+		width: 50px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_shift_small {
+		width: 95px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_shift_small_active {
+		color: $color_2;
+		width: 95px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_tab {
+		width: 87px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 8px;
+		padding-bottom: 15px;
+	}
+	.key_space {
+		width: 272px;
+		height: 61px;
+		margin: 3px;
+		float: right;
+	}
+}
