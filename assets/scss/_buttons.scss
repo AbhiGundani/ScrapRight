@@ -658,8 +658,6 @@ div.osk {
 }
 
 
-
-
 #oskClose {
     display: none;
     bottom: 290px;
@@ -668,6 +666,19 @@ div.osk {
     cursor: pointer;
     position: absolute;
     left: 0px;
-    width: 19px;
-    background: url(../../images/icons/osk_hide.png) center center no-repeat;
+    width: 20px;
+    background: url(../../../images/icons/osk_hide.png) center center no-repeat;
+}
+
+
+
+#oskOpen {
+    bottom: 290px;
+    height: 40px;
+    z-index: 2000;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    background: url(../../../images/icons/osk_show.png) center center no-repeat;
 }
