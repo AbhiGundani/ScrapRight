@@ -656,3 +656,18 @@ div.osk {
 		float: right;
 	}
 }
+
+
+
+
+#oskClose {
+    display: none;
+    bottom: 290px;
+    height: 40px;
+    z-index: 2000;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    width: 19px;
+    background: url(../../images/icons/osk_hide.png) center center no-repeat;
+}
