@@ -192,6 +192,11 @@
     <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
       data-bs-target="#Select-Package">Select Package
     </button>
+
+
+    <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+      data-bs-target="#select-material">Select Material</button>
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-sm">
@@ -8536,6 +8541,8 @@
       </div>
     </div>
     <!-- Popup Ends -->
+
+  
 
     <div class="modal fade" id="AddSignatureScanner" tabindex="-1" aria-labelledby="" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-465">
@@ -17379,8 +17386,36 @@
     <!-- Select PACKAGE Popup Ends -->
 
 
+
+      <!--Alert Modal-->
+      <div class="modal fade" id="select-material" tabindex="-1" aria-labelledby="" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-465">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bold"> Select Material</h1>
+              <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+                aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+            </div>
+            <div class="modal-body p-20">
+              <div class="d-flex">
+                <div id="jstree2">
+                </div>
+              </div>
+  
+            </div>
+            <div class="modal-footer text-end">
+              <button class="btn btn-blue btn-md me-2">Save</button>
+              <button class="btn btn-grey btn-md me-2">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Alert Modal-->
+
+
     <!--Select picker Modal-->
     <script src="../assets/dist/js/all.min.js"></script>
+
     <script>
       $(document).ready(function () {
 
