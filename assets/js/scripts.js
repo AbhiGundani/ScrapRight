@@ -60,8 +60,6 @@ $('#jstree,#jstree2').jstree({
 })
 
 
-
-
 $('#jstree,#jstree2').on('changed.jstree', function (e, data) {
   var objects = data.instance.get_selected(true)
   var leaves = $.grep(objects, function (o) { return data.instance.is_leaf(o) })
