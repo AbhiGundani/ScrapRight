@@ -374,5 +374,50 @@ button{
 
 
 
+/* Auto Search CSS */
+
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid $grey-4;
+	background-color: $white;
+	overflow: hidden;
+	z-index: 99999; 
+    background-color: $white;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-md;
+
+	ul {
+		width: 100%;
+		list-style-position: outside;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		margin: 0px;
+		padding: 5px 5px;
+		cursor: default;
+		display: block;
+		font: menu;
+		font-size: 13px;
+		line-height: 16px;
+		overflow: hidden;
+		padding-left: 10px;
+	}
+}
+.ac_loading {
+	background: white url('/Img/loader.gif') right center no-repeat;
+}
+.ac_odd {
+	background-color: $grey-4;
+}
+.ac_over {
+	background-color: $light-blue-4;
+	color: $primary;
+}
+
+
+
 
   
