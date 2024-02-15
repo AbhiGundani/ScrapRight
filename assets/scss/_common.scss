@@ -522,7 +522,130 @@ button {
     border-right: #eee solid 1px;
     background: #0d3967;
     color: #fff;
-    .color-black{
+
+    .color-black {
         color: #fff;
+    }
+}
+
+.div-base-table {
+
+    .table-header,
+    .table-row,
+    .table-footer {
+        display: table;
+        width: 100%;
+        background-color: #ccddf5;
+
+        >div {
+            display: table-cell;
+            font-size: .75rem;
+            padding: 20px 10px;
+            font-weight: 800;
+            vertical-align: middle;
+            width: 15%;
+
+            &:first-child {
+                width: 6%;
+            }
+
+        }
+    }
+
+    .table-body {
+        height: 100%;
+        max-height: 500px;
+        overflow-y: auto;
+        width: 100%;
+        display: inline-block;
+
+        .table-header {
+            display: table;
+            width: 100%;
+            background-color: #bdbdbd;
+
+            >div {
+                display: table-cell;
+                font-size: .75rem;
+                padding: 10px 10px;
+                font-weight: 800;
+                vertical-align: middle;
+
+            }
+        }
+
+        .table-row {
+            display: table;
+            width: 100%;
+            background-color: #fff;
+
+            >div {
+                display: table-cell;
+                font-size: .75rem;
+                padding: 10px;
+                vertical-align: middle;
+
+
+            }
+
+            &:nth-child(odd) div {
+                background: #f8f8f8;
+            }
+        }
+    }
+
+    .table-footer {
+        display: table;
+        width: 100%;
+        background-color: #4e4e4e;
+
+        >div {
+            display: table-cell;
+            font-size: .75rem;
+            padding: 10px;
+            color: #fff;
+        }
+    }
+
+    .bg-icon {
+        vertical-align: middle;
+    }
+}
+
+.inventory-control-table {
+    border-radius: 10px;
+    overflow: hidden;
+    .table-row {
+        background: #fff;
+
+        div {
+            border-right: 1px solid rgba(207, 221, 243, .6);
+            background: transparent linear-gradient(109deg, #fff, #fff 53%, #efefef) 0 0 no-repeat padding-box;
+            font-size: .625rem;
+            font-weight: 400;
+            line-height: 18px;
+            text-transform: uppercase;
+            box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+            padding: 0.5rem;
+            color: #8c908a;
+            width: 50%;
+            border-bottom: 1px solid rgba(207, 221, 243, .6);
+
+            &:first-child {
+                width: 50%;
+            }
+        }
+        &:nth-child(odd) div {
+            border-right: 1px solid rgba(207, 221, 243, .6);
+            background: transparent linear-gradient(109deg, #fff, #fff 53%, #efefef) 0 0 no-repeat padding-box !important;
+            font-size: .625rem;
+            font-weight: 400;
+            line-height: 18px;
+            text-transform: uppercase;
+            box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+            padding: 0.5rem;
+            color: #8c908a;
+            width: 50%;
+        }
     }
 }
