@@ -39,10 +39,12 @@ nav{
                     .dropdown {
                         .dropdown-menu{
                             border: $border-grey;
-                            border-radius: $radius-filter-menu;
+                            //border-radius: $radius-filter-menu;
+                            border-radius: 0px 0px 10px 10px;
                             background-color: $white;
                             margin-top: 0px;
                             .dropdown-item{
+                                padding-right: 30px;
                                 &:hover, &:focus{
                                     background-color: $grey-5;
                                 }
@@ -338,4 +340,21 @@ nav{
         }
     }
 }
+}
+
+
+
+.dropend {
+    .dropdown-menu{
+        .dropdown-item{
+            position: relative;
+        }
+    }
+    .dropdown-toggle:after{
+
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
 }
