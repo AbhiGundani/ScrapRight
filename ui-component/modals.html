@@ -744,116 +744,165 @@
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-info" role="tabpanel"
                   aria-labelledby="v-pills-info-tab" tabindex="0">
-                  <div class="compliance-part d-flex align-items-center justify-content-end">
-                    <h6 class="fs-16 fw-extrabold text-caps me-3 mb-0">compliance</h6>
-                    <div class="form-check form-inline">
-                      <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                      <label class="form-check-label style-1" for="check1">
-                        Require a picture of material being purchased.
-                      </label>
-                    </div>
-                  </div>
-                  <div class="form-input">
-                    <div class="form-input-row d-flex justify-content-between">
-                      <div class="form-group w-21p">
-                        <label class="form-label">Code</label>
-                        <div class="d-flex align-items-center">
-                          <input type="email" class="form-control h-36 me-2" placeholder="">
-                          <a href="#">
-                            <span class="material-symbols-rounded">upload_file</span>
-                          </a>
+
+                  <div class="row">
+                    
+                    <div class="col-8">
+                      <div class="form-input">
+                        <div class="form-input-row d-flex justify-content-between">
+                          <div class="form-group w-21p">
+                            <label class="form-label">Code</label>
+                            <div class="d-flex align-items-center">
+                              <input type="email" class="form-control h-36 me-2" placeholder="">
+                              <a href="#">
+                                <span class="material-symbols-rounded">upload_file</span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="form-group w-21p">
+                            <label class="form-label">ISRI Code:</label>
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens="ketchup mustard">1</option>
+                              <option data-tokens="mustard">2</option>
+                              <option data-tokens="frosting">3</option>
+                            </select>
+                          </div>
+                          <div class="form-group w-35p">
+                            <label class="form-label">Description:</label>
+                            <input type="email" class="form-control h-36" placeholder="">
+                          </div>
+                          <div class="form-group w-18p">
+                            <label class="form-label">Group:</label>
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens="ketchup mustard">1</option>
+                              <option data-tokens="mustard">2</option>
+                              <option data-tokens="frosting">3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-input-row d-flex justify-content-between">
+                          <div class="form-group w-21p">
+                            <label class="form-label">ISRI Code:</label>
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens="ketchup mustard">1</option>
+                              <option data-tokens="mustard">2</option>
+                              <option data-tokens="frosting">3</option>
+                            </select>
+                          </div>
+                          <div class="form-check form-inline modal-checkbox w-21p">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              Formula Pricing
+                            </label>
+                          </div>
+                          <div class="form-group w-35p">
+                            <label class="form-label">Note:</label>
+                            <input type="email" class="form-control h-36" placeholder="">
+                          </div>
+                          <div class="form-group w-18p">
+                            <label class="form-label">Asset Account:</label>
+                            <input type="email" class="form-control h-36" placeholder="">
+                          </div>
+                        </div>
+                        <div class="form-input-row d-flex justify-content-between">
+                          <div class="form-group w-21p">
+                            <label class="form-label">COGS Account</label>
+                            <input type="email" class="form-control h-36" placeholder="">
+                          </div>
+                          <div class="form-group w-21p">
+                            <label class="form-label">Report Unit:</label>
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens="ketchup mustard">1</option>
+                              <option data-tokens="mustard">2</option>
+                              <option data-tokens="frosting">3</option>
+                            </select>
+                          </div>
+                          <div class="form-group w-21p">
+                            <label class="form-label">QB Class:</label>
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens="ketchup mustard">1</option>
+                              <option data-tokens="mustard">2</option>
+                              <option data-tokens="frosting">3</option>
+                            </select>
+                          </div>
+                          <div class="form-group w-21p">
+                            <label class="form-label">QB Item Type:</label>
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens="ketchup mustard">1</option>
+                              <option data-tokens="mustard">2</option>
+                              <option data-tokens="frosting">3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-input-row d-flex">
+                          <div class="form-check form-inline me-3">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              CRV
+                            </label>
+                          </div>
+                          <div class="form-check form-inline">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              Use For Donate Change
+                            </label>
+                          </div>
                         </div>
                       </div>
-                      <div class="form-group w-21p">
-                        <label class="form-label">ISRI Code:</label>
-                        <select class="selectpicker" data-live-search="true">
-                          <option data-tokens="ketchup mustard">1</option>
-                          <option data-tokens="mustard">2</option>
-                          <option data-tokens="frosting">3</option>
-                        </select>
-                      </div>
-                      <div class="form-group w-35p">
-                        <label class="form-label">Description:</label>
-                        <input type="email" class="form-control h-36" placeholder="">
-                      </div>
-                      <div class="form-group w-18p">
-                        <label class="form-label">Group:</label>
-                        <select class="selectpicker" data-live-search="true">
-                          <option data-tokens="ketchup mustard">1</option>
-                          <option data-tokens="mustard">2</option>
-                          <option data-tokens="frosting">3</option>
-                        </select>
-                      </div>
                     </div>
-                    <div class="form-input-row d-flex justify-content-between">
-                      <div class="form-group w-21p">
-                        <label class="form-label">ISRI Code:</label>
-                        <select class="selectpicker" data-live-search="true">
-                          <option data-tokens="ketchup mustard">1</option>
-                          <option data-tokens="mustard">2</option>
-                          <option data-tokens="frosting">3</option>
-                        </select>
-                      </div>
-                      <div class="form-check form-inline modal-checkbox w-21p">
-                        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                        <label class="form-check-label style-1" for="check1">
-                          Formula Pricing
-                        </label>
-                      </div>
-                      <div class="form-group w-35p">
-                        <label class="form-label">Note:</label>
-                        <input type="email" class="form-control h-36" placeholder="">
-                      </div>
-                      <div class="form-group w-18p">
-                        <label class="form-label">Asset Account:</label>
-                        <input type="email" class="form-control h-36" placeholder="">
-                      </div>
-                    </div>
-                    <div class="form-input-row d-flex justify-content-between">
-                      <div class="form-group w-21p">
-                        <label class="form-label">COGS Account</label>
-                        <input type="email" class="form-control h-36" placeholder="">
-                      </div>
-                      <div class="form-group w-21p">
-                        <label class="form-label">Report Unit:</label>
-                        <select class="selectpicker" data-live-search="true">
-                          <option data-tokens="ketchup mustard">1</option>
-                          <option data-tokens="mustard">2</option>
-                          <option data-tokens="frosting">3</option>
-                        </select>
-                      </div>
-                      <div class="form-group w-21p">
-                        <label class="form-label">QB Class:</label>
-                        <select class="selectpicker" data-live-search="true">
-                          <option data-tokens="ketchup mustard">1</option>
-                          <option data-tokens="mustard">2</option>
-                          <option data-tokens="frosting">3</option>
-                        </select>
-                      </div>
-                      <div class="form-group w-21p">
-                        <label class="form-label">QB Item Type:</label>
-                        <select class="selectpicker" data-live-search="true">
-                          <option data-tokens="ketchup mustard">1</option>
-                          <option data-tokens="mustard">2</option>
-                          <option data-tokens="frosting">3</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="form-input-row d-flex">
-                      <div class="form-check form-inline me-3">
-                        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                        <label class="form-check-label style-1" for="check1">
-                          CRV
-                        </label>
-                      </div>
-                      <div class="form-check form-inline">
-                        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                        <label class="form-check-label style-1" for="check1">
-                          Use For Donate Change
-                        </label>
+
+                    <div class="col-4">
+                      <div class="compliance-part align-items-center">
+                        <div>
+                          <h6 class="fs-16 fw-extrabold text-caps me-3 mb-4">compliance</h6>
+                        </div>
+                        <div class="flex-wrap">
+                          <div class="form-check form-inline mb-2">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              Require a picture of material being purchased.
+                            </label>
+                          </div>
+    
+                          <div class="form-check form-inline mb-2">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              Require a picture of material being purchased.
+                            </label>
+                          </div>
+    
+                          <div class="form-check form-inline mb-2">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              Require a picture of material being purchased.
+                            </label>
+                          </div>
+    
+                          <div class="form-check form-inline mb-2">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              Require a picture of material being purchased.
+                            </label>
+                          </div>
+    
+                          <div class="form-check form-inline mb-2">
+                            <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                            <label class="form-check-label style-1" for="check1">
+                              Require a picture of material being purchased.
+                            </label>
+                          </div>
+                        </div>
+                        
+                        
                       </div>
                     </div>
                   </div>
+                 
+
+
+                  
+
+
                   <div class="pricing-part d-flex align-items-center">
                     <h6 class="fs-16 fw-extrabold text-caps mb-0 me-4">pricing($)</h6>
                     <div class="form-group me-3 w-9p d-flex align-items-center">
