@@ -307,6 +307,35 @@ nav{
 }
 
 
+.date-part{
+.icon-part{
+    a{
+        span{
+            color: $white;
+            font-size: $font-size-30;
+        }
+    }
 
+    &.dropdown{
+        .dropdown-menu{
+            margin-top: 0px;
+            border-radius: 0px;
+            li{ 
+                width: 250px;
+                a{
+                    padding:5px 10px;
+                    color: $primary;
+                    text-decoration: none;
+                    font-size: 13px;
+                    list-style: 20px;
 
-
+                    &:hover{
+                        color: $secondary;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+}
