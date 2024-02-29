@@ -109,17 +109,17 @@ $blue:                #380FE6;
 $tabbing-bg:            #E6E6E6;
       
 // RGBA
-$blur:             rgba(255, 255, 255, 0.1);
-$primary-rgba:     rgba(13, 57, 103, 0.1);
-$primary-rgba-80:     rgba(13, 57, 103, 0.8);
-$black-rgba:       rgba(0, 0, 0, 0.7);
-$black-rgba6:      rgba(0, 0, 0, 0.6);
-$white-rgba2:      rgba(255, 255, 255, 0.2);
-$secondary-rgb4:   rgba(51, 132, 216, 0.4);
-$secondary-rgb3:   rgba(51, 132, 216, 0.3);
-$grey-8-rgb4:      rgba(56, 56, 56, 0.4);
-$grey-1-rgb4:      rgba(85, 85, 85, 0.4);
-$grey-1-rgb5:      rgba(85, 85, 85, 0.56);
+$blur:               rgba(255, 255, 255, 0.1);
+$primary-rgba:       rgba(13, 57, 103, 0.1);
+$primary-rgba-80:    rgba(13, 57, 103, 0.8);
+$black-rgba:         rgba(0, 0, 0, 0.7);
+$black-rgba6:        rgba(0, 0, 0, 0.6);
+$white-rgba2:        rgba(255, 255, 255, 0.2);
+$secondary-rgb4:     rgba(51, 132, 216, 0.4);
+$secondary-rgb3:     rgba(51, 132, 216, 0.3);
+$grey-8-rgb4:        rgba(56, 56, 56, 0.4);
+$grey-1-rgb4:        rgba(85, 85, 85, 0.4);
+$grey-1-rgb5:        rgba(85, 85, 85, 0.56);
 $red2:               rgba(229, 16, 16, 0.2);
 $red1:               rgba(229, 16, 16, 0.1);
 
@@ -167,6 +167,7 @@ $line-height-40:  40px;
 $line-height-50:  50px;
 $line-height-60:  60px;
 
+
 //  =======================
 //  BORDER
 //  =======================
@@ -175,6 +176,7 @@ $border-grey5:             1px solid $grey-5;
 $border-dashed-grey:       1px dashed $grey-1;
 $border-dashed-blue:       1px dashed $light-blue-5;
 $border-primary-10:        1px solid $primary-rgba;
+
 
 //  =======================
 //  PADDING VARIABLES
