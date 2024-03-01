@@ -653,3 +653,29 @@ button {
 
 
 .sub-group{background: #e3e2e2 !important;}
+
+
+
+
+.div-table{
+    .table{
+        display:table;
+        width:100%;
+        margin: 0;
+
+        &:nth-child(odd){
+            background-color: #f7f7f7;
+        }
+        &:nth-child(even){
+            background-color: #ffffff;
+        }
+    }
+    .tr{
+        display: table-row;
+
+        .td{
+            display: table-cell;
+            padding: 8px;
+        }
+    }
+}
