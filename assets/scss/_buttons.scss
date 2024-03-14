@@ -472,6 +472,8 @@ button.card-material-group{
         justify-content: center;
         align-items: center;
         height: 100%;
+        word-wrap: break-word;
+        word-break: break-word;
     }
 
     &:hover{
