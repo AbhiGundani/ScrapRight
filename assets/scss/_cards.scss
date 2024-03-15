@@ -593,3 +593,150 @@
         }
     }
 }
+
+
+
+
+
+
+// OLD DESIGN TICKETS //
+
+#ticket {
+    background: #fff;
+    width: 300px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.30);
+    font-size: 12px;
+    padding: 15px;
+}
+
+    #ticket #barcode {
+        margin: 0px auto;
+        height: 145px;
+        width: 200px;
+        text-align: center;
+    }
+
+#content {
+    margin-left: 240px;
+}
+
+#ticket #date {
+    float: right;
+    margin-right: 10px;
+}
+
+#ticket #number {
+    float: left;
+}
+
+#ticket #numbermergediv {
+    float: left;
+    margin: 0px 0 0 3px;
+    font-size: 13px;
+    width: 80px;
+    height: 21px;
+}
+
+#ticket #numberValue {
+    float: left;
+}
+
+#ticket #startTime, #ticket #endTime {
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+    #ticket #startTime .timeLabel, #ticket #endTime .timeLabel {
+        float: left;
+        margin-right: 3px;
+    }
+
+    #ticket #startTime .timePart, #ticket #endTime .timePart {
+        float: left;
+        width: 15px;
+        margin: 0;
+        text-align: center;
+    }
+
+    #ticket #startTime .timeDivider, #ticket #endTime .timeDivider {
+        float: left;
+        width: 3px;
+        text-align: center;
+    }
+
+#ticketItemTitles {
+    margin-top: 5px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #000;
+    width: 260px;
+    height: 14px;
+}
+
+#ticketItemTitleGross {
+    float: left;
+    width: 80px;
+    text-align: right;
+}
+
+#ticketItemTitleTare {
+    float: left;
+    margin-left: 5px;
+    width: 80px;
+    text-align: right;
+}
+
+#ticketItemTitleNet {
+    float: left;
+    margin-left: 5px;
+    width: 80px;
+    text-align: right;
+}
+
+#pkgticketItems {
+    width: 260px;
+    height: 228px;
+    margin-top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.grossLabel, .tareLabel {
+    float: left;
+}
+
+.grossValue, .tareValue {
+    float: right;
+}
+
+.netValue {
+    font-size: 25px;
+    height: 35px;
+}
+
+.pkgNoParent {
+    float: right;
+}
+
+.pkgNoLabel {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pkgNoValue {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.pkgTypeLabel {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.pkgMaterial {
+    border: 1px solid #000;
+    background-color: silver;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+}
