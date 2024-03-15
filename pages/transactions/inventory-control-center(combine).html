@@ -629,7 +629,7 @@
                             </div>
                         </div>
                     </div> 
-                </div>
+                  </div>
 
 
                 <div class="p-20 w-100">
@@ -1529,7 +1529,208 @@
                         </div>
                       </div>
                   </div>
-              </div>
+                </div>
+
+                <!-- Regrade Material Box Starts -->
+                <div class="p-20">
+                  <div class="inventory-card bg-white">
+                      <div class="blue-strip d-flex justify-content-between align-items-center">
+                          <h6 class="fs-md fw-extrabold text-caps mb-0 px-20">Regrade Transaction</h6>
+                          <div class="date-part d-flex align-items-center">
+                              <div class="date color-primary fs-sm fw-extrabold text-caps me-3">
+                              <span class="color-grey">Adjustment #:</span> 5/25/2023 1:07:55 AM
+                              </div>
+                              <div class="date color-primary fs-sm fw-extrabold text-caps me-3">
+                                <span class="color-grey">date:</span> 5/25/2023 1:07:55 AM
+                                </div>
+                              <button class="btn btn-blue color-white btn-lg"><span class="material-symbols-rounded">cancel</span></button>
+                          </div>
+                      </div>
+                     
+                      <div class="card-section p-20">
+                          
+                          <div class="d-flex">
+                            <div class="combo-box border-grey5 w-40p me-5">
+                              <div class="title-strip px-20 d-flex justify-content-between align-items-center radius-lg">
+                                <h6 class="fs-md fw-extrabold text-caps color-grey mb-0">REGRADE FROM :</h6>
+                               
+                            </div>
+                              <div class="form-content-part">
+                                <div class="input-row mb-2">
+                                  <div class="form-group d-flex mb-2 justify-content-between">
+                                    <label class="form-label w-50">Material</label>
+                                    <div class="dropdown bootstrap-select w-50"><div class="dropdown bootstrap-select"><select class="selectpicker" data-live-search="true">
+                                      <option data-tokens="ketchup mustard">1</option>
+                                      <option data-tokens="mustard">2</option>
+                                      <option data-tokens="frosting">3</option>
+                                    </select>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="form-group d-flex mb-2 justify-content-between">
+                                  <label class="form-label w-50">Available Inv. :</label>
+                                  <div class="color-grey text-end fs-sm fw-bold mb-3"><span class="ms-2 color-black fw-extrabold">$0</span></div>
+                              </div>
+
+                              <div class="form-group d-flex mb-2 justify-content-between">
+                                <label class="form-label w-50">Avg Cost :</label>
+                                <div class="color-grey text-end fs-sm fw-bold mb-3"><span class="ms-2 color-black fw-extrabold">$0</span></div>
+                            </div>
+
+                            <div class="form-group d-flex mb-2 justify-content-between">
+                              <label class="form-label w-50">Net Weight :</label>
+                              <div class="w-50 d-flex align-items-center"><span>- &nbsp;&nbsp;</span><input type="email" class="form-control h-36" placeholder=""></div>
+                          </div>
+
+                          <div class="form-group d-flex mb-2 justify-content-between">
+                            <label class="form-label w-50">Total :</label>
+                            <div class="color-grey text-end fs-sm fw-bold mb-3"><span class="ms-2 color-black fw-extrabold">$0</span></div>
+                        </div>
+
+                               
+                                
+                              </div>
+                          </div>
+
+                          
+                            </div>
+
+
+                            <div class="combo-box border-grey5 w-60p">
+                              <div class="title-strip px-20 d-flex justify-content-between align-items-center radius-lg">
+                                <h6 class="fs-md fw-extrabold text-caps color-grey mb-0">REGRADE TO :</h6>                             
+                              </div>
+                              <div class="form-content-part">
+                                <div class="bg-grey-4 radius-lg d-flex mt-2 mb-2">
+                                  <div class="d-flex align-items-center p-2 w-100">
+                                    <div class="form-group me-2">
+                                      <label class="form-label">Add Material</label>
+                                    </div>
+                                    <div class="form-group mw-20p me-2">
+                                      <div class="dropdown bootstrap-select">
+                                        <div class="dropdown bootstrap-select">
+                                        <select class="selectpicker" data-live-search="true">
+                                            <option data-tokens="ketchup mustard">1</option>
+                                            <option data-tokens="mustard">2</option>
+                                            <option data-tokens="frosting">3</option>
+                                        </select>
+                                    </div>
+                                  </div>
+                                </div>
+                                    <a href="#">
+                                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-briefcase-plus-outline" width="24" height="24" fill="#000000" viewBox="0 0 24 24"><path d="M10,2H14A2,2 0 0,1 16,4V6H20A2,2 0 0,1 22,8V13.53C21.42,13 20.75,12.6 20,12.34V8H4V19H12.08C12.2,19.72 12.45,20.39 12.8,21H4A2,2 0 0,1 2,19V8A2,2 0 0,1 4,6H8V4A2,2 0 0,1 10,2M14,6V4H10V6H14M14,17H17V14H19V17H22V19H19V22H17V19H14V17Z"></path></svg>
+                                    </a>
+                                  </div>
+                                </div>
+    
+                              
+                                </div>
+
+                                <table class="table table-bottom-no-border shadow-none inventory-order-table">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col" class="fw-extrabold">material</th>
+                                      <th scope="col" class="fw-extrabold">description</th>
+                                      <th scope="col" class="fw-extrabold">qty</th>
+                                      <th scope="col" class="fw-extrabold">uom</th>
+                                      <th scope="col" class="fw-extrabold">price</th>
+                                      <th scope="col" class="fw-extrabold">total</th>
+                                      <th scope="col" class="fw-extrabold">fulfillment</th>
+                                      <th scope="col" class="fw-extrabold"></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>STEEL #222222</td>
+                                      <td>STEEL #222222</td>
+                                      <td>0.0</td>
+                                      <td>LB</td>
+                                      <td>3.551</td>
+                                      <td>$0.00</td>
+                                      <td></td>
+                                      <td class="d-flex">
+                                        <a href="#" class="me-2">
+                                          <span class="material-symbols-rounded fs-lg color-black">chat</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="material-symbols-rounded fs-lg color-black">delete</span>
+                                        </a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>STEEL #222222</td>
+                                      <td>STEEL #222222</td>
+                                      <td>0.0</td>
+                                      <td>LB</td>
+                                      <td>3.551</td>
+                                      <td>$0.00</td>
+                                      <td></td>
+                                      <td class="d-flex">
+                                        <a href="#" class="me-2">
+                                          <span class="material-symbols-rounded fs-lg color-black">chat</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="material-symbols-rounded fs-lg color-black">delete</span>
+                                        </a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>STEEL #222222</td>
+                                      <td>STEEL #222222</td>
+                                      <td>0.0</td>
+                                      <td>LB</td>
+                                      <td>3.551</td>
+                                      <td>$0.00</td>
+                                      <td></td>
+                                      <td class="d-flex">
+                                        <a href="#" class="me-2">
+                                          <span class="material-symbols-rounded fs-lg color-black">chat</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="material-symbols-rounded fs-lg color-black">delete</span>
+                                        </a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>STEEL #222222</td>
+                                      <td>STEEL #222222</td>
+                                      <td>0.0</td>
+                                      <td>LB</td>
+                                      <td>3.551</td>
+                                      <td>$0.00</td>
+                                      <td></td>
+                                      <td class="d-flex">
+                                        <a href="#" class="me-2">
+                                          <span class="material-symbols-rounded fs-lg color-black">chat</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="material-symbols-rounded fs-lg color-black">delete</span>
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                  <tfoot>
+                                    <tr>
+                                      <td></td>
+                                      <td># of Item: 1 </td>
+                                      <td>0.0</td>
+                                      <td></td>
+                                      <td>$.00</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                  </tfoot>
+                                </table>
+                              </div>
+                            </div>
+
+                           
+                  </div> 
+                </div>
+                <!-- Regrade Material Box Ends -->
+
                 </div>
                 <div class="action-btn d-flex justify-content-end align-items-end">
                   <button class="btn btn-skyblue btn-md left-top-radius10 border-right">
