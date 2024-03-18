@@ -684,6 +684,7 @@ button {
 .pr-0{
     padding-right: 0px;
 }
-.action-btn{position: fixed;
+.action-btn{
+    position: fixed;
 width: 100%;
-bottom:0px;}
+bottom:0px; right: 0px;}
