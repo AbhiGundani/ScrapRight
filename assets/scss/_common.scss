@@ -690,3 +690,23 @@ width: 100%;
 bottom:0px; 
 right: 0px;
 }
+
+#scanParent {
+    border: 1px solid black;
+     height: 288px;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+ 
+#vehicleCameraContainerParent, #vehiclePlateCameraContainerParent {
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 384px;
+    height: 288px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
