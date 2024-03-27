@@ -710,3 +710,14 @@ right: 0px;
     text-align: center;
     position: relative;
 }
+
+
+
+.paging{
+    .disabled {
+        pointer-events: none;
+        color: gray;
+        text-decoration: none;
+    }
+}
+

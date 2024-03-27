@@ -154,6 +154,27 @@
             color: $secondary;
           }
         }
+        .selectedbuySell{
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: 700;
+                background-color: rgba(255, 255, 255, 0.1);
+                padding: 5px 10px;
+                display: inline-flex;
+                
+                &:hover {
+                   text-decoration: underline;
+                   background-color: rgba(255, 255, 255);
+                   color: $secondary;
+                }
+     
+
+             }
+        }
+        
+
+       
 
         a.back{
             color: #fff;
@@ -642,24 +663,24 @@
     float: left;
 }
 
-#divPackageContent #ticket #startTime, #ticket #endTime {
+#divPackageContent #ticket #startTime, #divPackageContent #ticket #endTime {
     float: right;
     margin: 0 10px 0 0;
 }
 
-#divPackageContent #ticket #startTime .timeLabel, #ticket #endTime .timeLabel {
+#divPackageContent #ticket #startTime .timeLabel, #divPackageContent #ticket #endTime .timeLabel {
         float: left;
         margin-right: 3px;
     }
 
-    #divPackageContent #ticket #startTime .timePart, #ticket #endTime .timePart {
+    #divPackageContent #ticket #startTime .timePart, #divPackageContent #ticket #endTime .timePart {
         float: left;
         width: 15px;
         margin: 0;
         text-align: center;
     }
 
-    #divPackageContent #ticket #startTime .timeDivider, #ticket #endTime .timeDivider {
+    #divPackageContent #ticket #startTime .timeDivider, #divPackageContent #ticket #endTime .timeDivider {
         float: left;
         width: 3px;
         text-align: center;
@@ -702,11 +723,11 @@
 }
 
 
-#divPackageContent.grossLabel, #step-4 .tareLabel {
+#divPackageContent.grossLabel, #divPackageContent .tareLabel {
     float: left;
 }
 
-#divPackageContent.grossValue, #step-4 .tareValue {
+#divPackageContent.grossValue, #divPackageContent .tareValue {
     float: right;
 }
 
