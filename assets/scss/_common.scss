@@ -721,3 +721,159 @@ right: 0px;
     }
 }
 
+
+
+
+
+
+
+/* Camera Box Changes */
+
+#leftCamPanel {
+    width: 83px;
+    padding-left: 1px;
+    float: left; /*height: 288px;*/
+    position: absolute;
+    opacity: 0.8;
+    margin-left: 6px;
+    top: 0px;
+    z-index: 200;
+}
+
+    #leftCamPanel .leftcam {
+        position: relative;
+        margin-top: 6px;
+        height: 62px;
+        width: 72px;
+        border-radius: 6px;
+        padding-left: 6px;
+        -webkit-box-shadow: #333 2px 2px 2px;
+        border: solid 1px #333;
+    }
+
+    #leftCamPanel .scaleParent {
+        position: relative;
+        margin-top: 6px;
+        height: 62px;
+        width: 72px;
+        border-radius: 6px;
+        padding-left: 6px;
+        -webkit-box-shadow: #333 2px 2px 2px;
+        border: solid 1px #333;
+    }
+
+
+
+    #leftCamPanel .cameraTitleBar {
+        background: none;
+        font-family: Arial;
+        font-size: 10px;
+        color: #333;
+        position: relative;
+        top: -37px;
+        text-align: center;
+        padding-left: 2px;
+        width: 72px;
+        height: 0px;
+        text-transform: uppercase;
+        text-shadow: white 0px 1px 0px;
+    }
+
+
+    #leftCamPanel .scaleTitleBar {
+        background: none;
+        font-family: Arial;
+        font-size: 10px;
+        color: #333;
+        position: relative;
+        top: 2px;
+        text-align: center;
+        padding-left: 0px;
+        width: 72px;
+        height: 0px;
+        text-transform: uppercase;
+        text-shadow: white 0px 1px 0px;
+    }
+    
+    #scaleBlankDiv {
+        width: 384px;
+        height: 288px;
+        cursor: pointer;
+        text-align: center;
+        display: none;
+    }
+
+
+
+
+    #arrowUp {
+        background: url(../../../images/icons/cam-top-arrow.png) no-repeat;
+        position: absolute;
+        width: 32px;
+        height: 32px; /*left: 216px;*/
+        left: 50%;
+        top: 10px;
+        opacity: 0.5;
+        background-size: 32px 32px;
+    }
+    
+    #arrowDown {
+        background: url(../../../images/icons/cam-down-arrow.png) no-repeat;
+        position: absolute;
+        width: 32px;
+        height: 32px; /*top: 254px;*/
+        top: 90%; /*left: 216px;*/
+        left: 50%;
+        opacity: 0.5;
+        background-size: 32px 32px;
+    }
+    
+    #arrowRight {
+        background: url(../../../images/icons/cam-right-arrow.png) no-repeat;
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        right: 10px; /*top: 126px;*/
+        top: 50%;
+        opacity: 0.5;
+        background-size: 32px 32px;
+    }
+    
+    #arrowLeft {
+        background: url(../../../images/icons/cam-left-arrow.png) no-repeat;
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 100px; /*top: 126px;*/
+        top: 50%;
+        opacity: 0.5;
+        background-size: 32px 32px;
+    }
+    
+    #zoomIn {
+        background: url(../../../images/icons/cam-zoom-in.png) no-repeat;
+        position: absolute;
+        width: 32px;
+        height: 32px; /*top: 254px;*/
+        top: 90%;
+        right: 40px;
+        opacity: 0.5;
+        background-size: 32px 32px;
+    }
+    
+    #zoomOut {
+        background: url(../../../images/icons/cam-zoom-out.png) no-repeat;
+        position: absolute;
+        width: 32px;
+        height: 32px; /*top: 254px;*/
+        top: 90%;
+        right: 10px;
+        opacity: 0.5;
+        background-size: 32px 32px;
+    }
+    
+    #ptzControlPanel {
+        float: left;
+        position: relative;
+        height: 288px;
+    }
