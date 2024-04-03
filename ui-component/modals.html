@@ -195,6 +195,22 @@
     <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
       data-bs-target="#select-material">Select Material</button>
 
+
+
+      <select class="selectpicker">
+        <optgroup label="Picnic">
+          <option>Mustard</option>
+          <option>Ketchup</option>
+          <option>Relish</option>
+        </optgroup>
+        <optgroup label="Camping">
+          <option>Tent</option>
+          <option>Flashlight</option>
+          <option>Toilet Paper</option>
+        </optgroup>
+      </select>
+
+      
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-sm">
@@ -16340,14 +16356,14 @@
               aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
           </div>
           <div class="modal-body p-20">
-            <select class="selectpicker" multiple name="selectpickerdemo" id="selectpickerdemo">
+            <select class="selectpicker" multiple name="selectpickerdemo" id="selectpickerdemo" data-max-options="">
               <optgroup label="Label 1" id="label1">
-                <option value='abc'>ABC</option>
-                <option value='abcd'>ABCD</option>
+                <option value='1'>ABC</option>
+                <option value='2'>ABCD</option>
               </optgroup>
               <optgroup label="Label 2" id="label2">
-                <option value='abc'>ABC</option>
-                <option value='abcd'>ABCD</option>
+                <option value='3'>ABC</option>
+                <option value='4'>ABCD</option>
               </optgroup>
             </select>
 
