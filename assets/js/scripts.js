@@ -127,8 +127,9 @@ $(document).ready(function () {
     //=======================
     // BOOTSTRAP SELECT
     $('.selectpicker').selectpicker();
-
-
+    $('.selectpicker3').selectpicker();
+    $('.selectpicker2').selectpicker();
+    
     // =============================
     // TREE VIEW PLUGIN
 

@@ -39,6 +39,7 @@ function compress() {
             .src([
                 'assets/plugins/jquery/jquery-3.6.0.min.js',
                 'assets/plugins/bootstrap/dist/js/bootstrap.bundle.js',
+                //'https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js',
                 'assets/plugins/bootstrap-select/dist/js/bootstrap-select.js',
                 'assets/plugins/jstree/jstree.min.js',
                 'assets/plugins/data-table/jquery.dataTables.js',

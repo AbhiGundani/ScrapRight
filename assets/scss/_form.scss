@@ -218,8 +218,9 @@ input[type="time"] {
 
         .btn {
             border-radius: $radius-sm;
+            padding: 0px;
 
-            &.btn-select {
+            &.btn-light {
                 height: $form-height36;
                 font-weight: $font-400;
                 border: $border-grey;
