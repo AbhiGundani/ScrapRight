@@ -694,3 +694,118 @@ input[type="time"] {
         }
     }
 }
+
+
+
+
+
+/* Upload Plugin Uplodify Style Starts */
+
+
+/*
+UploadiFive
+Copyright (c) 2012 Reactive Apps, Ronnie Garcia
+*/
+
+
+$color_1: #FFF;
+$color_2: #fff;
+$background-color_1: #505050;
+$background-color_2: #606060;
+$background-color_3: #3384d8;
+$background-color_4: #fff;
+
+.uploadifive-button {
+	background-color: $secondary;
+	background-image: none;
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 0px solid #808080;
+	color: $white;
+    font-family: Nunito, sans-serif;
+	text-align: center;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	text-transform: uppercase;
+	width: 100%;
+    border-radius: 10px;
+	&:hover {
+		background-color: $primary;
+		background-image: none;
+		background-position: center bottom;
+	}
+}
+.uploadifive-queue-item {
+	background-color: $light-blue-6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-family: Nunito, sans-serif;
+	margin-top: 3px;
+	padding: 15px;
+	color: $primary;
+	font-size: 15px;
+	float: left;
+	width: 100%;
+	overflow: hidden !important;
+	
+	.progress {
+		border: 1px solid #D0D0D0;
+		height: 3px;
+		margin-top: 5px;
+		width: 100%;
+	}
+	.progress-bar {
+		background-color: $background-color_4;
+		height: 3px;
+		width: 0;
+		top: 14px;
+		position: relative;
+	}
+	.cancel {
+		float: right;
+	}
+	.filename {
+		color: $dark;
+		font-size: 16px;
+        font-weight: 700;
+	}
+	.fileName {
+		color: $dark;
+		font-size: 16px;
+        font-weight: 700;
+	}
+}
+.uploadifive-queue-item.error {
+	background-image: none !important;
+}
+.queuetoprow {
+	position: relative;
+	top: -9px;
+	font-size: 12px;
+}
+.queuemodify {
+	margin-bottom: 10px;
+}
+.uploadifive-container {
+	.filename {
+		color: $dark;
+		font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+	}
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+	width: calc(100% - 48px) !important;
+}
+
+.uploadifyviewCancel{
+    display: flex;
+
+    div{
+        margin-right: 10px;
+    }
+}
