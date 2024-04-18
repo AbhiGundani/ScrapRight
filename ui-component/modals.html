@@ -195,6 +195,8 @@
     <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
       data-bs-target="#select-material">Select Material</button>
 
+      <button type="button" class="btn btn-grey btn-md me-2 mb-3" data-bs-toggle="modal"
+      data-bs-target="#pay-details">Pay Details</button>
       
       
 
@@ -17463,6 +17465,119 @@
       </div>
       <!--Alert Modal-->
 
+   <!--Pay Details Modal-->
+   <div class="modal fade package-popup" id="pay-details" tabindex="-1" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-905 ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pay Details for ticket#: 20243228</h1>
+          <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
+            aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
+        </div>
+        <div class="modal-body p-20">
+    
+          <div class="row">
+           
+            <div class="col-md-12  ">
+              <div class="bg-primary radius-lg p-3 h-100">
+            
+             
+              <div class="bottom-part row  mt-3 justify-content-between ">                
+                <div class="col-md-6 ">
+                  <div class="border h-100 radius-lg ">
+                  <div class="black-box mb-3 mt-1 h-80 p-5"></div>
+                <div class="px-3">
+<div class="row">
+  <div class="col-5 text-white">Amount</div>
+  <div class="col-5  text-white">Menthod</div>
+  <div class="col-2  text-white"></div>
+</div>
+<div class="row">
+  <div class="col-5"><input type="text" class="form-control" value="0.00" /></div>
+  <div class="col-5"><select class="selectpicker">
+    <option>Cash</option>
+    <option>Netbanking</option>
+  </select>
+</div>
+  <div class="col-2"><a href=""><span class="material-symbols-rounded text-success">add_circle</span></a></div>
+</div>
+</div>  
+               </div>
+                </div>
+                <div class="col-md-6">
+                  <h6 class=" text-white d-flex justify-content-between"><strong> Total ticket amount:
+                  </strong> $0.00</h6>
+                  <h6 class=" text-white d-flex justify-content-between"><strong> Total eligible pay amount:
+                  </strong> $0.00</h6>
+                  <div class="black-box mb-3 mt-1">
+                    <!-- <input type="text" class="form-control h-80"> -->
+                    <div class="form-check form-inline me-2 ">
+                      <input class="form-check-input add-after2" type="radio" name="flexRadioDefault" id="radio1" checked>
+                      <label class="form-check-label mb-0 text-white" for="radio1">Legal Seller</label>
+                    </div>
+                    <div class="form-check form-inline me-2">
+                      <input class="form-check-input add-after2" type="radio" name="flexRadioDefault" id="radio1">
+                      <label class="form-check-label mb-0 text-white" for="radio1">Legal Owner</label>
+                    </div>
+                   
+                  </div>
+                  <div class="calculator-section">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">7</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">8</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">9</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3">+</button></td>
+                        </tr>
+                        <tr>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">4</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">5</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">6</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3">-</button></td>
+                        </tr>
+                        <tr>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">1</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">2</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">3</button>
+                          </td>
+                          <td rowspan="2"><button class="btn btn-light btn-xxl radius-lg border-d3 letter-space7">enter</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 fs-xl me-1">del</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">0</button>
+                          </td>
+                          <td><button class="btn btn-light btn-xl radius-lg border-d3 me-1">.</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer d-flex justify-content-end">
+          <button class="btn btn-blue me-2">Pay w/o printing</button>
+          <button class="btn btn-inventory-primary">Pay & Print</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!--Pay Details Modal End-->
 
     <!--Select picker Modal-->
     <script src="../assets/dist/js/all.min.js"></script>
