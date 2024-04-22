@@ -368,7 +368,7 @@ button {
     background-color: #f0f0f0;
     position: fixed;
     width: 100%;
-    z-index: 99;
+    z-index: 999999;
     opacity: 0.3;
 }
 
@@ -895,4 +895,4 @@ right: 0px;
 
     .viewAttachment{
         margin-right:5px;
-    }
+    } 
