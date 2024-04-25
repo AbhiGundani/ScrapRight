@@ -896,3 +896,18 @@ right: 0px;
     .viewAttachment{
         margin-right:5px;
     } 
+
+
+
+
+    .ticket-leftmenu{
+        position: fixed;
+        height: 100%;
+        width: 480px;
+    }
+
+    .content-section{
+        &.rightbox{
+            margin-left: 480px;
+        }
+    }
