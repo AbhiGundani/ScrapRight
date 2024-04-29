@@ -766,3 +766,23 @@
     border-radius: 10px;
     height: 235px;
 }
+
+.inner-camera-card{
+    border-radius: $radius-lg;
+    box-shadow: $shadow-md;
+    background-color: $white;
+    overflow: hidden;
+    height: 220px;
+    .top-part{
+        background-color: rgba(51, 132, 216, 0.6);
+        padding: 10px;
+    }
+}
+
+.camera-grouping-card{
+    .row-camera-group{
+        &:not(:last-child){
+            border-bottom: $border-grey5;
+        }
+    }
+}
