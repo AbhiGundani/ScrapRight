@@ -329,6 +329,10 @@
 
 
 .ticket-height{
-    height: 200px;
+    height: 180px;
     overflow-y: auto;
+}
+
+.ticketPayDetails img{
+    max-height:45px;
 }
