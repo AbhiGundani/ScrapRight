@@ -194,6 +194,26 @@
             }
         }
 
+
+        &.table-font-14 {
+            thead {
+                tr {
+                    th {
+                        font-size: $font-size-14;
+                        padding: 20px;
+                        text-align: center;
+    
+                        &.bg-light-blue-4 {
+                            background-color: $light-blue-4;
+                        }
+    
+                        &.fs-16 {
+                            font-size: $font-size-14;
+                        }
+                    }
+                }
+            }
+
         &.table-bottom-no-border {
             tbody {
                 tr {
