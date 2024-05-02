@@ -829,3 +829,25 @@ input.picker[type="date"]::-webkit-calendar-picker-indicator {
     color: transparent;
     background: transparent;
 }
+
+
+
+.form-select {
+    -moz-padding-start: calc(.75rem - 3px);
+    appearance: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='10' viewBox='0 96 960 960' width='6' fill='%23D5D5D5'%3E%3Cpath d='M480 711 240 471l43-43 197 198 197-197 43 43-240 239Z'/%3E%3C/svg%3E");
+    background-position: right .75rem center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    color: #212529;
+    display: block;
+    font-size: smaller;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem 2.25rem .375rem .75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%
+}
