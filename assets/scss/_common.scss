@@ -917,3 +917,9 @@ right: 0px;
         background-color: #d3d3d3;
         padding: 10px 8px;
     }
+
+
+    .div-table .tr.ticketItemDetail {
+        display: flex;
+        justify-content: space-between;
+    }
