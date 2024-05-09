@@ -898,8 +898,6 @@ right: 0px;
     } 
 
 
-
-
     .ticket-main-page{
         position: fixed;
         height: 100%;
@@ -923,4 +921,9 @@ right: 0px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-}
+    }
+
+    .table.inventory-order-table.grey-heading tfoot {
+        background-color: #0d3967;
+    }
+    
