@@ -464,10 +464,11 @@
 
 button.card-material-group{
     height: 140px;
-    width: 12%;
+    width: 12%; 
     background-color: $white;
     border-radius: $radius-lg;
     box-shadow: $shadow-md;
+    
     .content{
         display: flex;
         justify-content: center;
