@@ -521,6 +521,7 @@ input[type="time"] {
     }
 }
 
+
 // RADIO BUTTON
 .form-check-input[type="radio"] {
     width: 24px;
@@ -534,7 +535,7 @@ input[type="time"] {
     &:checked {
         background-color: $white;
         border: 2px solid #3384d8;
-        background-image: none;
+        //background-image: none;
     }
 
     &:focus {
