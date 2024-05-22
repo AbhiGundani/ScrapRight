@@ -947,5 +947,12 @@ right: 0px;
     }
     
     .dropdown-item {
-white-space: inherit;
+        white-space: inherit;
+    }
+
+
+    .navbar-left-links{
+        .dropdown-item {
+            white-space: nowrap;
+        }
     }
