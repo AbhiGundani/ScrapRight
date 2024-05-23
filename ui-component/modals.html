@@ -3496,9 +3496,7 @@
       <div class="modal-dialog modal-dialog-centered modal-1340">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Edit Customer - <span
-                class="color-secondary">ADAM
-                GREGORY BROWN</span></h1>
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Add  User</h1>
             <button type="button" class="btn btn-dark color-white btn-lg modal-close-btn" data-bs-dismiss="modal"
               aria-label="Close"><span class="material-symbols-rounded">cancel</span></button>
           </div>
@@ -3512,9 +3510,9 @@
                   data-bs-target="#v-pills-adduser-2" type="button" role="tab" aria-controls="v-pills-adduser-2"
                   aria-selected="false">time clock</button>
               </div>
+              
               <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-adduser-1" role="tabpanel"
-                  aria-labelledby="v-pills-adduser-1-tab" tabindex="0">
+                <div class="tab-pane fade show active" id="v-pills-adduser-1" role="tabpanel" aria-labelledby="v-pills-adduser-1-tab" tabindex="0">
                   <div class="p-20">
                     <div class="d-flex justify-content-between mb-2">
                       <div class="form-group w-16p">
@@ -3572,8 +3570,31 @@
                         <input type="email" class="form-control h-36" placeholder="">
                       </div>
                     </div>
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                      <div class="form-group w-16p">
+                    <div class="d-flex align-items-center mb-3">
+                      <div class="form-group w-16p me-3">
+                        <label class="form-label">Default Organization </label>
+                        <select class="selectpicker" data-live-search="true">
+                          <option data-tokens="ketchup mustard">1</option>
+                          <option data-tokens="mustard">2</option>
+                          <option data-tokens="frosting">3</option>
+                        </select>
+                      </div>  
+                      <div class="form-group w-16p me-3">
+                        <label class="form-label">Organization </label>
+                        <select class="selectpicker" data-live-search="true">
+                          <option data-tokens="ketchup mustard">1</option>
+                          <option data-tokens="mustard">2</option>
+                          <option data-tokens="frosting">3</option>
+                        </select>
+                      </div>  
+                      <div class="form-check form-inline me-3 mt-3">
+                        <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                        <label class="form-check-label style-1" for="check1">Organization Admin
+                        </label>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                      <div class="form-group w-16p me-3">
                         <label class="form-label">Workstation</label>
                         <select class="selectpicker" data-live-search="true">
                           <option data-tokens="ketchup mustard">1</option>
@@ -3581,7 +3602,7 @@
                           <option data-tokens="frosting">3</option>
                         </select>
                       </div>
-                      <div class="form-group w-16p">
+                      <div class="form-group w-16p me-3">
                         <label class="form-label">Inventory Workstation</label>
                         <select class="selectpicker" data-live-search="true">
                           <option data-tokens="ketchup mustard">1</option>
@@ -3589,7 +3610,7 @@
                           <option data-tokens="frosting">3</option>
                         </select>
                       </div>
-                      <div class="form-group w-16p">
+                      <div class="form-group w-16p me-3">
                         <label class="form-label">Translation</label>
                         <select class="selectpicker" data-live-search="true">
                           <option data-tokens="ketchup mustard">1</option>
@@ -3597,6 +3618,8 @@
                           <option data-tokens="frosting">3</option>
                         </select>
                       </div>
+                    </div>
+                    <div class="d-flex mb-3">
                       <div class="form-check form-inline me-3 mt-3">
                         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
                         <label class="form-check-label style-1" for="check1">Driver</label>
@@ -3607,8 +3630,7 @@
                       </div>
                       <div class="form-check form-inline me-3 mt-3">
                         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                        <label class="form-check-label style-1" for="check1">Manager
-                          Override</label>
+                        <label class="form-check-label style-1" for="check1">Manager Override</label>
                       </div>
                       <div class="form-check form-inline me-3 mt-3">
                         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
@@ -3616,8 +3638,7 @@
                       </div>
                       <div class="form-check form-inline me-3 mt-3">
                         <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                        <label class="form-check-label style-1" for="check1">Sales
-                          Person</label>
+                        <label class="form-check-label style-1" for="check1">Sales Person</label>
                       </div>
                     </div>
                     <div class="d-flex">
@@ -3628,8 +3649,7 @@
                         </div>
                         <div class="form-check form-inline me-3">
                           <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                          <label class="form-check-label style-1" for="check1">Start ticket
-                            user for Dispatches</label>
+                          <label class="form-check-label style-1" for="check1">Start ticket user for Dispatches</label>
                         </div>
                       </div>
                       <div class="combo-box position-relative bg-grey-4 me-3 margin-t-25 w-34p">
@@ -3651,13 +3671,11 @@
                           <div class="mt-3">
                             <div class="form-check form-inline me-3 mb-2">
                               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                              <label class="form-check-label style-1" for="check1">Display
-                                cash drawer amount</label>
+                              <label class="form-check-label style-1" for="check1">Display cash drawer amount</label>
                             </div>
                             <div class="form-check form-inline me-3">
                               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                              <label class="form-check-label style-1" for="check1">Play
-                                alarm on finish ticket</label>
+                              <label class="form-check-label style-1" for="check1">Play alarm on finish ticket</label>
                             </div>
                           </div>
                         </div>
@@ -3673,29 +3691,24 @@
                         <div class="d-flex mb-3">
                           <div class="form-check form-inline me-2 ms-2">
                             <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                            <label class="form-check-label style-1" for="check1">Don't Allow
-                              Change Workstation</label>
+                            <label class="form-check-label style-1" for="check1">Don't Allow Change Workstation</label>
                           </div>
                           <div class="form-check form-inline ms-2">
                             <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                            <label class="form-check-label style-1" for="check1">Don't Allow
-                              Modify Cash Drawer</label>
+                            <label class="form-check-label style-1" for="check1">Don't Allow Modify Cash Drawer</label>
                           </div>
                         </div>
                         <div class="combo-box d-flex bg-grey-4 me-3">
                           <div class="blue-box border-sm bg-form-box-blue3 p-2">
                             <div class="form-check form-inline">
                               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                              <label class="form-check-label style-1" for="check1">Live
-                                Cashdrawer on Dashboard</label>
+                              <label class="form-check-label style-1" for="check1">Live Cashdrawer on Dashboard</label>
                             </div>
                           </div>
                           <div class="form-content-part d-flex align-items-center p-2">
                             <div class="form-check form-inline ms-2">
                               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                              <label class="form-check-label style-1" for="check1">Don't
-                                Allow Modify cash drawer from
-                                Dashboard</label>
+                              <label class="form-check-label style-1" for="check1">Don't Allow Modify cash drawer from Dashboard</label>
                             </div>
                           </div>
                         </div>
@@ -3704,28 +3717,24 @@
                         <div class="d-flex mb-3">
                           <div class="form-check form-inline me-2 ms-2">
                             <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                            <label class="form-check-label style-1" for="check1">Tag & Hold
-                              Recipient</label>
+                            <label class="form-check-label style-1" for="check1">Tag & Hold Recipient</label>
                           </div>
                           <div class="form-check form-inline ms-2">
                             <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                            <label class="form-check-label style-1" for="check1">View Only
-                              My Tickets</label>
+                            <label class="form-check-label style-1" for="check1">View Only My Tickets</label>
                           </div>
                         </div>
                         <div class="combo-box d-flex bg-grey-4 me-3">
                           <div class="blue-box border-sm bg-form-box-blue3 p-2">
                             <div class="form-check form-inline">
                               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                              <label class="form-check-label style-1" for="check1">Allow
-                                Tare Button</label>
+                              <label class="form-check-label style-1" for="check1">Allow Tare Button</label>
                             </div>
                           </div>
                           <div class="form-content-part d-flex align-items-center p-2">
                             <div class="form-check form-inline ms-2">
                               <input class="form-check-input add-after" type="checkbox" value="" id="check1">
-                              <label class="form-check-label style-1" for="check1">Allow
-                                Override Tare Button</label>
+                              <label class="form-check-label style-1" for="check1">Allow Override Tare Button</label>
                             </div>
                           </div>
                         </div>
@@ -3733,8 +3742,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="v-pills-adduser-2" role="tabpanel"
-                  aria-labelledby="v-pills-adduser-2-tab" tabindex="0">
+                <div class="tab-pane fade" id="v-pills-adduser-2" role="tabpanel" aria-labelledby="v-pills-adduser-2-tab" tabindex="0">
                   <div class="p-20 d-flex justify-content-between">
                     <div class="form-input-part w-25p">
                       <div class="form-group w-100 mb-2">
@@ -3752,8 +3760,7 @@
                         </div>
                       </div>
                       <div class="form-group mb-2 w-100">
-                        <label class="form-label">Auto clock out after shift
-                          end(minutes)</label>
+                        <label class="form-label">Auto clock out after shift end(minutes)</label>
                         <input type="email" class="form-control h-36" placeholder="">
                       </div>
                       <div class="form-group w-100">
