@@ -948,6 +948,8 @@ right: 0px;
     
     .dropdown-item {
         white-space: inherit;
+        word-wrap: break-word;
+        word-break: break-all;
     }
 
 
