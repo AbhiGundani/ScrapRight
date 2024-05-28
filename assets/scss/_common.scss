@@ -955,7 +955,13 @@ right: 0px;
 
     .bootstrap-select .dropdown-menu {
         width: 100%;
+
+        .dropdown-item {
+        word-wrap: break-word;
+        word-break: break-all;
+        white-space: inherit;
     }
+}
     
     .navbar-left-links{
         .dropdown-item {
