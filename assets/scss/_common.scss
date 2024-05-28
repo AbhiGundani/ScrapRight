@@ -958,8 +958,8 @@ right: 0px;
 
         .dropdown-item {
         
+        }
     }
-}
     
     .navbar-left-links{
         .dropdown-item {
@@ -978,11 +978,11 @@ right: 0px;
     #invSearchBox {
         /*width: 300px;*/
         height: 36px;
-        //background: url(/img/inventory/headless_searchbox.png) no-repeat;
-        background: #fff;
+        background: url(/img/inventory/headless_searchbox.png) no-repeat;
+       // background: #fff;
         margin-bottom: 5px;
         position: relative;
-        border:1px solid #eee ;
+        
         border-radius: 10px;
         /*margin-left: 30px;*/
     }
