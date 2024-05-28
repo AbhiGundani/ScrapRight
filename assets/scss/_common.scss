@@ -975,17 +975,53 @@ right: 0px;
     /* Custom Auto Serach Inventory */
 
 
-    #invSearchBox {
-        /*width: 300px;*/
-        height: 36px;
-        background: url(/img/inventory/headless_searchbox.png) no-repeat;
-       // background: #fff;
+
+    #divPackageSearch{
+        background-color: #0d3967;
+        padding: 5px 10px;
+        border-radius: 10px;
+
+        
+    }
+
+    .searchbox-auto {
         margin-bottom: 5px;
         position: relative;
-        
+        height: 36px;
         border-radius: 10px;
-        /*margin-left: 30px;*/
+        background: #fff;
+        border: 1px solid #d5d5d5;
+        color: #555;
+        display: flex;
+        width: 100%;
     }
+
+    div.sb_down {
+        
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='10' viewBox='0 96 960 960' width='6' fill='%23D5D5D5'%3E%3Cpath d='M480 711 240 471l43-43 197 198 197-197 43 43-240 239Z'/%3E%3C/svg%3E%0A");
+            background-size: 100%;
+            border: 0;
+            width: 24px;
+            height: 24px;
+            content: '';
+            margin-top: 5px;
+            background-position: center;
+            margin-right: -10px;
+
+        
+    }
+
+    input.sb_search, input.sbpl_search {
+        background: url(../../../images/icons/search.svg) no-repeat center center;
+        height: 36px;
+        width: 36px;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        float: left;
+    }
+
+    
 
 
 ul.sb_dropdown {
@@ -1048,7 +1084,7 @@ ul.sb_dropdown {
                 margin: 2px 0px 0px 6px;
                 width: 100%;
                 background: none;
-                color: #f0f0f0;
+                color: #555555;
                 height: 32px;
                 font-size: 14px;
                 line-height: 34px;

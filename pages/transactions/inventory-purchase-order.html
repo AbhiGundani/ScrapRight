@@ -30,7 +30,7 @@
 </head>
 
 <body>
-
+<!--
   <select class="selectpicker2">
     <optgroup label="Picnic">
       <option selected>Mustard</option>
@@ -71,7 +71,7 @@
   </select>
   
   <br><br>
-
+-->
 
   <!-- FILTER -->
   <div class="offcanvas offcanvas-end left-radius10" tabindex="-1" id="offcanvasWithBackdrop"
@@ -86,6 +86,67 @@
         <a href="#" class="underline-none me-2 h-36 py-2 btn btn-blue">
           <span class="material-symbols-rounded text-white"> search</span>
         </a>
+      </div>
+
+      <div class="form-group">
+        <div id="divPackageSearch">
+          <div class="d-flex justify-content-start mt-2">
+              <div id="invSearchBox" class="searchbox-auto">
+                  <div class="sb_down"></div>
+                  <input class="sb_input" type="text">
+                  <input class="sb_search" type="submit" value="">
+                  <ul class="sb_dropdown" style="display: none;">
+                      <li class="sb_filter d-flex justify-content-between">
+                          <div class="d-flex align-items-center">
+                              <span id="spPkgFrom">FROM</span>
+                              <input type="date" id="txtPkgFrom" class="rounded form-control" placeholder="">
+                          </div>
+                          <div class="d-flex align-items-center">
+                              <span id="spPkgTo">TO</span>
+                              <input type="date" id="txtPkgTo" class="rounded form-control" placeholder="">
+                          </div>
+                      </li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_0" checked="checked"><label for="chksearchfilter_0" role="button"><strong>All</strong></label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_5" checked="checked" disabled="disabled"><label for="chksearchfilter_5" role="button">open</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_1" checked="checked" disabled="disabled"><label for="chksearchfilter_1" role="button">adj/shipper</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_6" checked="checked" disabled="disabled"><label for="chksearchfilter_6" role="button">completed</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_2" checked="checked" disabled="disabled"><label for="chksearchfilter_2" role="button">packages</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_7" checked="checked" disabled="disabled"><label for="chksearchfilter_7" role="button">shipped</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_3" checked="checked" disabled="disabled"><label for="chksearchfilter_3" role="button">sales quotes</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_8" checked="checked" disabled="disabled"><label for="chksearchfilter_8" role="button">available</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_4" checked="checked" disabled="disabled"><label for="chksearchfilter_4" role="button">sales contracts</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_10" checked="checked" disabled="disabled"><label for="chksearchfilter_10" role="button">allocated</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_9" checked="checked" disabled="disabled"><label for="chksearchfilter_9" role="button">packing list</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_12" checked="checked" disabled="disabled"><label for="chksearchfilter_12" role="button">awaiting sort</label>
+                      </li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_11" checked="checked" disabled="disabled"><label for="chksearchfilter_11" role="button">packing order</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_15" checked="checked" disabled="disabled"><label for="chksearchfilter_15" role="button">brokerage</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_13" checked="checked" disabled="disabled"><label for="chksearchfilter_13" role="button">purchase order</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_16" checked="checked" disabled="disabled"><label for="chksearchfilter_16" role="button">rev. brokerage</label></li>
+                      <li>
+                          <input type="checkbox" id="chksearchfilter_14" checked="checked" disabled="disabled"><label for="chksearchfilter_14" role="button">tickets</label></li>
+                      <li></li>
+
+                  </ul>
+              </div>
+          </div>
+      </div>
       </div>
 
 
