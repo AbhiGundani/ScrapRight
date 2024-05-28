@@ -947,12 +947,16 @@ right: 0px;
     }
     
     .dropdown-item {
-        white-space: inherit;
+      /*  white-space: inherit;
         word-wrap: break-word;
-        word-break: break-all;
+        word-break: break-all; */
     }
 
 
+    .bootstrap-select .dropdown-menu {
+        width: 100%;
+    }
+    
     .navbar-left-links{
         .dropdown-item {
             white-space: nowrap;
@@ -989,11 +993,11 @@ ul.sb_dropdown {
         -webkit-box-shadow: 1px 1px 3px #555;
         -box-shadow: 2px 2px 3px #555;
         outline: 0;
-        width: 295px;
+        width: 100%;
         float: left;
         margin-left: 2px;
         list-style: none;
-        width: 231px;
+        //width: 231px;
         padding: 6px 5px;
         -moz-border-radius: 0px 0px 10px 10px;
         -webkit-border-bottom-right-radius: 10px;
