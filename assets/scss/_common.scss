@@ -958,3 +958,93 @@ right: 0px;
             white-space: nowrap;
         }
     }
+
+
+
+
+
+
+    /* Custom Auto Serach Inventory */
+
+
+    #invSearchBox {
+        /*width: 300px;*/
+        height: 36px;
+        //background: url(/img/inventory/headless_searchbox.png) no-repeat;
+        background: #fff;
+        margin-bottom: 5px;
+        position: relative;
+        border:1px solid #eee ;
+        border-radius: 10px;
+        /*margin-left: 30px;*/
+    }
+
+
+ul.sb_dropdown {
+        background: #fafafa;
+        background: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#F0F0F0));
+        background: -moz-linear-gradient(top,#f2f2f2,#fafafa);
+        font: 24px "Myriad Pro","Trebuchet MS",sans-serif;
+        -moz-box-shadow: 1px 1px 3px #555;
+        -webkit-box-shadow: 1px 1px 3px #555;
+        -box-shadow: 2px 2px 3px #555;
+        outline: 0;
+        width: 295px;
+        float: left;
+        margin-left: 2px;
+        list-style: none;
+        width: 231px;
+        padding: 6px 5px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        top: 33px;
+        z-index: 100;
+    }
+
+        ul.sb_dropdown li {
+            font-size: 12px;
+            line-height: 32px;
+            height: 32px;
+            float: left;
+            width: 50%;
+            color: #000;
+        }
+
+            ul.sb_dropdown li input[type="checkbox"] {
+                float: left;
+                margin: 10px 4px 0 5px;
+            }
+
+            ul.sb_dropdown li.sb_filter {
+                width: 220px;
+                border: 1px solid #f9f9f9;
+                clear: both;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #000;
+                height: 22px;
+                line-height: 16px;
+                padding: 5px;
+                -moz-box-shadow: 0px 0px 2px #777;
+                -webkit-box-shadow: 0px 0px 3px #555 inset;
+                -box-shadow: 0px 0px 3px #555 inset;
+            }
+
+
+            .sbpl_input, .sb_input {
+                margin: 2px 0px 0px 6px;
+                width: 100%;
+                background: none;
+                color: #f0f0f0;
+                height: 32px;
+                font-size: 14px;
+                line-height: 34px;
+                /* float: left; */
+                border-style: none;
+                outline: 0;
+            }
