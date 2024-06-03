@@ -1113,3 +1113,17 @@ ul.sb_dropdown {
 {
 bottom:60px;
 }
+
+
+.toplayer {
+    position: absolute;
+    z-index: 111;
+    top: 0px;
+    right: 0px;
+}
+.bottomlayer {
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+}
