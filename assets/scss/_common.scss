@@ -887,9 +887,9 @@ right: 0px;
 
 
     .jstree-default .jstree-clicked {
-     background: none !important;
-     border-radius:0px !important; 
-     box-shadow: none !important;
+        background: none !important;
+        border-radius:0px !important; 
+        box-shadow: none !important;
     }
 
 
@@ -947,9 +947,9 @@ right: 0px;
     }
     
     .dropdown-item {
-      /*  white-space: inherit;
+    /*  white-space: inherit;
         word-wrap: break-word;
-        word-break: break-all; */
+        word-break: break-all;  */
     }
 
 
@@ -1109,11 +1109,7 @@ ul.sb_dropdown {
 
 
 
-.bottom-60
-{
-bottom:60px;
-}
-
+.bottom-60{ bottom:60px; }
 
 .toplayer {
     position: absolute;
@@ -1121,6 +1117,7 @@ bottom:60px;
     top: 0px;
     right: 0px;
 }
+
 .bottomlayer {
     position: absolute;
     z-index: 100;
