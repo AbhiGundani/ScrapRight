@@ -390,6 +390,30 @@ button {
 
 
 
+.loader-div-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    opacity: 0.3;
+}
+
+#loader-center {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    border-top-color: #333;
+    animation: rotate 1s infinite;
+}
+
+
+
 
 
 .bg-grey {
