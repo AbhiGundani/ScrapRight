@@ -852,3 +852,14 @@ input.picker[type="date"]:-webkit-calendar-picker-indicator {
     color: transparent;
     background: transparent;
 }
+
+
+
+/* Multiselect Dropdown active option */
+.dropdown-item.selected {
+    background: #0d3967;
+    color: white !important;
+}
+.dropdown-item.selected span {
+    color: white;
+}
