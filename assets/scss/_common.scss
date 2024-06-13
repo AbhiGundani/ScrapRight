@@ -1198,21 +1198,20 @@ ul.sb_dropdown {
 #pin-title {
     color: #333;
     text-align: center;
-    margin-top: 30px;
     font-weight: bold;
 }
 
 #pindialog-container {
-    width: 400px;
+    width: 100%;
     background: #d4d7dc;
     height: 510px;
     
 }
 
 #bullet-container {
-    
     margin-top: 18px;
     margin-right: auto;
+    margin-left: 190px;
 }
 
 
@@ -1238,6 +1237,7 @@ input.pin-button {
 div#pin-button-container {
     float: left;
     margin-top: 40px;
+    margin-left: 90px;
     
 }
 
