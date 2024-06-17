@@ -20,6 +20,74 @@
             }   
         }
     }
+    &.upd-dispatch-card{
+        padding-bottom: 20px;
+        .top-part{
+            padding: 10px;
+            .row-1{
+                .icon-part{
+                    a{
+                        span{
+                            font-size: $font-size-16;
+                            &.lock{
+                                color: $primary;
+                            }
+                            &.arrow{
+                                color: $grey-6;
+                            }
+                        }
+                    }
+                }   
+            }
+        }
+        .yellow-strip{
+            background-color: $yellow-rgba-2;
+            color: $orange;
+            padding: 10px;
+            font-size: $font-size-sm;
+            font-weight: $font-600;
+        }
+        .bottom-part{
+            padding: 10px;
+        }
+        #check{
+            display: none;
+            &:checked{
+                ~ .read-more-text{
+                    display: block;
+                }
+                ~ label{
+                    visibility: hidden;
+                    line-height: 0;
+                    &::after{
+                        content: 'Less';
+                        display: block;
+                        visibility: visible;
+                        background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="20" fill="%233384D8" viewBox="0 -960 960 960" width="20"><path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z"/></svg>') ;
+                        line-height: 20px;
+                        background-repeat: no-repeat;
+                        background-position: right;
+                    }
+                }
+            }
+        }
+        .read-more-text{
+            display: none;
+            transition: 0.10s linear;
+            border-top: 1px solid $secondary-rgb4;
+            padding-top: 10px;
+        }
+        label{
+            display: inline-block;
+            cursor: pointer;
+            font-size: $font-size-sm;
+            font-weight: $font-700;
+            color: $secondary;
+            position: absolute;
+            right: 5px;
+            bottom: 5%;
+        }
+    }
     .transaction-card{
         padding: 10px;
         .img-part{
@@ -786,3 +854,49 @@
         }
     }
 }
+
+.udb-ticket-card{
+    border: 1px solid $light-blue-4;
+    box-shadow: $shadow-md;
+    border-radius: $radius-lg;  
+    padding: 15px;
+    .title{
+        font-size: $font-size-md;
+        font-weight: $font-700;
+        text-transform: $text-uppercase;
+        color: $grey-1;
+        line-height: $line-height-20;
+    }
+    .number{
+        font-size: $font-size-22;
+        font-weight: $font-800;
+        line-height: $line-height-30;
+    }
+    .triangle-up {
+        border-bottom: 11px solid $green;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        height: 0;
+        width: 0;
+    }
+    .triangle-down {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 11px solid $red;
+        height: 0;
+        width: 0;
+    }
+    .text{
+        font-size: $font-size-md;
+        font-weight: $font-600;
+        &.green{
+            color: $green;
+        }
+        &.red{
+            color: $red;
+        }
+    }
+}
+
+
+
