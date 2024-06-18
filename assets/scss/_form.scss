@@ -334,7 +334,19 @@ input[type="time"] {
         }
     }
 }
-
+.drop-down-xs{
+    .dropdown{
+        &.bootstrap-select{
+            width: 100%!important;
+            .btn{
+                &.btn-light{
+                    height: 30px;
+                    padding: 5px 10px;    
+                }
+            }
+        }
+    } 
+}
 
 //CHECKBOX
 .form-check {
@@ -627,7 +639,7 @@ input[type="time"] {
 // GROUPING 
 .input-btn-group {
     background-color: rgba(247, 247, 247, 0.34);
-    width: 380px;
+    // width: 380px;
 
     .input-part {
         margin: 0 10px;

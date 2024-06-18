@@ -857,26 +857,27 @@
                     </label>
                 </div>
             </div>
-            <div class="input-btn-group d-flex align-items-center">
+            <!-- GROUPING -->
+            <div class="input-btn-group d-flex align-items-center p-0">
                 <div class="input-part">
-                  <div class="form-group drop-down-small mb-1">
+                <div class="form-group drop-down-xs mb-1">
                     <select class="selectpicker" data-live-search="true">
-                      <option data-tokens="ketchup mustard">Trip Type</option>
-                      <option data-tokens="mustard">2</option>
-                      <option data-tokens="frosting">3</option>
+                    <option data-tokens="ketchup mustard">Trip Type</option>
+                    <option data-tokens="mustard">2</option>
+                    <option data-tokens="frosting">3</option>
                     </select>
-                  </div>
-                  <div class="form-group">
+                </div>
+                <div class="form-group">
                     <input type="email" class="form-control h-30" placeholder="Search by customer">
-                  </div>
+                </div>
                 </div>
                 <div class="btn-part">
-                  <div class="btn-1">
-                    <button class="btn btn-blue btn-sm"><span class="material-symbols-rounded">search</span></button>
-                  </div>
-                  <div class="btn-2">
-                    <button class="btn btn-sm bg-primary-rgba color-primary"><span class="material-symbols-rounded">refresh</span></button>
-                  </div>
+                <div class="btn-1">
+                    <button class="btn btn-blue btn-sm radius-0"><span class="material-symbols-rounded">search</span></button>
+                </div>
+                <div class="btn-2">
+                    <button class="btn btn-sm bg-primary-rgba color-primary radius-0"><span class="material-symbols-rounded">refresh</span></button>
+                </div>
                 </div>
             </div>
             <div class="card-part">
@@ -4508,7 +4509,6 @@
         <!-- DISPATCH BOARD - 2 CARD -->
         <div class="col-md-4 mb-5">
             <div class="card border-dashed-blue upd-dispatch-card">
-                
                 <div class="top-part">               
                     <div class="row-1 d-flex justify-content-between">
                         <h6 class="color-black fs-15 fw-extrabold">SEA - CHARLIE’S PRODUCE - #183</h6>
@@ -4522,7 +4522,7 @@
                         <h6 class="fw-semibold fs-13 color-primary">4103 2nd Ave S, Seattle WA 98134</h6>
                     </div>
                 </div> 
-                <div class="yellow-strip d-flex justify-content-between">
+                <div class="strip yellow-strip d-flex justify-content-between">
                     <div class="left">Status:</div>
                     <div class="right">In-transit (Pickup)</div>
                 </div>
@@ -4555,6 +4555,180 @@
             </div>
         </div>
         <!-- END DISPATCH BOARD - 2 CARD -->
+
+        <!-- DISPATCH BOARD SIDE CARD -->
+        <div class="dispatch-board white-board mb-5">
+            <div class="head-part d-flex justify-content-between align-items-center">
+                <h6 class="color-primary text-caps fs-md letter-space7 fw-extrabold m-0">active(12)</h6>
+                <div class="form-check form-inline">
+                    <input class="form-check-input add-after" type="checkbox" value="" id="check1">
+                    <label class="form-check-label style-1" for="check1">
+                      Show Allocated(8)
+                    </label>
+                </div>
+            </div>
+            <!-- GROUPING -->
+            <div class="input-btn-group d-flex align-items-center p-0">
+                <div class="input-part">
+                <div class="form-group drop-down-xs mb-1">
+                    <select class="selectpicker" data-live-search="true">
+                    <option data-tokens="ketchup mustard">Trip Type</option>
+                    <option data-tokens="mustard">2</option>
+                    <option data-tokens="frosting">3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control h-30" placeholder="Search by customer">
+                </div>
+                </div>
+                <div class="btn-part">
+                <div class="btn-1">
+                    <button class="btn btn-blue btn-sm radius-0"><span class="material-symbols-rounded">search</span></button>
+                </div>
+                <div class="btn-2">
+                    <button class="btn btn-sm bg-primary-rgba color-primary radius-0"><span class="material-symbols-rounded">refresh</span></button>
+                </div>
+                </div>
+            </div>
+            <div class="card-part">
+                <div class="card border-dashed-blue upd-dispatch-card">
+                    <div class="top-part">               
+                        <div class="row-1 d-flex justify-content-between">
+                            <h6 class="color-black fs-15 fw-extrabold">SEA - CHARLIE’S PRODUCE - #183</h6>
+                            <div class="icon-part d-flex">
+                                <a href="#"><span class="material-symbols-rounded lock">lock</span></a>
+                                <a href="#"><span class="material-symbols-rounded arrow">navigate_next</span></a>
+                            </div>
+                        </div>
+                        <div class="bullet-tag">
+                            <span class="bg-yellow"></span>
+                            <h6 class="fw-semibold fs-13 color-primary">4103 2nd Ave S, Seattle WA 98134</h6>
+                        </div>
+                    </div> 
+                    <div class="strip yellow-strip d-flex justify-content-between">
+                        <div class="left">Status:</div>
+                        <div class="right">In-transit (Pickup)</div>
+                    </div>
+                    <div class="bottom-part">
+                        <div class="black-title d-flex justify-content-between">
+                            <h6 class="color-black fs-13 fw-semibold">Trip Type:</h6>
+                            <h6 class="color-black fs-13 fw-bold text-caps">EXCHANGE</h6>
+                        </div>
+                    </div>
+                    <div class="pad-10 pt-0">
+                        <input type="checkbox" id="check-a">
+                        <div class="read-more-text">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <h6 class="color-black fs-13 fw-semibold me-1">Asset Type:</h6>
+                                    <h6 class="color-black fs-13 fw-bold">40 Yard</h6>
+                                </div>
+                                <div class="d-flex">
+                                    <h6 class="color-black fs-13 fw-semibold me-1">Asset:</h6>
+                                    <h6 class="color-black fs-13 fw-bold">40-1005</h6>
+                                </div>
+                            </div>  
+                            <div class="d-flex justify-content-between">
+                                <h6 class="color-black fs-13 fw-semibold">Scheduled Time:</h6>
+                                <h6 class="color-black fs-13 fw-bold text-caps">02/07/2023 9:53 AM</h6>
+                            </div>
+                        </div>
+                        <label for="check-a">More<svg xmlns="http://www.w3.org/2000/svg" height="20" fill="#3384D8" viewBox="0 -960 960 960" width="20"><path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z"/></svg></label>
+                    </div>
+                </div>
+                <div class="card border-dashed-blue upd-dispatch-card">
+                    <div class="top-part">               
+                        <div class="row-1 d-flex justify-content-between">
+                            <h6 class="color-black fs-15 fw-extrabold">SEA - CHARLIE’S PRODUCE - #183</h6>
+                            <div class="icon-part d-flex">
+                                <a href="#"><span class="material-symbols-rounded lock">lock</span></a>
+                                <a href="#"><span class="material-symbols-rounded arrow">navigate_next</span></a>
+                            </div>
+                        </div>
+                        <div class="bullet-tag">
+                            <span class="bg-red"></span>
+                            <h6 class="fw-semibold fs-13 color-primary">4103 2nd Ave S, Seattle WA 98134</h6>
+                        </div>
+                    </div> 
+                    <div class="strip red-strip d-flex justify-content-between">
+                        <div class="left">Status:</div>
+                        <div class="right">In-transit (Pickup)</div>
+                    </div>
+                    <div class="bottom-part">
+                        <div class="black-title d-flex justify-content-between">
+                            <h6 class="color-black fs-13 fw-semibold">Trip Type:</h6>
+                            <h6 class="color-black fs-13 fw-bold text-caps">EXCHANGE</h6>
+                        </div>
+                    </div>
+                    <div class="pad-10 pt-0">
+                        <input type="checkbox" id="check-b">
+                        <div class="read-more-text">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <h6 class="color-black fs-13 fw-semibold me-1">Asset Type:</h6>
+                                    <h6 class="color-black fs-13 fw-bold">40 Yard</h6>
+                                </div>
+                                <div class="d-flex">
+                                    <h6 class="color-black fs-13 fw-semibold me-1">Asset:</h6>
+                                    <h6 class="color-black fs-13 fw-bold">40-1005</h6>
+                                </div>
+                            </div>  
+                            <div class="d-flex justify-content-between">
+                                <h6 class="color-black fs-13 fw-semibold">Scheduled Time:</h6>
+                                <h6 class="color-black fs-13 fw-bold text-caps">02/07/2023 9:53 AM</h6>
+                            </div>
+                        </div>
+                        <label for="check-b">More<svg xmlns="http://www.w3.org/2000/svg" height="20" fill="#3384D8" viewBox="0 -960 960 960" width="20"><path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z"/></svg></label>
+                    </div>
+                </div>
+                <div class="card border-dashed-blue upd-dispatch-card">
+                    <div class="top-part">               
+                        <div class="row-1 d-flex justify-content-between">
+                            <h6 class="color-black fs-15 fw-extrabold">SEA - CHARLIE’S PRODUCE - #183</h6>
+                            <div class="icon-part d-flex">
+                                <a href="#"><span class="material-symbols-rounded lock">lock</span></a>
+                                <a href="#"><span class="material-symbols-rounded arrow">navigate_next</span></a>
+                            </div>
+                        </div>
+                        <div class="bullet-tag">
+                            <span class="bg-yellow"></span>
+                            <h6 class="fw-semibold fs-13 color-primary">4103 2nd Ave S, Seattle WA 98134</h6>
+                        </div>
+                    </div> 
+                    <div class="strip yellow-strip d-flex justify-content-between">
+                        <div class="left">Status:</div>
+                        <div class="right">In-transit (Pickup)</div>
+                    </div>
+                    <div class="bottom-part">
+                        <div class="black-title d-flex justify-content-between">
+                            <h6 class="color-black fs-13 fw-semibold">Trip Type:</h6>
+                            <h6 class="color-black fs-13 fw-bold text-caps">EXCHANGE</h6>
+                        </div>
+                    </div>
+                    <div class="pad-10 pt-0">
+                        <input type="checkbox" id="check-c">
+                        <div class="read-more-text">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <h6 class="color-black fs-13 fw-semibold me-1">Asset Type:</h6>
+                                    <h6 class="color-black fs-13 fw-bold">40 Yard</h6>
+                                </div>
+                                <div class="d-flex">
+                                    <h6 class="color-black fs-13 fw-semibold me-1">Asset:</h6>
+                                    <h6 class="color-black fs-13 fw-bold">40-1005</h6>
+                                </div>
+                            </div>  
+                            <div class="d-flex justify-content-between">
+                                <h6 class="color-black fs-13 fw-semibold">Scheduled Time:</h6>
+                                <h6 class="color-black fs-13 fw-bold text-caps">02/07/2023 9:53 AM</h6>
+                            </div>
+                        </div>
+                        <label for="check-c">More<svg xmlns="http://www.w3.org/2000/svg" height="20" fill="#3384D8" viewBox="0 -960 960 960" width="20"><path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z"/></svg></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END DISPATCH BOARD SIDE CARD -->
     
 
 

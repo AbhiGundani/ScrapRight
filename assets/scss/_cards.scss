@@ -40,17 +40,23 @@
                 }   
             }
         }
-        .yellow-strip{
-            background-color: $yellow-rgba-2;
-            color: $orange;
+        .strip{
             padding: 10px;
             font-size: $font-size-sm;
             font-weight: $font-600;
+            &.yellow-strip{
+                background-color: $yellow-rgba-2;
+                color: $orange;
+            }
+            &.red-strip{
+                background-color: $red2;
+                color: $red;   
+            }
         }
         .bottom-part{
             padding: 10px;
         }
-        #check{
+        #check, #check-a, #check-b, #check-c{
             display: none;
             &:checked{
                 ~ .read-more-text{
@@ -226,7 +232,7 @@
 
         .selectedbuySell{
             a {
-                  text-decoration: underline;
+                   text-decoration: underline;
                    background-color: rgba(255, 255, 255);
                    color: $secondary;
                 
@@ -427,6 +433,14 @@
                         color: $secondary;
                     }
                 }
+            }
+        }
+    }
+    &.white-board{
+        background-color: $white;
+        .card-part{
+            .card{
+                border: 1.5px solid $grey-10;
             }
         }
     }

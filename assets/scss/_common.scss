@@ -40,6 +40,9 @@ a {
         height: 14px;
         width: 14px;
         border-radius: 50%;
+        &.bg-red{
+            background-color: $red;
+        }
     }
 
     h6 {
@@ -1332,4 +1335,10 @@ div#vinlienmsg {
 
 #btnderelict {
     width: 170px;
+}
+
+
+#customerPayPictureContainer img{
+    width:100%;
+    height:100%
 }
