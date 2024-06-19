@@ -1342,3 +1342,34 @@ div#vinlienmsg {
     width:100%;
     height:100%
 }
+
+
+.cashcard-camera{
+    height: 288px;
+    margin-left: 160px;
+    margin-top: 37px;
+    width: 384px;
+    position: absolute;
+}
+
+.camerapicParent {
+    height: 288px;
+    margin-left: 160px;
+    margin-top: 37px;
+    width: 384px;
+    position: absolute;
+    background-color: #F7F7F7;
+    z-index: 2;
+}
+.hidden{
+    display:none;
+}
+
+#ticketThumbprint-content img{
+    width: 252px;
+    height: 302px; 
+    z-index: 2;
+    position: absolute; 
+    left: 32%;
+    top: 32px;
+}
